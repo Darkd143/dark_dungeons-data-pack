@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/axes/wooden_axes/sluggish_pathetic_wooden_woodcutting_axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/axes/wooden_axes/slow_ineffective_wooden_woodcutting_axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/axes/wooden_axes/sluggish_ineffective_wooden_hatchet"
+        }
+      ]
+    }
+  ]
+}
