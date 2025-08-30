@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:holding_items/weapons/ranged/bow"
+    },
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:holding_items/custom_data/valid_item"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_clump",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "valid": true
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "§6🪙 Copper Coin 🪙"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_comment": "#fixcopper"
+}

@@ -1,0 +1,1 @@
+execute if entity @s[predicate=dark_dungeons:positioning/area/in_valid_area] run gamemode adventure @s

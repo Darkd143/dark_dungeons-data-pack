@@ -1,0 +1,2 @@
+scoreboard players operation @s temp_storage = @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_inn_room_2] player_id
+scoreboard players operation @s temp_storage -= @s player_id

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/misc/pearlspine_bones",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/fishing/seashells/seabloom_shell",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/fishing/seashells/azurespire",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/plants/seaweedleaf",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

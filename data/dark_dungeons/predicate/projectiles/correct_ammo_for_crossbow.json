@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{'weapon':{'id':'minecraft:crossbow'},'CustomName':'§c🏹 Crossbow Bolt 🏹'}"
+  }
+}

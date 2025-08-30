@@ -1,0 +1,10 @@
+execute as @e[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_inn_room_1,scores={payed_inn_days=1..}] run function dark_dungeons:locations/dawnshore/inn/cycle/room_1_cycle
+execute as @e[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_inn_room_2,scores={payed_inn_days=1..}] run function dark_dungeons:locations/dawnshore/inn/cycle/room_2_cycle
+execute as @e[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_inn_room_3,scores={payed_inn_days=1..}] run function dark_dungeons:locations/dawnshore/inn/cycle/room_3_cycle
+execute as @e[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_inn_room_4,scores={payed_inn_days=1..}] run function dark_dungeons:locations/dawnshore/inn/cycle/room_4_cycle
+execute as @e[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_inn_room_5,scores={payed_inn_days=1..}] run function dark_dungeons:locations/dawnshore/inn/cycle/room_5_cycle
+execute as @e[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_inn_room_6,scores={payed_inn_days=1..}] run function dark_dungeons:locations/dawnshore/inn/cycle/room_6_cycle
+execute as @e[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_inn_room_7,scores={payed_inn_days=1..}] run function dark_dungeons:locations/dawnshore/inn/cycle/room_7_cycle
+execute as @e[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_inn_room_8,scores={payed_inn_days=1..}] run function dark_dungeons:locations/dawnshore/inn/cycle/room_8_cycle
+execute as @e[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_inn_room_9,scores={payed_inn_days=1..}] run function dark_dungeons:locations/dawnshore/inn/cycle/room_9_cycle
+execute as @e[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_inn_room_10,scores={payed_inn_days=1..}] run function dark_dungeons:locations/dawnshore/inn/cycle/room_10_cycle

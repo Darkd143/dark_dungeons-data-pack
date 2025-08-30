@@ -1,0 +1,1 @@
+kill @e[type=item,predicate=dark_dungeons:positioning/location/dawnshore/monster_kill_zone]

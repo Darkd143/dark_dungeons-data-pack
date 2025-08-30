@@ -1,0 +1,6 @@
+data modify block -53 72 104 LootTable set value "dark_dungeons:chests/locations/dawnshore/registration_hut/storage"
+data modify block -53 74 104 LootTable set value "dark_dungeons:chests/locations/dawnshore/registration_hut/storage"
+data modify block -54 73 104 LootTable set value "dark_dungeons:chests/locations/dawnshore/registration_hut/storage"
+data modify block -55 74 104 LootTable set value "dark_dungeons:chests/locations/dawnshore/registration_hut/storage"
+data modify block -55 72 104 LootTable set value "dark_dungeons:chests/locations/dawnshore/registration_hut/storage"
+data modify block -56 73 104 LootTable set value "dark_dungeons:chests/locations/dawnshore/registration_hut/storage"

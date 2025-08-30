@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/treasure/deepcore_shard"
+        }
+      ]
+    }
+  ]
+}

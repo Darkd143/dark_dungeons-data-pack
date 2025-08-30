@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/fishing/fish/vortex_minnow",
+          "weight": 60
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/fishing/fish/foamfin",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/fishing/fish/glimmershade",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

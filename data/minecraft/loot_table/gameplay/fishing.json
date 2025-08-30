@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "value": "dark_dungeons:gameplay/fishing/dawnshore_fishing",
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "position": {
+                      "x": {
+                        "min": -270,
+                        "max": 79
+                      },
+                      "y": {
+                        "min": 0,
+                        "max": 100
+                      },
+                      "z": {
+                        "min": -20,
+                        "max": 91
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "dark_dungeons:gameplay/fishing/greenshadow_isle_fishing",
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "position": {
+                      "x": {
+                        "min": 80,
+                        "max": 180
+                      },
+                      "y": {
+                        "min": 0,
+                        "max": 100
+                      },
+                      "z": {
+                        "min": -20,
+                        "max": 220
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "dark_dungeons:gameplay/default_minecraft_fishing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

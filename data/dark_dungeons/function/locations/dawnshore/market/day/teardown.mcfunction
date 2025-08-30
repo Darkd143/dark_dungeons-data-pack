@@ -1,0 +1,3 @@
+execute as @e[predicate=dark_dungeons:positioning/location/dawnshore/dawnshore,tag=dawnshore_market_fish_trader] run function dark_dungeons:locations/dawnshore/tp_to_kill_zone
+execute as @e[predicate=dark_dungeons:positioning/location/dawnshore/dawnshore,tag=dawnshore_market_apothecary] run function dark_dungeons:locations/dawnshore/tp_to_kill_zone
+function dark_dungeons:locations/dawnshore/mob_kill_zone

@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{'SelectedItem':{'id':'minecraft:trial_key','components':{'minecraft:custom_name':'\u00A7a🔑 Dawnshore Bank Key 🔑','minecraft:custom_data':{'valid':True}}}}"
+  }
+}
