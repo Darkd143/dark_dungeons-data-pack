@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "valid": true
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "§4🗡 Fast Weak Wooden Greatsword 🗡"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:attack_damage",
+                  "id": "minecraft:attack_damage",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:entity_interaction_range",
+                  "id": "minecraft:entity_interaction_range",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:attack_speed",
+                  "id": "minecraft:attack_speed",
+                  "amount": 2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
