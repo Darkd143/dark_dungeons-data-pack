@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/swords/wood/fast_legendary_wooden_longsword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/swords/wood/fast_mighty_wooden_greatsword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/swords/wood/quick_legendary_wooden_greatsword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/swords/wood/rapid_fierce_wooden_greatsword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/swords/wood/rapid_legendary_wooden_sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/swords/wood/rapid_mighty_wooden_longsword"
+        }
+      ]
+    }
+  ]
+}
