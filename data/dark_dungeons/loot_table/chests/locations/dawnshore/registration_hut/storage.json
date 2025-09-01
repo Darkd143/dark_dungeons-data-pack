@@ -41,7 +41,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "dark_dungeons:items/weapons/swords/wooden_swords/slow_puny_wooden_shortsword",
+          "value": "dark_dungeons:items/weapons/swords/wood/slow_puny_wooden_shortsword",
           "functions": [
             {
               "function": "minecraft:set_custom_data",

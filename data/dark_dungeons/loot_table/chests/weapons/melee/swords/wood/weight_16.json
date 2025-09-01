@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/swords/wood/ineffective_wooden_shortsword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/swords/wood/pathetic_wooden_dagger"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/swords/wood/quick_ineffective_wooden_dagger"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/swords/wood/slow_ineffective_wooden_sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/swords/wood/slow_pathetic_wooden_shortsword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/swords/wood/slow_puny_wooden_dagger"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/swords/wood/sluggish_ineffective_wooden_longsword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/swords/wood/sluggish_pathetic_wooden_sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/swords/wood/sluggish_puny_wooden_shortsword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/swords/wood/sluggish_weak_wooden_dagger"
+        }
+      ]
+    }
+  ]
+}

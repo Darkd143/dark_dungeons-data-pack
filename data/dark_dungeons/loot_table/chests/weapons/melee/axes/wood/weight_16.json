@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/axes/wood/ineffective_wooden_hatchet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/axes/wood/pathetic_wooden_woodcutting_axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/axes/wood/quick_ineffective_wooden_woodcutting_axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/axes/wood/slow_ineffective_wooden_axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/axes/wood/slow_pathetic_wooden_hatchet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/axes/wood/slow_puny_wooden_woodcutting_axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/axes/wood/sluggish_ineffective_wooden_battleaxe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/axes/wood/sluggish_pathetic_wooden_axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/axes/wood/sluggish_puny_wooden_hatchet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/axes/wood/sluggish_weak_wooden_woodcutting_axe"
+        }
+      ]
+    }
+  ]
+}

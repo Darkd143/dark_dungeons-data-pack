@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/axes/wood/fast_legendary_wooden_greataxe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/axes/wood/rapid_legendary_wooden_battleaxe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/weapons/axes/wood/rapid_mighty_wooden_greataxe"
+        }
+      ]
+    }
+  ]
+}
