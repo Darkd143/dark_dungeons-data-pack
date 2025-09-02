@@ -23,8 +23,7 @@
               "components": {
                 "minecraft:food": {
                   "nutrition": 16,
-                  "saturation": 2.4,
-                  "can_always_eat": true
+                  "saturation": 2.4
                 }
               }
             }
