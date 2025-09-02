@@ -1,5 +1,5 @@
 # Dungeon Gatekeeper
-execute unless entity @e[tag=dawnshore_dungeon_gatekeeper] run summon minecraft:pillager -68 74 116 {Invulnerable:1b,Silent:1b,NoAI:1b,PersistenceRequired:1b,equipment:{mainhand:{id:iron_sword}},Rotation:[225,0],Tags:["dawnshore_dungeon_gatekeeper"]}
+execute unless entity @e[tag=dawnshore_dungeon_gatekeeper] run summon minecraft:pillager -68 74 116 {Invulnerable:1b,Silent:1b,NoAI:1b,PersistenceRequired:1b,equipment:{mainhand:{id:wooden_sword}},Rotation:[225,0],Tags:["dawnshore_dungeon_gatekeeper"]}
 execute unless entity @e[tag=dawnshore_dungeon_gatekeeper_interaction] run summon minecraft:interaction -68 74 116 {width:0.8,height:2.0,CustomName:"Dungeon Gatekeeper",Tags:['dawnshore_dungeon_gatekeeper_interaction']}
 
 # Dungeon Pass Clerk (#fixcopper)

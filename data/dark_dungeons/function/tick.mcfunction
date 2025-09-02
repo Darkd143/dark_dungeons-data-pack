@@ -11,6 +11,4 @@ execute as @a[gamemode=adventure] run function dark_dungeons:gamemode_positionin
 # Run Location Functions
 function dark_dungeons:locations/running
 
-execute as @a unless entity @s[scores={player_id=1..}] run function dark_dungeons:players/player_scores_setup
-
 function dark_dungeons:test
