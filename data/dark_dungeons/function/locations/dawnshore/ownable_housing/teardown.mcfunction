@@ -1,0 +1,3 @@
+kill @e[predicate=dark_dungeons:positioning/location/dawnshore/housing_zone,tag=dawnshore_ownable_housing_suite_1_door]
+
+kill @e[predicate=dark_dungeons:positioning/location/dawnshore/housing_zone,tag=dawnshore_ownable_housing_suite_2_door]

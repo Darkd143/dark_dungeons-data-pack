@@ -1,6 +1,7 @@
 function dark_dungeons:locations/dawnshore/summoning_altar/running
 function dark_dungeons:locations/dawnshore/registration_hut/running
 function dark_dungeons:locations/dawnshore/dungeon_entrance/running
+function dark_dungeons:locations/dawnshore/ownable_housing/running
 execute if entity @a[predicate=dark_dungeons:positioning/location/dawnshore/bank_zone] run function dark_dungeons:locations/dawnshore/bank/running
 execute if entity @a[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone] run function dark_dungeons:locations/dawnshore/inn/running
 
