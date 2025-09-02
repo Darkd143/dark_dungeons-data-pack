@@ -7,8 +7,10 @@ execute as @a[tag=dawnshore_inn_new_client_action] run function dark_dungeons:lo
 execute as @a[tag=dawnshore_inn_current_client_action] run function dark_dungeons:locations/dawnshore/inn/interactions/current_client
 
 # NPC 1
+execute as @e[type=minecraft:interaction,tag=dawnshore_inn_npc_interaction_1] store success entity @s interaction.player[] int 0 on target as @s run tellraw @s ["Alden Greylock: Ah, I just realized I forgot to renew my room reservation. The innkeeper must've cleared out my belongings already—looks like someone else is in my spot now."]
 
 # NPC 2
+execute as @e[type=minecraft:interaction,tag=dawnshore_inn_npc_interaction_2] store success entity @s interaction.player[] int 0 on target as @s run tellraw @s ["Jarek Flynn: Yeah, you've got to either renew your room or take your stuff out—otherwise, the innkeeper'll clear it out if you're not around."]
 
 # Room 1 Door
 execute as @e[type=minecraft:interaction,tag=dawnshore_inn_room_1_interaction] store success entity @s interaction.player[] int 0 on target if block -58 72 76 minecraft:spruce_door[open=true] run tag @s add dawnshore_inn_close_door_1
