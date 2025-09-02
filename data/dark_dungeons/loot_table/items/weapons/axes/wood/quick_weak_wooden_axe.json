@@ -23,35 +23,35 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:attack_damage",
-                  "id": "minecraft:attack_damage",
+                  "id": "main_weapon_damage",
                   "amount": 6,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "minecraft:entity_interaction_range",
-                  "id": "minecraft:entity_interaction_range",
+                  "id": "weapon_entity_range",
                   "amount": 0,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "minecraft:attack_speed",
-                  "id": "minecraft:attack_speed",
+                  "id": "weapon_attack_speed",
                   "amount": 1.0,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "minecraft:block_interaction_range",
-                  "id": "minecraft:block_interaction_range",
+                  "id": "tool_block_range",
                   "amount": 0,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "minecraft:block_break_speed",
-                  "id": "minecraft:block_break_speed",
+                  "id": "tool_block_break_speed",
                   "amount": 0.1,
                   "operation": "add_value",
                   "slot": "mainhand"
