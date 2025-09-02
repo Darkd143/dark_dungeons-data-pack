@@ -1,1 +1,0 @@
-function dark_dungeons:spawn_chunk_data/inn_data/reset_dawnshore_inn
