@@ -67,16 +67,18 @@ execute as @a[predicate=!dark_dungeons:positioning/location/dawnshore/bank_zone,
 execute as @a[predicate=!dark_dungeons:positioning/location/dawnshore/bank_zone,gamemode=!spectator,nbt={Inventory:[{id:"minecraft:paper",components:{"minecraft:custom_name":"\u00A77🖹 Platinum Coin Withdraw Voucher 🖹","minecraft:custom_data":{valid:True}}}]}] run clear @s minecraft:paper[minecraft:custom_name="\u00A77🖹 Platinum Coin Withdraw Voucher 🖹",minecraft:custom_data={valid:True}] 2304
 
 # Open Vault Door
-execute as @e[type=minecraft:interaction,tag=dawnshore_bank_vault_door_interaction] store success entity @s interaction.player[] int 0 on target if entity @s[predicate=dark_dungeons:holding_items/keys/dawnshore_bank_key] run tag @s add dawnshore_bank_open_vault_door
-execute as @e[type=minecraft:interaction,tag=dawnshore_bank_vault_door_interaction] store success entity @s interaction.player[] int 0 on target unless entity @s[predicate=dark_dungeons:holding_items/keys/dawnshore_bank_key] run tellraw @s {"text":"It's locked..."}
+execute as @e[type=minecraft:interaction,tag=dawnshore_bank_vault_door_interaction] store success entity @s interaction.player[] int 0 on target if block -77 73 76 minecraft:iron_door[open=true] run tag @s add dawnshore_bank_close_vault_door_action
+execute as @e[type=minecraft:interaction,tag=dawnshore_bank_vault_door_interaction] store success entity @s interaction.player[] int 0 on target if block -77 73 76 minecraft:iron_door[open=false] run tag @s add dawnshore_bank_vault_door_interact
 
-execute as @a[tag=dawnshore_bank_open_vault_door] run function dark_dungeons:locations/dawnshore/bank/interactions/doors/open_vault_door
+execute as @a[tag=dawnshore_bank_close_vault_door_action] run function dark_dungeons:locations/dawnshore/bank/interactions/doors/close/vault_door
+execute as @a[tag=dawnshore_bank_vault_door_interact] run function dark_dungeons:locations/dawnshore/bank/interactions/doors/interact/vault_door
 
 # Open Bank Manager Office Door
-execute as @e[type=minecraft:interaction,tag=dawnshore_bank_manager_office_door_interaction] store success entity @s interaction.player[] int 0 on target if entity @s[predicate=dark_dungeons:holding_items/keys/dawnshore_bank_key] run tag @s add dawnshore_bank_open_manager_office_door
-execute as @e[type=minecraft:interaction,tag=dawnshore_bank_manager_office_door_interaction] store success entity @s interaction.player[] int 0 on target if entity @s[predicate=dark_dungeons:positioning/location/dawnshore/bank_manager_room] run tag @s add dawnshore_bank_open_manager_office_door
-execute as @e[type=minecraft:interaction,tag=dawnshore_bank_manager_office_door_interaction] store success entity @s interaction.player[] int 0 on target if entity @s[predicate=!dark_dungeons:holding_items/keys/dawnshore_bank_key] if entity @s[predicate=!dark_dungeons:positioning/location/dawnshore/bank_manager_room] run tellraw @s {"text":"Loan Acquisition Clerk: Hey! You don't have business in there."}
-execute as @a[tag=dawnshore_bank_open_manager_office_door] run function dark_dungeons:locations/dawnshore/bank/interactions/doors/open_manager_office_door
+execute as @e[type=minecraft:interaction,tag=dawnshore_bank_manager_office_door_interaction] store success entity @s interaction.player[] int 0 on target if block -81 78 88 minecraft:spruce_door[open=true] run tag @s add dawnshore_bank_close_manager_office_door_action
+execute as @e[type=minecraft:interaction,tag=dawnshore_bank_manager_office_door_interaction] store success entity @s interaction.player[] int 0 on target if block -81 78 88 minecraft:spruce_door[open=false] run tag @s add dawnshore_bank_manager_office_door_interact
+
+execute as @a[tag=dawnshore_bank_close_manager_office_door_action] run function dark_dungeons:locations/dawnshore/bank/interactions/doors/close/manager_office_door
+execute as @a[tag=dawnshore_bank_manager_office_door_interact] run function dark_dungeons:locations/dawnshore/bank/interactions/doors/interact/manager_office_door
 
 # Bank Manager Safe
-execute as @e[type=minecraft:interaction,tag=bank_manager_safe_interaction] store success entity @s interaction.player[] int 0 on target run tellraw @s ["Bank Manager: Hey! Don't touch that."]
+execute as @e[type=minecraft:interaction,tag=dawnshore_bank_manager_safe_interaction] store success entity @s interaction.player[] int 0 on target run tellraw @s ["Bank Manager: Hey! Don't touch that."]

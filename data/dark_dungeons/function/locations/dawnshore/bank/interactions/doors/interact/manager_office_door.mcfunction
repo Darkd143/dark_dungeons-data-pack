@@ -1,0 +1,5 @@
+tag @s remove dawnshore_bank_manager_office_door_interact
+execute if entity @s[predicate=dark_dungeons:positioning/location/dawnshore/bank/manager_room] run function dark_dungeons:locations/dawnshore/bank/interactions/doors/open/manager_office_door
+execute if entity @s[predicate=!dark_dungeons:positioning/location/dawnshore/bank/manager_room] if entity @s[scores={reputation=1000..}] run function dark_dungeons:locations/dawnshore/bank/interactions/doors/open/manager_office_door
+execute if entity @s[predicate=!dark_dungeons:positioning/location/dawnshore/bank/manager_room] unless entity @s[scores={reputation=1000..}] if entity @s[predicate=dark_dungeons:holding_items/keys/dawnshore_bank_key] run function dark_dungeons:locations/dawnshore/bank/interactions/doors/open/manager_office_door
+execute if entity @s[predicate=!dark_dungeons:positioning/location/dawnshore/bank/manager_room] unless entity @s[scores={reputation=1000..}] if entity @s[predicate=!dark_dungeons:holding_items/keys/dawnshore_bank_key] run tellraw @s {"text":"Loan Acquisition Clerk: Hey! You don't have business in there."}
