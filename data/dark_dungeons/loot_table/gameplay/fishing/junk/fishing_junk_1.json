@@ -21,7 +21,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "dark_dungeons:items/plants/seaweedleaf",
+          "value": "dark_dungeons:items/plants/herbs/seaweedleaf",
           "weight": 10
         }
       ]
