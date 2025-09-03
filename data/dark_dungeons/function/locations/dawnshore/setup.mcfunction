@@ -6,3 +6,4 @@ function dark_dungeons:locations/dawnshore/farm/setup
 function dark_dungeons:locations/dawnshore/market/setup
 function dark_dungeons:locations/dawnshore/bakery/setup
 function dark_dungeons:locations/dawnshore/butcher/setup
+function dark_dungeons:locations/dawnshore/craftsman/setup

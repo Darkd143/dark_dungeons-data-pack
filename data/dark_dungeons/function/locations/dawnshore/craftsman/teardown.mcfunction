@@ -1,0 +1,1 @@
+function dark_dungeons:locations/dawnshore/craftsman/day/teardown
