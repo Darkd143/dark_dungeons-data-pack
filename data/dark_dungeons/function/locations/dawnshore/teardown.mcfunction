@@ -6,5 +6,6 @@ function dark_dungeons:locations/dawnshore/farm/teardown
 function dark_dungeons:locations/dawnshore/bakery/teardown
 function dark_dungeons:locations/dawnshore/market/teardown
 function dark_dungeons:locations/dawnshore/butcher/teardown
+function dark_dungeons:locations/dawnshore/craftsman/teardown
 
 schedule function dark_dungeons:locations/dawnshore/mob_kill_zone 10
