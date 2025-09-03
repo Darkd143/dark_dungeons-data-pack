@@ -1,3 +1,5 @@
+function dark_dungeons:locations/dawnshore/day/teardown
+
 function dark_dungeons:locations/dawnshore/bank/teardown
 function dark_dungeons:locations/dawnshore/summoning_altar/teardown
 function dark_dungeons:locations/dawnshore/dungeon_entrance/teardown
@@ -7,5 +9,6 @@ function dark_dungeons:locations/dawnshore/bakery/teardown
 function dark_dungeons:locations/dawnshore/market/teardown
 function dark_dungeons:locations/dawnshore/butcher/teardown
 function dark_dungeons:locations/dawnshore/craftsman/teardown
+function dark_dungeons:locations/dawnshore/wall/teardown
 
 schedule function dark_dungeons:locations/dawnshore/mob_kill_zone 10
