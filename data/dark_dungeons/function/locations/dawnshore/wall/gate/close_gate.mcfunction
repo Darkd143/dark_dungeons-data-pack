@@ -1,0 +1,1 @@
+function dark_dungeons:locations/dawnshore/wall/gate/close/layer_1
