@@ -7,4 +7,3 @@
 
 # execute as @a[predicate=dark_dungeons:positioning/location/dawnshore/inn/room_4] run say hi
 
-

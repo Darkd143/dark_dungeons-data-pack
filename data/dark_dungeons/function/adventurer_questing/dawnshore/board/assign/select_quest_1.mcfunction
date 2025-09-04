@@ -1,0 +1,1 @@
+function dark_dungeons:adventurer_questing/dawnshore/board/assign/level_0_roll

@@ -24,3 +24,12 @@ scoreboard objectives add arrow_z dummy
 
 # Temporary Storage
 scoreboard objectives add temp_storage dummy
+
+# Adventurer
+scoreboard objectives add adventurer_rank dummy
+
+# Quests
+scoreboard objectives add quest_type dummy
+scoreboard objectives add quest_id dummy
+scoreboard objectives add quest_day_limit dummy
+
