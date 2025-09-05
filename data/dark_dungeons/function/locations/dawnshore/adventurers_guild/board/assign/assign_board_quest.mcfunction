@@ -14,3 +14,4 @@ execute if entity @s[scores={temp_storage=13}] run function dark_dungeons:locati
 execute if entity @s[scores={temp_storage=14}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/14
 execute if entity @s[scores={temp_storage=15}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/15
 execute if entity @s[scores={temp_storage=16}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/16
+scoreboard players set @s temp_storage 0

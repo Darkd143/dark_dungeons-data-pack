@@ -11,6 +11,7 @@ scoreboard objectives add explorer_xp dummy "Explorer XP"
 # Currency
 scoreboard objectives add bank_money_1 dummy
 scoreboard objectives add loan_money_1 dummy
+scoreboard objectives add reward_money dummy
 
 # Inn
 scoreboard objectives add room_number dummy

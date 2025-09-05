@@ -11,4 +11,4 @@ execute as @a[gamemode=adventure] run function dark_dungeons:gamemode_positionin
 # Run Location Functions
 function dark_dungeons:locations/running
 
-function dark_dungeons:test
+# function dark_dungeons:test

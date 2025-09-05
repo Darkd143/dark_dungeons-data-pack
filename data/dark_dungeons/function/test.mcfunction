@@ -7,4 +7,4 @@
 
 # execute as @a[predicate=dark_dungeons:positioning/location/dawnshore/inn/room_4] run say hi
 
-data modify block -72 51 105 front_text.messages[1] set value "§4§lThis§r is Text"
+tellraw @s {"text":"This is a §8§lTin Rank§r §lCourier Service§r quest. Craftsman Elm needs a packaged picked up from the pier and delivered to him. The task must be completed in §l1 Day§r, and the reward is§6 2 Eni§r."}
