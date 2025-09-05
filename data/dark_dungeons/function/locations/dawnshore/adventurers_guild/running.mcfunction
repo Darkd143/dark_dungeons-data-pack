@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:interaction,tag=dawnshore_adventurer_guild_quest_sign_interaction] store success entity @s interaction.player[] int 0 on target run tellraw @s {"text":"Clicked!"}
