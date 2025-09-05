@@ -1,1 +1,0 @@
-execute store result score @s temp_storage run random roll 1..7

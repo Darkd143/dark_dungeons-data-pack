@@ -1,3 +1,0 @@
-function dark_dungeons:adventurer_questing/dawnshore/board/assign/level_0_roll
-execute if score @s temp_storage = @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_1] temp_storage run function dark_dungeons:adventurer_questing/dawnshore/board/assign/board_quest_3
-execute if score @s temp_storage = @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_2] temp_storage run function dark_dungeons:adventurer_questing/dawnshore/board/assign/board_quest_3

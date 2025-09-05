@@ -1,0 +1,2 @@
+function dark_dungeons:locations/dawnshore/adventurers_guild/board/assign/select_quest
+function dark_dungeons:locations/dawnshore/adventurers_guild/board/assign/assign_board_quest

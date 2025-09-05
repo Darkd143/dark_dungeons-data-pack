@@ -1,0 +1,16 @@
+execute if entity @s[scores={temp_storage=1}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/1
+execute if entity @s[scores={temp_storage=2}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/2
+execute if entity @s[scores={temp_storage=3}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/3
+execute if entity @s[scores={temp_storage=4}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/4
+execute if entity @s[scores={temp_storage=5}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/5
+execute if entity @s[scores={temp_storage=6}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/6
+execute if entity @s[scores={temp_storage=7}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/7
+execute if entity @s[scores={temp_storage=8}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/8
+execute if entity @s[scores={temp_storage=9}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/9
+execute if entity @s[scores={temp_storage=10}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/10
+execute if entity @s[scores={temp_storage=11}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/11
+execute if entity @s[scores={temp_storage=12}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/12
+execute if entity @s[scores={temp_storage=13}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/13
+execute if entity @s[scores={temp_storage=14}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/14
+execute if entity @s[scores={temp_storage=15}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/15
+execute if entity @s[scores={temp_storage=16}] run function dark_dungeons:locations/dawnshore/adventurers_guild/quests/16
