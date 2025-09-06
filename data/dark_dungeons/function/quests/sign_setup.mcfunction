@@ -29,6 +29,7 @@ execute store result storage dark_dungeons:dawnshore_quest_temp reward_money int
 
 data modify block ~ ~ ~ front_text.messages[2] set value [{"text":"§l🕐"},{"nbt":"quest_day_limit",storage:"dark_dungeons:dawnshore_quest_temp"},{"text":" | §6🪙"},{"nbt":"reward_money",storage:"dark_dungeons:dawnshore_quest_temp",color:"gold"}]
 
-data remove storage dark_dungeons:dawnshore_quest_temp *
+data remove storage dark_dungeons:dawnshore_quest_temp quest_day_limit
+data remove storage dark_dungeons:dawnshore_quest_temp reward_money
 
 function dark_dungeons:quests/sign_assignee

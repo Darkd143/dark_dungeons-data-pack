@@ -1,30 +1,16 @@
-tellraw @s ["Guild Receptionist Nessa: "]
+# Quest Board Updates & Get Completed Quest Data
+function dark_dungeons:quests/quest_completion
 
-#TODOTODOTODO
+execute store result score @s temp_storage run data get storage dark_dungeons:dawnshore_quest_completion_temp quest_id
 
-# Quest Board Updates
+execute if score @s temp_storage matches 0 run tellraw @s ["Guild Receptionist Nessa: You failed to report before the end of your quest period. As a result, you will not receive payment for this quest. Please ensure to report on time in the future to receive your rewards. Please speak with Kael to get things sorted out."]
 
-execute if score @s player_id = @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_1] player_id run function dark_dungeons:locations/dawnshore/adventurers_guild/board/actions/complete/1
+execute unless score @s temp_storage matches 0 run tellraw @s ["Guild Receptionist Nessa: You have successfully completed the quest. Here's your payment."]
 
-execute if score @s player_id = @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_2] player_id run function dark_dungeons:locations/dawnshore/adventurers_guild/board/actions/complete/2
+execute unless score @s temp_storage matches 0 run function dark_dungeons:quests/quest_rewards
 
-execute if score @s player_id = @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_3] player_id run function dark_dungeons:locations/dawnshore/adventurers_guild/board/actions/complete/3
-
-execute if score @s player_id = @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_4] player_id run function dark_dungeons:locations/dawnshore/adventurers_guild/board/actions/complete/4
-
-execute if score @s player_id = @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_5] player_id run function dark_dungeons:locations/dawnshore/adventurers_guild/board/actions/complete/5
-
-execute if score @s player_id = @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_6] player_id run function dark_dungeons:locations/dawnshore/adventurers_guild/board/actions/complete/6
-
-execute if score @s player_id = @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_7] player_id run function dark_dungeons:locations/dawnshore/adventurers_guild/board/actions/complete/7
-
-execute if score @s player_id = @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_8] player_id run function dark_dungeons:locations/dawnshore/adventurers_guild/board/actions/complete/8
-
-
-scoreboard players reset @s task_progress
-scoreboard players reset @s quest_id
-
-# Rewards
-# 1 Quest XP
-# 2 Reputation
-# 3 Money
+data remove storage dark_dungeons:dawnshore_quest_completion_temp reward_money
+data remove storage dark_dungeons:dawnshore_quest_completion_temp quest_id
+data remove storage dark_dungeons:dawnshore_quest_completion_temp reputation
+data remove storage dark_dungeons:dawnshore_quest_completion_temp adventurer_rank
+data remove storage dark_dungeons:dawnshore_quest_completion_temp adventurer_xp
