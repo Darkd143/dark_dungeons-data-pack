@@ -60,12 +60,6 @@ execute as @e[type=minecraft:interaction,tag=dawnshore_bank_loan_repayment_inter
 # Bank Manager
 execute as @e[type=minecraft:interaction,tag=dawnshore_bank_manager_interaction] store success entity @s interaction.player[] int 0 on target run tellraw @s ["Bank Manager: Can I help you?"]
 
-# Keep Players from Taking Vouchers
-execute as @a[predicate=!dark_dungeons:positioning/location/dawnshore/bank_zone,gamemode=!spectator,nbt={Inventory:[{id:"minecraft:paper",components:{"minecraft:custom_name":"\u00A77🖹 Copper Coin Withdraw Voucher 🖹","minecraft:custom_data":{valid:True}}}]}] run clear @s minecraft:paper[minecraft:custom_name="\u00A77🖹 Copper Coin Withdraw Voucher 🖹",minecraft:custom_data={valid:True}] 2304
-execute as @a[predicate=!dark_dungeons:positioning/location/dawnshore/bank_zone,gamemode=!spectator,nbt={Inventory:[{id:"minecraft:paper",components:{"minecraft:custom_name":"\u00A77🖹 Silver Coin Withdraw Voucher 🖹","minecraft:custom_data":{valid:True}}}]}] run clear @s minecraft:paper[minecraft:custom_name="\u00A77🖹 Silver Coin Withdraw Voucher 🖹",minecraft:custom_data={valid:True}] 2304
-execute as @a[predicate=!dark_dungeons:positioning/location/dawnshore/bank_zone,gamemode=!spectator,nbt={Inventory:[{id:"minecraft:paper",components:{"minecraft:custom_name":"\u00A77🖹 Gold Coin Withdraw Voucher 🖹","minecraft:custom_data":{valid:True}}}]}] run clear @s minecraft:paper[minecraft:custom_name="\u00A77🖹 Gold Coin Withdraw Voucher 🖹",minecraft:custom_data={valid:True}] 2304
-execute as @a[predicate=!dark_dungeons:positioning/location/dawnshore/bank_zone,gamemode=!spectator,nbt={Inventory:[{id:"minecraft:paper",components:{"minecraft:custom_name":"\u00A77🖹 Platinum Coin Withdraw Voucher 🖹","minecraft:custom_data":{valid:True}}}]}] run clear @s minecraft:paper[minecraft:custom_name="\u00A77🖹 Platinum Coin Withdraw Voucher 🖹",minecraft:custom_data={valid:True}] 2304
-
 # Open Vault Door
 execute as @e[type=minecraft:interaction,tag=dawnshore_bank_vault_door_interaction] store success entity @s interaction.player[] int 0 on target if block -77 73 76 minecraft:iron_door[open=true] run tag @s add dawnshore_bank_close_vault_door_action
 execute as @e[type=minecraft:interaction,tag=dawnshore_bank_vault_door_interaction] store success entity @s interaction.player[] int 0 on target if block -77 73 76 minecraft:iron_door[open=false] run tag @s add dawnshore_bank_vault_door_interact
