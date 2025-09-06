@@ -1,3 +1,5 @@
+setblock ~ ~ ~ birch_wall_sign[facing=south]{front_text:{messages:["","","",""]}}
+
 # Quest Rank
 execute if score @s adventurer_rank matches 0 run data modify block ~ ~ ~ front_text.messages[0] set value "§9§lNovice Quest"
 execute if score @s adventurer_rank matches 1 run data modify block ~ ~ ~ front_text.messages[0] set value "§8§lTin Quest"
@@ -22,7 +24,11 @@ execute if score @s quest_type matches 9 run data modify block ~ ~ ~ front_text.
 execute if score @s quest_type matches 10 run data modify block ~ ~ ~ front_text.messages[1] set value "§oEscort Mission"
 
 # Quest Time and Reward
+execute store result storage dark_dungeons:dawnshore_quest_temp quest_day_limit int 1 run scoreboard players get @s quest_day_limit
+execute store result storage dark_dungeons:dawnshore_quest_temp reward_money int 1 run scoreboard players get @s reward_money
 
-execute as @s run data modify block ~ ~ ~ front_text.messages[2] set value [{"text":"§l🕐"},{"score":{"name":"@s","objective":"quest_day_limit"}},{"text":" | §6🪙"},{"score":{"name":"@s","objective":"reward_money"},color:"gold"}]
+data modify block ~ ~ ~ front_text.messages[2] set value [{"text":"§l🕐"},{"nbt":"quest_day_limit",storage:"dark_dungeons:dawnshore_quest_temp"},{"text":" | §6🪙"},{"nbt":"reward_money",storage:"dark_dungeons:dawnshore_quest_temp",color:"gold"}]
+
+data remove storage dark_dungeons:dawnshore_quest_temp *
 
 function dark_dungeons:quests/sign_assignee
