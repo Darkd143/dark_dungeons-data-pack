@@ -1,0 +1,11 @@
+execute as @e[predicate=dark_dungeons:positioning/location/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_receptionist_1] run function dark_dungeons:locations/dawnshore/tp_to_kill_zone
+
+kill @e[predicate=dark_dungeons:positioning/location/dawnshore/adventurers_guild_zone,type=interaction,tag=dawnshore_adventurer_guild_receptionist_1_interaction]
+
+execute as @e[predicate=dark_dungeons:positioning/location/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_receptionist_2] run function dark_dungeons:locations/dawnshore/tp_to_kill_zone
+
+kill @e[predicate=dark_dungeons:positioning/location/dawnshore/adventurers_guild_zone,type=interaction,tag=dawnshore_adventurer_guild_receptionist_2_interaction]
+
+execute as @e[predicate=dark_dungeons:positioning/location/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_receptionist_3] run function dark_dungeons:locations/dawnshore/tp_to_kill_zone
+
+kill @e[predicate=dark_dungeons:positioning/location/dawnshore/adventurers_guild_zone,type=interaction,tag=dawnshore_adventurer_guild_receptionist_3_interaction]

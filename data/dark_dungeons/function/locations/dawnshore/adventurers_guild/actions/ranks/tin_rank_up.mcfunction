@@ -1,0 +1,2 @@
+tellraw @s ["Guild Receptionist Elara: Congratulations on achieving enough xp to rank up, ",{"selector":"@s"},"! You are now a §8§lTin Rank§r Adventurer. You can now accept §8§lTin Rank§r Quests."]
+scoreboard players set @s adventurer_rank 1

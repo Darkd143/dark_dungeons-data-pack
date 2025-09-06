@@ -1,0 +1,2 @@
+tellraw @s ["Guild Receptionist Elara: Congratulations on achieving enough xp to rank up, ",{"selector":"@s"},"! I've been instructed to ask you to report to the guild master before I apply your new rank. He's just upstairs."]
+tag @s add dawnshore_guild_office_permission

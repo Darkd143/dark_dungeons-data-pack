@@ -1,0 +1,5 @@
+scoreboard players set @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_1] player_id -1
+
+function dark_dungeons:locations/dawnshore/adventurers_guild/board/actions/reset_sign/1
+
+execute as @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_1] run function dark_dungeons:quests/store_completion_data

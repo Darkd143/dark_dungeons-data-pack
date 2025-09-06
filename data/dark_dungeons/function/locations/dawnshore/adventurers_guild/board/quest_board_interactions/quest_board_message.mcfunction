@@ -1,0 +1,3 @@
+function dark_dungeons:quests/quest_board_rank_type
+function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/quest_board_description_message
+function dark_dungeons:quests/quest_board_time_reward

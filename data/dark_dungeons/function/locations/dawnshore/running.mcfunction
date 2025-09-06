@@ -14,3 +14,27 @@ execute as @e[type=minecraft:interaction,tag=dawnshore_bank_staff_door_interacti
 
 execute as @a[tag=dawnshore_bank_close_staff_door_action] run function dark_dungeons:locations/dawnshore/bank/interactions/doors/close/staff_door
 execute as @a[tag=dawnshore_bank_staff_door_interact] run function dark_dungeons:locations/dawnshore/bank/interactions/doors/interact/staff_door
+
+# Keep Players from Taking Bank Vouchers
+execute as @a[predicate=!dark_dungeons:positioning/location/dawnshore/bank_zone,gamemode=!spectator,nbt={Inventory:[{id:"minecraft:paper",components:{"minecraft:custom_name":"\u00A77🖹 Copper Coin Withdraw Voucher 🖹","minecraft:custom_data":{valid:True}}}]}] run clear @s minecraft:paper[minecraft:custom_name="\u00A77🖹 Copper Coin Withdraw Voucher 🖹",minecraft:custom_data={valid:True}] 2304
+execute as @a[predicate=!dark_dungeons:positioning/location/dawnshore/bank_zone,gamemode=!spectator,nbt={Inventory:[{id:"minecraft:paper",components:{"minecraft:custom_name":"\u00A77🖹 Silver Coin Withdraw Voucher 🖹","minecraft:custom_data":{valid:True}}}]}] run clear @s minecraft:paper[minecraft:custom_name="\u00A77🖹 Silver Coin Withdraw Voucher 🖹",minecraft:custom_data={valid:True}] 2304
+execute as @a[predicate=!dark_dungeons:positioning/location/dawnshore/bank_zone,gamemode=!spectator,nbt={Inventory:[{id:"minecraft:paper",components:{"minecraft:custom_name":"\u00A77🖹 Gold Coin Withdraw Voucher 🖹","minecraft:custom_data":{valid:True}}}]}] run clear @s minecraft:paper[minecraft:custom_name="\u00A77🖹 Gold Coin Withdraw Voucher 🖹",minecraft:custom_data={valid:True}] 2304
+execute as @a[predicate=!dark_dungeons:positioning/location/dawnshore/bank_zone,gamemode=!spectator,nbt={Inventory:[{id:"minecraft:paper",components:{"minecraft:custom_name":"\u00A77🖹 Platinum Coin Withdraw Voucher 🖹","minecraft:custom_data":{valid:True}}}]}] run clear @s minecraft:paper[minecraft:custom_name="\u00A77🖹 Platinum Coin Withdraw Voucher 🖹",minecraft:custom_data={valid:True}] 2304
+
+# Clear Dawnshore Quest Tags
+
+execute as @a[predicate=!dark_dungeons:positioning/location/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_1_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
+
+execute as @a[predicate=!dark_dungeons:positioning/location/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_2_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
+
+execute as @a[predicate=!dark_dungeons:positioning/location/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_3_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
+
+execute as @a[predicate=!dark_dungeons:positioning/location/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_4_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
+
+execute as @a[predicate=!dark_dungeons:positioning/location/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_5_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
+
+execute as @a[predicate=!dark_dungeons:positioning/location/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_6_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
+
+execute as @a[predicate=!dark_dungeons:positioning/location/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_7_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
+
+execute as @a[predicate=!dark_dungeons:positioning/location/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_8_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags

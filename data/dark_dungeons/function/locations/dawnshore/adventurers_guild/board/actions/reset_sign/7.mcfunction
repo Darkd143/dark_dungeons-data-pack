@@ -1,0 +1,1 @@
+execute as @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_7] positioned -77 74 101 run function dark_dungeons:quests/sign_assignee
