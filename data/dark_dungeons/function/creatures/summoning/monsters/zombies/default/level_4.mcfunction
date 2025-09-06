@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {IsBaby:false,CustomName:[{text:"Zombie - Lv 4"}],Health:14,PersistenceRequired:1b,attributes:[{id:attack_damage,base:2f},{id:scale,base:0.91f},{id:max_health,base:14f}],DeathLootTable:"dark_dungeons:entities/zombies/default/level_4"}

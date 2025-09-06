@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {IsBaby:1b,CustomName:[{text:"Baby Zombie - Lv 5"}],Health:16,PersistenceRequired:1b,attributes:[{id:attack_damage,base:2f},{id:scale,base:0.94f},{id:max_health,base:16f},{id:movement_speed,base:0.335f}],DeathLootTable:"dark_dungeons:entities/zombies/baby/level_5"}

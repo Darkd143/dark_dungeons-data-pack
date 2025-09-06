@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {IsBaby:1b,CustomName:[{text:"Baby Zombie - Lv 3"}],Health:12,PersistenceRequired:1b,attributes:[{id:attack_damage,base:1f},{id:scale,base:0.88f},{id:max_health,base:12f},{id:movement_speed,base:0.325f}],DeathLootTable:"dark_dungeons:entities/zombies/baby/level_3"}
