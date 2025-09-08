@@ -1,5 +1,5 @@
 # Novice Rank
-execute if score @s adventurer_rank matches 0 if entity @s[scores={adventurer_xp=..9}] unless score @s quest_day_limit matches 0 run tellraw @s ["Guild Receptionist Elara: Hello, ",{"selector":"@s"},"! You are a §a§lNovice Rank§r Adventurer. (XP: ",{"score":{"name":"@s","objective":"adventurer_xp"}},"/10)"]
+execute if score @s adventurer_rank matches 0 if entity @s[scores={adventurer_xp=..9}] unless score @s quest_day_limit matches 0 run tellraw @s ["Guild Receptionist Elara: Hello, ",{"selector":"@s"},"! You are a §9§lNovice Rank§r Adventurer. (XP: ",{"score":{"name":"@s","objective":"adventurer_xp"}},"/10)"]
 execute if score @s adventurer_rank matches 0 if entity @s[scores={adventurer_xp=10..}] unless score @s quest_day_limit matches 0 run return run function dark_dungeons:locations/dawnshore/adventurers_guild/actions/ranks/tin_rank_up
 
 # Tin Rank

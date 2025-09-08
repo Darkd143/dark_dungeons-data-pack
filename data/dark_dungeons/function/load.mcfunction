@@ -2,6 +2,7 @@
 scoreboard objectives add player_id dummy "Player ID"
 scoreboard objectives add reputation dummy "Reputation"
 scoreboard objectives add task_progress dummy "Task Progress"
+scoreboard objectives add JustLeft minecraft.custom:minecraft.leave_game
 
 # RPG
 scoreboard objectives add fishing_level dummy "Fishing Level"
