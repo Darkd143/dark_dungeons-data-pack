@@ -1,0 +1,211 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/axes/wood/weight_19",
+          "weight": 19
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/axes/wood/weight_18",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/axes/wood/weight_17",
+          "weight": 17
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/axes/wood/weight_16",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/axes/wood/weight_15",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/axes/wood/weight_14",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/axes/wood/weight_13",
+          "weight": 13
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/axes/wood/weight_12",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/axes/wood/weight_11",
+          "weight": 11
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_19",
+          "weight": 19
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_18",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_17",
+          "weight": 17
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_16",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_15",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_14",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_13",
+          "weight": 13
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_12",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_11",
+          "weight": 11
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_damage",
+          "damage": {
+            "type": "minecraft:uniform",
+            "min": 1,
+            "max": 59
+          },
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.3
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+            "type": "minecraft:loot_table",
+            "value": "dark_dungeons:items/armor/leather/hogsnarl/hogsnarl_hide_hood",
+            "weight": 3,
+            "functions": [
+                {
+                    "function": "minecraft:set_damage",
+                    "damage": {
+                        "type": "minecraft:uniform",
+                        "min": 1,
+                        "max": 59
+                    },
+                    "conditions": [
+                        {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.75
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "minecraft:loot_table",
+            "value": "dark_dungeons:items/armor/leather/hogsnarl/hogsnarl_hide_cuirass",
+            "weight": 1,
+            "functions": [
+                {
+                    "function": "minecraft:set_damage",
+                    "damage": {
+                        "type": "minecraft:uniform",
+                        "min": 1,
+                        "max": 59
+                    },
+                    "conditions": [
+                        {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.75
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "minecraft:loot_table",
+            "value": "dark_dungeons:items/armor/leather/hogsnarl/hogsnarl_hide_greaves",
+            "weight": 4,
+            "functions": [
+                {
+                    "function": "minecraft:set_damage",
+                    "damage": {
+                        "type": "minecraft:uniform",
+                        "min": 1,
+                        "max": 59
+                    },
+                    "conditions": [
+                        {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.75
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "minecraft:loot_table",
+            "value": "dark_dungeons:items/armor/leather/hogsnarl/hogsnarl_hide_sabatons",
+            "weight": 8,
+            "functions": [
+                {
+                    "function": "minecraft:set_damage",
+                    "damage": {
+                        "type": "minecraft:uniform",
+                        "min": 1,
+                        "max": 59
+                    },
+                    "conditions": [
+                        {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.75
+                        }
+                    ]
+                }
+            ]
+        }
+      ]
+    }
+  ]
+}
