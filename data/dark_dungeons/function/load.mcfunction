@@ -5,12 +5,12 @@ scoreboard objectives add task_progress dummy "Task Progress"
 scoreboard objectives add JustLeft minecraft.custom:minecraft.leave_game
 
 # RPG
-scoreboard objectives add fishing_level dummy "Fishing Level"
-scoreboard objectives add fishing_xp dummy "Fishing XP"
+# scoreboard objectives add fishing_level dummy "Fishing Level"
+# scoreboard objectives add fishing_xp dummy "Fishing XP"
 scoreboard objectives add explorer_level dummy "Explorer Level"
 scoreboard objectives add explorer_xp dummy "Explorer XP"
 scoreboard objectives add adventurer_rank dummy "Adventurer Rank"
-scoreboard objectives add adventurer_xp dummy "Explorer XP"
+scoreboard objectives add adventurer_xp dummy "Adventurer XP"
 
 # Currency
 scoreboard objectives add bank_money_1 dummy
