@@ -2,4 +2,4 @@ scoreboard players set @n[predicate=dark_dungeons:positioning/location/spawn_chu
 
 function dark_dungeons:locations/dawnshore/adventurers_guild/board/actions/reset_sign/3
 
-execute as @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_3] run function dark_dungeons:quests/store_completion_data
+execute as @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_3] run function dark_dungeons:quests/store/completion_data
