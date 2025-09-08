@@ -1,13 +1,9 @@
 execute as @e[type=minecraft:interaction,tag=dawnshore_adventurer_guild_receptionist_1_interaction] store success entity @s interaction.player[] int 0 on target run tag @s add dawnshore_adventurer_guild_receptionist_1_action
-
 execute as @e[type=minecraft:interaction,tag=dawnshore_adventurer_guild_receptionist_2_interaction] store success entity @s interaction.player[] int 0 on target run tag @s add dawnshore_adventurer_guild_receptionist_2_action
-
 execute as @e[type=minecraft:interaction,tag=dawnshore_adventurer_guild_receptionist_3_interaction] store success entity @s interaction.player[] int 0 on target run tag @s add dawnshore_adventurer_guild_receptionist_3_action
 
 execute as @a[tag=dawnshore_adventurer_guild_receptionist_1_action] run function dark_dungeons:locations/dawnshore/adventurers_guild/actions/guild_receptionist_1
-
 execute as @a[tag=dawnshore_adventurer_guild_receptionist_2_action] run function dark_dungeons:locations/dawnshore/adventurers_guild/actions/guild_receptionist_2
-
 execute as @a[tag=dawnshore_adventurer_guild_receptionist_3_action] run function dark_dungeons:locations/dawnshore/adventurers_guild/actions/guild_receptionist_3
 
 
