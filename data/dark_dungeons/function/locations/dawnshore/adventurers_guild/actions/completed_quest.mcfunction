@@ -14,3 +14,7 @@ data remove storage dark_dungeons:dawnshore_quest_completion_temp quest_id
 data remove storage dark_dungeons:dawnshore_quest_completion_temp reputation
 data remove storage dark_dungeons:dawnshore_quest_completion_temp adventurer_rank
 data remove storage dark_dungeons:dawnshore_quest_completion_temp adventurer_xp
+
+# Rank Up Message
+execute if entity @s[scores={adventurer_rank=0,adventurer_xp=10..}] unless score @s quest_day_limit matches 0 run tellraw @s ["Guild Receptionist Nessa: It looks like you've accumulated enough XP to level up. Please speak with Elara to receive your new rank."]
+execute if entity @s[scores={adventurer_rank=1,adventurer_xp=100..}] unless score @s quest_day_limit matches 0 run tellraw @s ["Guild Receptionist Nessa: It looks like you've accumulated enough XP to level up. Please speak with Elara to receive your new rank."]

@@ -21,17 +21,13 @@ execute if score @s player_id = @n[predicate=dark_dungeons:positioning/location/
 
 execute if score @s player_id = @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_8] player_id run function dark_dungeons:locations/dawnshore/adventurers_guild/board/actions/cancel/8
 
-execute unless entity @s[scores={quest_id=1..16}] run tellraw @s ["It seems your quest was scheduled in a different town. In the future, please only cancel quests at the guild branch where the task was accepted."]
+execute unless entity @s[scores={quest_id=1..16}] run tellraw @s ["Guild Receptionist Kael: It seems your quest was scheduled in a different town. In the future, please only cancel quests at the guild branch where the task was accepted."]
 
 execute unless entity @s[scores={quest_id=1..16}] run scoreboard players set @s temp_storage 50
 
 # Reduce Reputation
-
 execute if score @s reputation > @s temp_storage run scoreboard players operation @s reputation -= @s temp_storage
-
 execute if entity @s[scores={reputation=1..}] if score @s reputation < @s temp_storage run scoreboard players set @s reputation 0
-
-
 scoreboard players reset @s temp_storage
 
-tellraw @s ["Your quest has been successfully canceled. If you need assistance with anything else, please let me know."]
+tellraw @s ["Guild Receptionist Kael: Your quest has been successfully canceled. If you need assistance with anything else, please let me know."]
