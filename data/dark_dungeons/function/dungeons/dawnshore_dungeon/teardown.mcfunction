@@ -1,3 +1,6 @@
+# Dungeon Core
+kill @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/core_room,type=item_display,tag=dawnshore_dungeon_core]
+
 # Entrance Zombie
 execute as @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/main_area,tag=dawnshore_dungeon_entrance_display_zombie] run function dark_dungeons:locations/dawnshore/tp_to_kill_zone
 
