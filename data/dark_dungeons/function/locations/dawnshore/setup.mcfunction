@@ -1,4 +1,4 @@
-function dark_dungeons:locations/dawnshore/day/setup
+# function dark_dungeons:locations/dawnshore/day/setup
 
 function dark_dungeons:locations/dawnshore/bank/setup
 function dark_dungeons:locations/dawnshore/summoning_altar/setup
@@ -10,3 +10,6 @@ function dark_dungeons:locations/dawnshore/bakery/setup
 function dark_dungeons:locations/dawnshore/butcher/setup
 function dark_dungeons:locations/dawnshore/craftsman/setup
 function dark_dungeons:locations/dawnshore/wall/setup
+function dark_dungeons:locations/dawnshore/pier/setup
+function dark_dungeons:locations/dawnshore/garbage_dump/setup
+function dark_dungeons:locations/dawnshore/adventurers_guild/setup

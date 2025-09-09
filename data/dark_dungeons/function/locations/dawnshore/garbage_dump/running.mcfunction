@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:interaction,tag=dawnshore_garbage_dump_npc_interaction] store success entity @s interaction.player[] int 0 on target run tellraw @s ["Brin Ragwick: The city clears out the trash each dawn, but it still reeks somethin' fierce around here."]
