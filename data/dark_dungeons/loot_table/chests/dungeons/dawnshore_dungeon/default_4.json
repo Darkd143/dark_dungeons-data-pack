@@ -1,0 +1,127 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/currency/coins/copper_coin",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/food/misc/rations",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/food/drinks/fresh_water",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/food/drinks/non-potible_water",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/treasure/gemstones/common_gemstone",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/treasure/gemstones/uncommon_gemstone",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/axes/wood/weight_11",
+          "weight": 11
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/axes/wood/weight_10",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_11",
+          "weight": 11
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_10",
+          "weight": 10
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_damage",
+          "damage": {
+            "type": "minecraft:uniform",
+            "min": 1,
+            "max": 59
+          },
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ]
+    }
+  ]
+}
