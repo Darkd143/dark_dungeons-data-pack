@@ -5,6 +5,9 @@ execute as @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/main
 execute as @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/main_area,tag=dawnshore_dungeon_seated_skeleton] run function dark_dungeons:locations/dawnshore/tp_to_kill_zone
 kill @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/main_area,tag=dawnshore_dungeon_skeleton_seat]
 
+# Hanging Skeletons
+execute as @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/main_area,tag=dawnshore_dungeon_hanging_skeleton] run function dark_dungeons:locations/dawnshore/tp_to_kill_zone
+
 # Impaled Skeleton
 execute as @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/main_area,tag=dawnshore_dungeon_impaled_skeleton] run function dark_dungeons:locations/dawnshore/tp_to_kill_zone
 
@@ -12,7 +15,7 @@ execute as @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/main
 kill @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/main_area,tag=dawnshore_dungeon_armory_armor_stand]
 
 # Block Displays
-kill @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/main_area,tag=dawnshore_block_display]
+kill @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/main_area,tag=dawnshore_dungeon_block_display]
 
 # Crop Block Displays
 
