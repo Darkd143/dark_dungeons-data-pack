@@ -3,6 +3,7 @@ function dark_dungeons:locations/dawnshore/registration_hut/running
 function dark_dungeons:locations/dawnshore/dungeon_entrance/running
 function dark_dungeons:locations/dawnshore/ownable_housing/running
 function dark_dungeons:locations/dawnshore/pier/running
+function dark_dungeons:locations/dawnshore/garbage_dump/running
 execute if entity @a[predicate=dark_dungeons:positioning/location/dawnshore/adventurers_guild_zone] run function dark_dungeons:locations/dawnshore/adventurers_guild/running
 execute if entity @a[predicate=dark_dungeons:positioning/location/dawnshore/craftsman_zone] run function dark_dungeons:locations/dawnshore/craftsman/running
 execute if entity @a[predicate=dark_dungeons:positioning/location/dawnshore/bank_zone] run function dark_dungeons:locations/dawnshore/bank/running
