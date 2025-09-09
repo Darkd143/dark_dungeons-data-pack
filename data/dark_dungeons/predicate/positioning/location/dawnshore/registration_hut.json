@@ -18,7 +18,8 @@
               "min": 102,
               "max": 105
             }
-          }
+          },
+          "dimension": "minecraft:overworld"
         }
       },
       {
@@ -37,7 +38,8 @@
               "min": 100,
               "max": 102
             }
-          }
+          },
+          "dimension": "minecraft:overworld"
         }
       }
     ]

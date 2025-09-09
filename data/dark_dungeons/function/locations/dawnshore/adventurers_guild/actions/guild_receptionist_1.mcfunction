@@ -21,6 +21,3 @@ execute unless entity @s[scores={adventurer_rank=0..}] run tellraw @s ["Guild Re
 
 # Display Rank Info for Adventurer
 execute if entity @s[scores={adventurer_rank=0..}] unless score @s quest_day_limit matches 0 run function dark_dungeons:locations/dawnshore/adventurers_guild/actions/messages/rank_info
-
-
-# Things to add: wanted_criminal and dawnshore_criminal can't be adventurers
