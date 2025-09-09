@@ -38,4 +38,4 @@ kill @e[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone,tag=dawn
 kill @e[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone,tag=dawnshore_inn_room_10_interaction]
 
 # Door Trapdoors
-kill @e[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone,tag=dawnshore_inn_door_trapdoor_interaction]
+kill @e[predicate=dark_dungeons:positioning/location/dawnshore/dawnshore,tag=dawnshore_inn_door_trapdoor_interaction]
