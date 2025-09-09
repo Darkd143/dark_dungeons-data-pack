@@ -26,3 +26,9 @@
 # execute as @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_3/waterfall] run say Waterfall!
 
 # execute as @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_3/pit] run say Pit!
+
+# execute as @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_1] run say Floor 1!
+
+# execute as @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_2] run say Floor 2!
+
+# execute as @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_3] run say Floor 3!
