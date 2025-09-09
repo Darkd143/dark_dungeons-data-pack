@@ -7,6 +7,9 @@ execute as @e[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone,ta
 kill @e[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone,tag=inn_seat]
 kill @e[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone,tag=dawnshore_inn_npc_interaction]
 
+# Desk Gate
+kill @e[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone,tag=dawnshore_inn_desk_gate_interaction]
+
 # Room 1 Door
 kill @e[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone,tag=dawnshore_inn_room_1_interaction]
 

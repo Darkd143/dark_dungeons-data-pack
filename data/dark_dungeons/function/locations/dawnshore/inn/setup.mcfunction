@@ -40,6 +40,9 @@ execute unless entity @e[predicate=dark_dungeons:positioning/location/dawnshore/
 # Room 10 Door
 execute unless entity @e[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone,tag=dawnshore_inn_room_10_interaction] run summon minecraft:interaction -50 78 86 {width:1.1,height:2.0,Tags:['dawnshore_inn_door_interaction','dawnshore_inn_room_10_interaction']}
 
+# Inside Gate
+execute unless entity @e[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone,tag=dawnshore_inn_desk_gate_interaction] run summon minecraft:interaction -60 72 85 {width:1.0,height:1.1,Tags:['dawnshore_inn_desk_gate_interaction']}
+
 # Trapdoor Interactions
 # Trapdoors above door
 execute unless entity @e[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone,tag=dawnshore_inn_door_trapdoor_interaction_1] run summon minecraft:interaction -60 73.95 88 {width:1.4,height:2.1,Tags:['dawnshore_inn_door_trapdoor_interaction','dawnshore_inn_door_trapdoor_interaction_1']}
