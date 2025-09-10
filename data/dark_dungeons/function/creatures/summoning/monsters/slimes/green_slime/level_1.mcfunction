@@ -1,0 +1,1 @@
+summon slime ~ ~ ~ {Size:1,CustomName:[{text:"Green Slime - Lv 1"}],Health:1,PersistenceRequired:1b,attributes:[{id:attack_damage,base:0.5f},{id:max_health,base:1f},{id:scale,base:0.5f}],Tags:["monster"],DeathLootTable:"dark_dungeons:entities/slimes/green_baby_slime/level_1"}
