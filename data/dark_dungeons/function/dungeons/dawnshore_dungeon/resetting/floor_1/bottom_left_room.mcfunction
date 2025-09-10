@@ -2,7 +2,9 @@
 execute positioned -47 69 140 run function dark_dungeons:dungeons/dawnshore_dungeon/apply_loot_tables/loot_2
 
 # Summon 1-3 Zombies
-# -50 70 143
+execute positioned -50 70 143 run function dark_dungeons:dungeons/dawnshore_dungeon/summoning_tables/floor_1
+execute positioned -50 70 143 if function dark_dungeons:random/percentage/50 run function dark_dungeons:dungeons/dawnshore_dungeon/summoning_tables/floor_1
+execute positioned -50 70 143 if function dark_dungeons:random/percentage/50 run function dark_dungeons:dungeons/dawnshore_dungeon/summoning_tables/floor_1
 
 # Remove Vines
 setblock -53 70 143 air

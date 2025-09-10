@@ -1,9 +1,9 @@
 # Innkeeper
-execute as @e[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone,tag=dawnshore_inn_innkeeper] run function dark_dungeons:locations/dawnshore/tp_to_kill_zone
+execute as @e[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone,tag=dawnshore_inn_innkeeper] run function dark_dungeons:creatures/management/tp_to_world_kill_zone
 kill @e[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone,tag=dawnshore_inn_innkeeper_interaction]
 
 # NPC 1
-execute as @e[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone,tag=dawnshore_inn_npc] run function dark_dungeons:locations/dawnshore/tp_to_kill_zone
+execute as @e[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone,tag=dawnshore_inn_npc] run function dark_dungeons:creatures/management/tp_to_world_kill_zone
 kill @e[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone,tag=inn_seat]
 kill @e[predicate=dark_dungeons:positioning/location/dawnshore/inn_zone,tag=dawnshore_inn_npc_interaction]
 

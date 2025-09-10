@@ -13,5 +13,3 @@ function dark_dungeons:locations/dawnshore/wall/teardown
 function dark_dungeons:locations/dawnshore/pier/teardown
 function dark_dungeons:locations/dawnshore/garbage_dump/teardown
 function dark_dungeons:locations/dawnshore/adventurers_guild/teardown
-
-schedule function dark_dungeons:locations/dawnshore/mob_kill_zone 10

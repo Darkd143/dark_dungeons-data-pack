@@ -1,0 +1,1 @@
+kill @e[predicate=dark_dungeons:positioning/world_kill_zone,type=!player]

@@ -15,5 +15,8 @@ execute if function dark_dungeons:random/percentage/20 positioned -49 65 178 run
 execute if function dark_dungeons:random/percentage/20 positioned -48 65 178 run function dark_dungeons:dungeons/dawnshore_dungeon/apply_loot_tables/alchemy_loot
 execute if function dark_dungeons:random/percentage/20 positioned -47 65 178 run function dark_dungeons:dungeons/dawnshore_dungeon/apply_loot_tables/alchemy_loot
 
-# Summon 2-4 Zombies
-# -50 63 174
+# Summon 1-4 Zombies
+execute positioned -50 63 174 run function dark_dungeons:dungeons/dawnshore_dungeon/summoning_tables/floor_2
+execute positioned -50 63 174 if function dark_dungeons:random/percentage/50 run function dark_dungeons:dungeons/dawnshore_dungeon/summoning_tables/floor_2
+execute positioned -50 63 174 if function dark_dungeons:random/percentage/50 run function dark_dungeons:dungeons/dawnshore_dungeon/summoning_tables/floor_2
+execute positioned -50 63 174 if function dark_dungeons:random/percentage/50 run function dark_dungeons:dungeons/dawnshore_dungeon/summoning_tables/floor_2
