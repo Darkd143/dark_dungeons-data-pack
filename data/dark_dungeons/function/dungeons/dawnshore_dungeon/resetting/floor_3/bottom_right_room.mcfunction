@@ -1,3 +1,4 @@
+# Loot
 execute positioned -78 58 146 run function dark_dungeons:apply_loot_table/empty_bookshelf
 execute positioned -79 58 147 run function dark_dungeons:apply_loot_table/empty_bookshelf
 execute positioned -81 56 147 run function dark_dungeons:apply_loot_table/empty_bookshelf
@@ -48,3 +49,4 @@ execute if function dark_dungeons:random/percentage/10 positioned -80 58 141 run
 
 
 # Summon 2-4 Zombies
+# -82 56 143

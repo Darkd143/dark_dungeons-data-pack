@@ -1,3 +1,4 @@
+# Loot
 execute positioned -53 65 178 run function dark_dungeons:apply_loot_table/empty_container
 execute positioned -52 65 178 run function dark_dungeons:apply_loot_table/empty_container
 execute positioned -51 65 178 run function dark_dungeons:apply_loot_table/empty_container
@@ -15,3 +16,4 @@ execute if function dark_dungeons:random/percentage/20 positioned -48 65 178 run
 execute if function dark_dungeons:random/percentage/20 positioned -47 65 178 run function dark_dungeons:dungeons/dawnshore_dungeon/apply_loot_tables/alchemy_loot
 
 # Summon 2-4 Zombies
+# -50 63 174

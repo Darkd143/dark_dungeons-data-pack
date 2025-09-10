@@ -1,3 +1,4 @@
+# Loot
 execute positioned -48 71 156 run function dark_dungeons:apply_loot_table/empty_container
 execute positioned -50 71 164 run function dark_dungeons:apply_loot_table/empty_container
 execute positioned -53 71 162 run function dark_dungeons:apply_loot_table/empty_container
