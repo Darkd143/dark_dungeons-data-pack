@@ -1,1 +1,1 @@
-return run random roll 1..6
+return run random value 1..6
