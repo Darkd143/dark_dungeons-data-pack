@@ -24,5 +24,11 @@ kill @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/main_area,
 
 kill @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/main_area,tag=dawnshore_crop_block_display]
 
+# Entities
+
+execute as @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/entire_dungeon,tag=monster] run function dark_dungeons:creatures/management/tp_to_world_kill_zone
+
+kill @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/boss_room,tag=boss_seat]
+
 # Item Displays TODO
 
