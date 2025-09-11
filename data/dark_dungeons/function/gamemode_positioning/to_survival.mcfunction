@@ -1,1 +1,0 @@
-execute as @s[predicate=!dark_dungeons:positioning/area/in_valid_area] run gamemode survival @s

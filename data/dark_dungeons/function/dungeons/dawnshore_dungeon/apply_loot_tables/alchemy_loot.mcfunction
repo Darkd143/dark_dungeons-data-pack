@@ -1,0 +1,1 @@
+data modify block ~ ~ ~ LootTable set value "dark_dungeons:chests/dungeons/dawnshore_dungeon/alchemy"

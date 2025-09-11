@@ -8,6 +8,10 @@
     {
       "condition": "minecraft:reference",
       "name": "dark_dungeons:positioning/dungeon/dawnshore_dungeon/boss_room"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:positioning/dungeon/dawnshore_dungeon/core_room"
     }
   ]
 }

@@ -1,1 +1,1 @@
-summon zombie ~ ~ ~ {IsBaby:false,CustomName:[{text:"Zombie - Lv 3"}],Health:12,PersistenceRequired:1b,attributes:[{id:attack_damage,base:1f},{id:scale,base:0.88f},{id:max_health,base:12f}],DeathLootTable:"dark_dungeons:entities/zombies/default/level_3"}
+summon zombie ~ ~ ~ {IsBaby:false,CustomName:[{text:"Zombie - Lv 3"}],Health:12,PersistenceRequired:1b,attributes:[{id:attack_damage,base:1f},{id:scale,base:0.88f},{id:max_health,base:12f}],DeathLootTable:"dark_dungeons:entities/zombies/default/level_3",Tags:['monster']}

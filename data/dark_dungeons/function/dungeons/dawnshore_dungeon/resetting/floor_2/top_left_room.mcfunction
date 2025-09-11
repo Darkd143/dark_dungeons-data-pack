@@ -1,0 +1,23 @@
+# Loot
+execute positioned -53 65 178 run function dark_dungeons:apply_loot_table/empty_container
+execute positioned -52 65 178 run function dark_dungeons:apply_loot_table/empty_container
+execute positioned -51 65 178 run function dark_dungeons:apply_loot_table/empty_container
+execute positioned -50 65 178 run function dark_dungeons:apply_loot_table/empty_container
+execute positioned -49 65 178 run function dark_dungeons:apply_loot_table/empty_container
+execute positioned -48 65 178 run function dark_dungeons:apply_loot_table/empty_container
+execute positioned -47 65 178 run function dark_dungeons:apply_loot_table/empty_container
+
+execute if function dark_dungeons:random/percentage/20 positioned -53 65 178 run function dark_dungeons:dungeons/dawnshore_dungeon/apply_loot_tables/alchemy_loot
+execute if function dark_dungeons:random/percentage/20 positioned -52 65 178 run function dark_dungeons:dungeons/dawnshore_dungeon/apply_loot_tables/alchemy_loot
+execute if function dark_dungeons:random/percentage/20 positioned -51 65 178 run function dark_dungeons:dungeons/dawnshore_dungeon/apply_loot_tables/alchemy_loot
+execute if function dark_dungeons:random/percentage/20 positioned -50 65 178 run function dark_dungeons:dungeons/dawnshore_dungeon/apply_loot_tables/alchemy_loot
+execute if function dark_dungeons:random/percentage/20 positioned -49 65 178 run function dark_dungeons:dungeons/dawnshore_dungeon/apply_loot_tables/alchemy_loot
+execute if function dark_dungeons:random/percentage/20 positioned -48 65 178 run function dark_dungeons:dungeons/dawnshore_dungeon/apply_loot_tables/alchemy_loot
+execute if function dark_dungeons:random/percentage/20 positioned -47 65 178 run function dark_dungeons:dungeons/dawnshore_dungeon/apply_loot_tables/alchemy_loot
+
+# Summon 1-4 Zombies
+execute if entity @e[type=zombie,predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_2/top_left_room] run return 0
+execute positioned -50 63 174 run function dark_dungeons:dungeons/dawnshore_dungeon/summoning_tables/floor_2
+execute positioned -50 63 174 if function dark_dungeons:random/percentage/50 run function dark_dungeons:dungeons/dawnshore_dungeon/summoning_tables/floor_2
+execute positioned -50 63 174 if function dark_dungeons:random/percentage/50 run function dark_dungeons:dungeons/dawnshore_dungeon/summoning_tables/floor_2
+execute positioned -50 63 174 if function dark_dungeons:random/percentage/50 run function dark_dungeons:dungeons/dawnshore_dungeon/summoning_tables/floor_2
