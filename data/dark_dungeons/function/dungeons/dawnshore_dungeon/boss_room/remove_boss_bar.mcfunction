@@ -1,0 +1,1 @@
+bossbar remove dark_dungeons:dawnshore_dungeon_boss_bar

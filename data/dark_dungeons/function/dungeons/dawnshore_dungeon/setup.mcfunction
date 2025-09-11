@@ -81,5 +81,8 @@ execute unless entity @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_d
 execute unless entity @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/main_area,tag=dawnshore_crop_block_display_27] run summon block_display -80.0 63 161.0 {block_state:{Name:"minecraft:wheat",Properties:{age:"7"}},Tags:['dawnshore_crop_block_display','dawnshore_crop__block_display_27']}
 execute unless entity @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/main_area,tag=dawnshore_crop_block_display_28] run summon block_display -79.0 63 161.0 {block_state:{Name:"minecraft:wheat",Properties:{age:"7"}},Tags:['dawnshore_crop_block_display','dawnshore_crop__block_display_28']}
 
+# Boss
+function dark_dungeons:dungeons/dawnshore_dungeon/resetting/reset_boss
+
 # ITEM DISPLAYS
 
