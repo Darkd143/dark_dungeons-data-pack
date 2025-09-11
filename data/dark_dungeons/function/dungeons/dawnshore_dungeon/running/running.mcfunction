@@ -20,3 +20,8 @@ execute as @e[type=!player,predicate=dark_dungeons:positioning/dungeon/dawnshore
 execute as @e[type=!player,predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/core_room,tag=monster] run function dark_dungeons:dungeons/dawnshore_dungeon/entity_management/floor_2_relocate
 
 execute as @e[type=!player,predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/boss_room,tag=monster] run function dark_dungeons:dungeons/dawnshore_dungeon/entity_management/floor_3_relocate
+
+# Boss Battle
+execute as @n[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/boss_room,tag=dungeon_boss,tag=!boss_battle_pending,tag=!boss_battle_in_progress] if entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/boss_room,gamemode=adventure] run function dark_dungeons:dungeons/dawnshore_dungeon/boss_room/start_pending
+
+execute as @n[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/boss_room,tag=dungeon_boss,tag=boss_battle_pending,tag=!boss_battle_in_progress] unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/boss_room,gamemode=adventure] run function dark_dungeons:dungeons/dawnshore_dungeon/boss_room/end_pending

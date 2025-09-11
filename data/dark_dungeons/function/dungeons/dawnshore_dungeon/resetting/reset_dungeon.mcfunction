@@ -1,6 +1,5 @@
 function dark_dungeons:dungeons/dawnshore_dungeon/resetting/reset_floor_1
 function dark_dungeons:dungeons/dawnshore_dungeon/resetting/reset_floor_2
 function dark_dungeons:dungeons/dawnshore_dungeon/resetting/reset_floor_3
-function dark_dungeons:dungeons/dawnshore_dungeon/resetting/reset_boss
 
 scoreboard players reset @s temp_storage

@@ -1,1 +1,1 @@
-execute as @s run tp @s -32 -58 96
+tp @s -32 -58 96
