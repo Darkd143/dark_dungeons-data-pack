@@ -7,3 +7,4 @@ execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_d
 execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_3/waterfall,gamemode=adventure] run function dark_dungeons:dungeons/dawnshore_dungeon/resetting/floor_3/waterfall_room
 execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_3/top_left_room,gamemode=adventure] run function dark_dungeons:dungeons/dawnshore_dungeon/resetting/floor_3/top_left_room
 execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_3/top_middle_room,gamemode=adventure] run function dark_dungeons:dungeons/dawnshore_dungeon/resetting/floor_3/top_middle_room
+execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_3/positioning_for_treasure_passage_reset] run function dark_dungeons:dungeons/dawnshore_dungeon/resetting/floor_3/treasure_passage
