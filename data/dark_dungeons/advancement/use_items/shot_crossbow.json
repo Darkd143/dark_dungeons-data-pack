@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "dark_dungeons:projectiles/shot_crossbow_advancement"
+    "function": "dark_dungeons:advancements/shot_crossbow"
   }
 }

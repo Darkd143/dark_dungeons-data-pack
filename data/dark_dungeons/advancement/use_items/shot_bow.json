@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "dark_dungeons:projectiles/shot_bow_advancement"
+    "function": "dark_dungeons:advancements/shot_bow"
   }
 }

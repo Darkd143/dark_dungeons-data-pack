@@ -1,4 +1,4 @@
-execute store result score @s temp_storage run random roll 1..16
+execute store result score @s temp_storage run random value 1..16
 
 execute if score @s temp_storage = @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_1] quest_id run function dark_dungeons:locations/dawnshore/adventurers_guild/board/assign/select_quest
 execute if score @s temp_storage = @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_2] quest_id run function dark_dungeons:locations/dawnshore/adventurers_guild/board/assign/select_quest
