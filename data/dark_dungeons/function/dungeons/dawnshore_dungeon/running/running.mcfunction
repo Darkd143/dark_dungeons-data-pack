@@ -19,4 +19,4 @@ execute as @e[type=!player,predicate=dark_dungeons:positioning/dungeon/dawnshore
 
 execute as @e[type=!player,predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/core_room,tag=monster] run function dark_dungeons:dungeons/dawnshore_dungeon/entity_management/floor_2_relocate
 
-execute as @e[type=!player,predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/boss_entryway,tag=monster] run function dark_dungeons:dungeons/dawnshore_dungeon/entity_management/floor_3_relocate
+execute as @e[type=!player,predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/boss_room,tag=monster] run function dark_dungeons:dungeons/dawnshore_dungeon/entity_management/floor_3_relocate
