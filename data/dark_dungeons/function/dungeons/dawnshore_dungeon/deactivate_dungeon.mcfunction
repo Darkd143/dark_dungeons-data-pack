@@ -1,4 +1,5 @@
+say Deactivate
 tag @s remove active_dungeon
 
 # Send all Zombies to Kill Zone
-
+execute as @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/entire_dungeon,tag=monster] run function dark_dungeons:creatures/management/tp_to_world_kill_zone

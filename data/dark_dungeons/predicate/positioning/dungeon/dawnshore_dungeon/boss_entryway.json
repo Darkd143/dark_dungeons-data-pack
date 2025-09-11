@@ -3,15 +3,15 @@
   "predicate": {
     "position": {
       "x": {
-        "min": -72,
-        "max": -60
+        "min": -67,
+        "max": -64
       },
       "y": {
-        "min": 64,
-        "max": 67
+        "min": 56,
+        "max": 59
       },
       "z": {
-        "min": 122,
+        "min": 131,
         "max": 139
       }
     },
