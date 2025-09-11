@@ -10,6 +10,12 @@ execute if entity @a[x=-82,y=63,z=143,distance=..2,gamemode=!spectator] unless e
 # Pit Trap (Behind Waterfall)
 execute if entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_3/pit,gamemode=!spectator] run schedule function dark_dungeons:dungeons/dawnshore_dungeon/situations/kill_pit 20 append
 
+# Treasure Room
+execute if block -61 57 168 air if block -84 56 143 minecraft:lectern{Page:2} run say Open!
+execute if block -61 57 168 air if block -84 56 143 minecraft:lectern{Page:2} run setblock -61 57 168 redstone_block
+execute if block -61 57 168 redstone_block unless block -84 56 143 minecraft:lectern{Page:2} run say Close!
+execute if block -61 57 168 redstone_block unless block -84 56 143 minecraft:lectern{Page:2} run setblock -61 57 168 air
+
 # Entity Management
 execute as @e[type=!player,predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/entryway,tag=monster] run function dark_dungeons:dungeons/dawnshore_dungeon/entity_management/floor_1_relocate
 
