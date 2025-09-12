@@ -1,2 +1,2 @@
 gamemode adventure @s
-spawnpoint @s -107 25 95
+function dark_dungeons:locations/dawnshore/set_spawnpoint
