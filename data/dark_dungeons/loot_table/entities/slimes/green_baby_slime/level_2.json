@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "dark_dungeons:items/mob_drops/slimes/slime_gel",
+          "value": "dark_dungeons:items/mob_drops/slimes/green_slime_gel",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
