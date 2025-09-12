@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "attacked_by_guard": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "nbt": "{'Tags':['guard']}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dark_dungeons:advancements/attacked_by_guard"
+  }
+}

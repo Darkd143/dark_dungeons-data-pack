@@ -1,0 +1,1 @@
+summon vindicator ~ ~ ~ {CustomName:[{text:"Dawnshore Town Guard"}],Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Tags:["guard"],equipment:{mainhand:{id:wooden_sword,components:{attribute_modifiers:[{id:"guard_attack_damage",amount:0,operation:"add_value",type:attack_damage}]}}},drop_chances:{mainhand:0f},attributes:[{id:attack_damage,base:0.1f},{id:max_health,base:20f}]}
