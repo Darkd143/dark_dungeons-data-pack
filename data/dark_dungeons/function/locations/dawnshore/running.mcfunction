@@ -1,3 +1,7 @@
+# Respawn Point
+execute as @a[predicate=dark_dungeons:positioning/location/dawnshore/respawn_point,gamemode=!spectator] run function dark_dungeons:locations/dawnshore/respawn
+
+# Running
 function dark_dungeons:locations/dawnshore/summoning_altar/running
 function dark_dungeons:locations/dawnshore/registration_hut/running
 function dark_dungeons:locations/dawnshore/dungeon_entrance/running
