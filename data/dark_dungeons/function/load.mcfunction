@@ -34,4 +34,3 @@ scoreboard objectives add temp_storage dummy
 scoreboard objectives add quest_type dummy
 scoreboard objectives add quest_id dummy
 scoreboard objectives add quest_day_limit dummy
-

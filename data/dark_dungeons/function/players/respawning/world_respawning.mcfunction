@@ -1,0 +1,1 @@
+execute as @a[predicate=dark_dungeons:positioning/area/valid_areas/in_dawnshore_area,gamemode=!spectator,gamemode=!creative,predicate=!dark_dungeons:spawn_point_coords/dawnshore_spawn_point] run function dark_dungeons:locations/dawnshore/set_spawnpoint
