@@ -12,6 +12,9 @@ function dark_dungeons:creatures/management/remove_size_0_slimes
 execute as @a[predicate=dark_dungeons:positioning/area/in_valid_area,gamemode=survival] run gamemode adventure @s
 execute as @a[predicate=!dark_dungeons:positioning/area/in_valid_area,gamemode=adventure] run gamemode survival @s
 
+# Spawnpoint Commands
+function dark_dungeons:players/respawning/world_respawning
+
 # Run Location Functions
 function dark_dungeons:locations/running
 
