@@ -1,5 +1,5 @@
 tag @s add dawnshore_just_summoned
-schedule function dark_dungeons:locations/dawnshore/summoning_altar/summoning_effect 20 append
+function dark_dungeons:locations/dawnshore/summoning_altar/summoning_effect
 function dark_dungeons:players/player_scores_setup
 gamemode adventure @s
 function dark_dungeons:locations/dawnshore/set_spawnpoint
