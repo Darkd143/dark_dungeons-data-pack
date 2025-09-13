@@ -1,2 +1,2 @@
-scoreboard players add @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=player-id-manager] player_id 1
-scoreboard players operation @s player_id = @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=player-id-manager] player_id
+scoreboard players add @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=player-id-manager] player_id 1
+scoreboard players operation @s player_id = @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=player-id-manager] player_id

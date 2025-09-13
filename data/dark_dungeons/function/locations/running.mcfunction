@@ -1,1 +1,1 @@
-execute if entity @a[predicate=dark_dungeons:positioning/location/dawnshore/dawnshore] run function dark_dungeons:locations/dawnshore/running
+execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore] run function dark_dungeons:locations/dawnshore/running

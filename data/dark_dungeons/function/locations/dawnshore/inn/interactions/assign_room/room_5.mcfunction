@@ -4,6 +4,6 @@ clear @s minecraft:resin_clump[minecraft:custom_name="\u00A76ðŸª™ Copper Coin ðŸ
 data merge block -59 75 79 {LootTable:""}
 tag @s add dawnshore_inn_client
 scoreboard players set @s room_number 5
-scoreboard players set @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_inn_room_5] payed_inn_days 1
-scoreboard players operation @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_inn_room_5] player_id = @s player_id
+scoreboard players set @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_inn_room_5] payed_inn_days 1
+scoreboard players operation @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_inn_room_5] player_id = @s player_id
 tag @s add dawnshore_assigned_new_room

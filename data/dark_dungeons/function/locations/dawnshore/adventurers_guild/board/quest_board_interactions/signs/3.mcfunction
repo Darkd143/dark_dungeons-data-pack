@@ -1,6 +1,6 @@
 tag @s remove dawnshore_adventurer_guild_quest_sign_3_action
 tag @s add dawnshore_adventurer_guild_quest_sign_description
-execute as @n[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=dawnshore_adventurer_quest_3] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/quest_board_message
+execute as @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_adventurer_quest_3] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/quest_board_message
 tag @s remove dawnshore_adventurer_guild_quest_sign_description
 function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
 tag @s add dawnshore_adventurer_guild_quest_sign_3_tagged

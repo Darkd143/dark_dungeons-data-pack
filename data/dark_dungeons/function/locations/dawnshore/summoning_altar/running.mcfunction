@@ -13,7 +13,7 @@ execute as @a[gamemode=!spectator,x=-44,y=73,z=99,dx=1,dy=6,dz=-2,tag=!dawnshore
 #TODO Keep Players from dropping into the altar
 
 # New Players who have spawned in
-execute as @a[gamemode=!spectator,predicate=dark_dungeons:positioning/location/dawnshore/altar,tag=!dawnshore_just_summoned] unless entity @s[scores={player_id=1..}] run function dark_dungeons:locations/dawnshore/summoning_altar/spawn
+execute as @a[gamemode=!spectator,predicate=dark_dungeons:positioning/locations/dawnshore/altar,tag=!dawnshore_just_summoned] unless entity @s[scores={player_id=1..}] run function dark_dungeons:locations/dawnshore/summoning_altar/spawn
 
 # Players who have respawned
-execute as @a[gamemode=!spectator,predicate=dark_dungeons:positioning/location/dawnshore/altar,tag=!dawnshore_just_summoned] if entity @s[scores={player_id=1..}] run function dark_dungeons:locations/dawnshore/summoning_altar/respawn
+execute as @a[gamemode=!spectator,predicate=dark_dungeons:positioning/locations/dawnshore/altar,tag=!dawnshore_just_summoned] if entity @s[scores={player_id=1..}] run function dark_dungeons:locations/dawnshore/summoning_altar/respawn

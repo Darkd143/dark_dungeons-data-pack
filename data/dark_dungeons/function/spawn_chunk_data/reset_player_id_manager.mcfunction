@@ -1,1 +1,1 @@
-scoreboard players set @e[predicate=dark_dungeons:positioning/location/spawn_chunk_room,tag=player-id-manager] player_id 0
+scoreboard players set @e[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=player-id-manager] player_id 0
