@@ -7,6 +7,7 @@ execute as @e[tag=default-time-manager,predicate=dark_dungeons:time/midnight_tic
 # Mob Management
 function dark_dungeons:creatures/management/world_kill_zone
 function dark_dungeons:creatures/management/remove_size_0_slimes
+execute as @e[tag=guard,type=!player] at @s run function dark_dungeons:players/crime/guard_management
 
 # Run Gamemode Positioning Commands
 execute as @a[predicate=dark_dungeons:positioning/area/in_valid_area,gamemode=survival] run gamemode adventure @s

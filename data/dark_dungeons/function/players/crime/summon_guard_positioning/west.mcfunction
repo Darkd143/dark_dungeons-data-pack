@@ -1,0 +1,17 @@
+execute positioned ~-3 ~ ~ if predicate dark_dungeons:positioning/summoning_positioning/guard run return run function dark_dungeons:players/crime/summon_guard
+execute positioned ~-3 ~ ~-1 if predicate dark_dungeons:positioning/summoning_positioning/guard run return run function dark_dungeons:players/crime/summon_guard
+execute positioned ~-2 ~ ~-2 if predicate dark_dungeons:positioning/summoning_positioning/guard run return run function dark_dungeons:players/crime/summon_guard
+execute positioned ~-1 ~ ~-3 if predicate dark_dungeons:positioning/summoning_positioning/guard run return run function dark_dungeons:players/crime/summon_guard
+execute positioned ~ ~ ~-3 if predicate dark_dungeons:positioning/summoning_positioning/guard run return run function dark_dungeons:players/crime/summon_guard
+execute positioned ~1 ~ ~-3 if predicate dark_dungeons:positioning/summoning_positioning/guard run return run function dark_dungeons:players/crime/summon_guard
+execute positioned ~2 ~ ~-2 if predicate dark_dungeons:positioning/summoning_positioning/guard run return run function dark_dungeons:players/crime/summon_guard
+execute positioned ~3 ~ ~-1 if predicate dark_dungeons:positioning/summoning_positioning/guard run return run function dark_dungeons:players/crime/summon_guard
+execute positioned ~3 ~ ~ if predicate dark_dungeons:positioning/summoning_positioning/guard run return run function dark_dungeons:players/crime/summon_guard
+execute positioned ~3 ~ ~1 if predicate dark_dungeons:positioning/summoning_positioning/guard run return run function dark_dungeons:players/crime/summon_guard
+execute positioned ~3 ~ ~1 if predicate dark_dungeons:positioning/summoning_positioning/guard run return run function dark_dungeons:players/crime/summon_guard
+execute positioned ~2 ~ ~2 if predicate dark_dungeons:positioning/summoning_positioning/guard run return run function dark_dungeons:players/crime/summon_guard
+execute positioned ~1 ~ ~3 if predicate dark_dungeons:positioning/summoning_positioning/guard run return run function dark_dungeons:players/crime/summon_guard
+execute positioned ~ ~ ~3 if predicate dark_dungeons:positioning/summoning_positioning/guard run return run function dark_dungeons:players/crime/summon_guard
+execute positioned ~-1 ~ ~3 if predicate dark_dungeons:positioning/summoning_positioning/guard run return run function dark_dungeons:players/crime/summon_guard
+execute positioned ~-2 ~ ~2 if predicate dark_dungeons:positioning/summoning_positioning/guard run return run function dark_dungeons:players/crime/summon_guard
+execute positioned ~-3 ~ ~1 if predicate dark_dungeons:positioning/summoning_positioning/guard run return run function dark_dungeons:players/crime/summon_guard
