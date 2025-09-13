@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "killed_guard": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{'Tags':['guard']}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dark_dungeons:advancements/killed_guard"
+  }
+}

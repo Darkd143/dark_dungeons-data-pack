@@ -1,5 +1,5 @@
 # Message
-execute at @s run tellraw @a[distance=0..20] [{selector:"@s",color:"red"},{text:" attacked a guard.",color:"red"}]
+execute at @s run tellraw @a[distance=0..20] [{selector:"@s",color:"red"},{text:" committed assault on an armed guard.",color:"red"}]
 
 # Tags
 tag @s add serious_assault
