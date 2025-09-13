@@ -1,3 +1,5 @@
+tag @s add active_floor_3
+
 execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_3/bottom_left_room,gamemode=adventure] run function dark_dungeons:dungeons/dawnshore_dungeon/resetting/floor_3/bottom_left_room
 execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_3/bottom_middle_room,gamemode=adventure] run function dark_dungeons:dungeons/dawnshore_dungeon/resetting/floor_3/bottom_middle_room
 execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_3/bottom_right_room,gamemode=adventure] run function dark_dungeons:dungeons/dawnshore_dungeon/resetting/floor_3/bottom_right_room
@@ -8,3 +10,7 @@ execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_d
 execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_3/top_left_room,gamemode=adventure] run function dark_dungeons:dungeons/dawnshore_dungeon/resetting/floor_3/top_left_room
 execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_3/top_middle_room,gamemode=adventure] run function dark_dungeons:dungeons/dawnshore_dungeon/resetting/floor_3/top_middle_room
 execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_3/positioning_for_treasure_passage_reset] run function dark_dungeons:dungeons/dawnshore_dungeon/resetting/floor_3/treasure_passage
+
+scoreboard players reset @s temp_storage
+
+schedule function dark_dungeons:dungeons/dawnshore_dungeon/resetting/add_zombies_floor_3 1000 replace

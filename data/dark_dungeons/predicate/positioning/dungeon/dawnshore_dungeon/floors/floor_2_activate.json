@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_2"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:positioning/dungeon/dawnshore_dungeon/1-2_floor_stairway"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:positioning/dungeon/dawnshore_dungeon/2-3_floor_stairway"
+    }
+  ]
+}
