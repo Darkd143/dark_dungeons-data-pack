@@ -13,4 +13,4 @@ execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_d
 
 scoreboard players reset @s temp_storage
 
-schedule function dark_dungeons:dungeons/dawnshore_dungeon/resetting/add_zombies_floor_1 1000 replace
+schedule function dark_dungeons:dungeons/dawnshore_dungeon/resetting/repeating_floor_1 1000 replace

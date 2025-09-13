@@ -1,7 +1,3 @@
-schedule function dark_dungeons:dungeons/dawnshore_dungeon/resetting/add_zombies_floor_3 1000 replace
-
-execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_3,predicate=!dark_dungeons:positioning/dungeon/dawnshore_dungeon/boss_room,gamemode=adventure] run return 0
-
 # Top Middle
 execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_3/top_middle_room,gamemode=adventure] unless entity @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_3/top_middle_room,tag=monster] if function dark_dungeons:random/percentage/75 positioned -66 56 175 run function dark_dungeons:dungeons/dawnshore_dungeon/summoning_tables/floor_3
 

@@ -1,7 +1,3 @@
-schedule function dark_dungeons:dungeons/dawnshore_dungeon/resetting/add_zombies_floor_1 1000 replace
-
-execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_1,gamemode=adventure] run return 0
-
 # Top right (Armory)
 execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_1/top_right_room,gamemode=adventure] unless entity @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_1/top_right_room,tag=monster] if function dark_dungeons:random/percentage/75 positioned -82 70 175 run function dark_dungeons:dungeons/dawnshore_dungeon/summoning_tables/floor_1
 
