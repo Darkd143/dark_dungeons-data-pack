@@ -1,7 +1,5 @@
-execute unless entity @a[distance=0..10,tag=wanted_criminal] unless entity @a[distance=0..10,tag=dawnshore_criminal] run function dark_dungeons:creatures/management/tp_to_world_kill_zone
+execute if function dark_dungeons:players/crime/override_tags run return 0
 
-execute as @s[predicate=dark_dungeons:targetting/entity_targetting_player] on target if entity @s[distance=11..] run function dark_dungeons:players/crime/select_new_target
+execute if entity @s[predicate=!dark_dungeons:positioning/area/in_valid_area] run function dark_dungeons:creatures/management/tp_to_world_kill_zone
 
-execute as @s[predicate=!dark_dungeons:targetting/entity_targetting_player] run function dark_dungeons:players/crime/select_new_target
-
-execute on attacker if entity @s[type=player] unless entity @s[tag=wanted_criminal] unless entity @s[tag=dawnshore_criminal] run function dark_dungeons:players/crime/attacked_guard
+execute if entity @s[predicate=dark_dungeons:positioning/location/dawnshore/dawnshore] run function dark_dungeons:locations/dawnshore/crime/guard_management
