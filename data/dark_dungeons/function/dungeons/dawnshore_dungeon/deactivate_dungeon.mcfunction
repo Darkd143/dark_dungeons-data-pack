@@ -1,4 +1,3 @@
-say Deactivate
 tag @s remove active_dungeon
 
 # Send all Non-boss Zombies to Kill Zone
