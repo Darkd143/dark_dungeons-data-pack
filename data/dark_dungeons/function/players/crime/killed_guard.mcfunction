@@ -2,7 +2,7 @@
 execute at @s run tellraw @a[distance=0..20] [{selector:"@s",color:"red"},{text:" murdered an armed guard.",color:"red"}]
 
 # Tags
-tag @s add murderer
+tag @s add murdered_guard
 
 # Default Reputation Drop
 scoreboard players remove @s reputation 500
