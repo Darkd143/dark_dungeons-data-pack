@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{'SelectedItem':{'components':{'minecraft:bundle_contents':[{'components':{'minecraft:custom_data':{'stealable':True,'valid':True}}}]}}}"
+  }
+}
