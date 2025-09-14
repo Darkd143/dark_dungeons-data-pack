@@ -1,0 +1,2 @@
+function dark_dungeons:players/crime/thievery/correct_item_data
+function dark_dungeons:players/crime/thievery/correct_bundle_item_data
