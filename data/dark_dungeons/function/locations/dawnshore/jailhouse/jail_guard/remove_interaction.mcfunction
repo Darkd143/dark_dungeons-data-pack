@@ -1,0 +1,1 @@
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/jailhouse_zone,tag=dawnshore_jailhouse_guard_interaction]

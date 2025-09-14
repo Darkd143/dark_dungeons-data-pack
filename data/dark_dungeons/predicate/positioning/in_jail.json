@@ -1,0 +1,15 @@
+[
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "dark_dungeons:positioning/locations/dawnshore/jailhouse/cell_1"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "dark_dungeons:positioning/locations/dawnshore/jailhouse/cell_2"
+      }
+    ]
+  }
+]
