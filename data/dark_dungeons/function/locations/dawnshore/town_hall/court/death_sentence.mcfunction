@@ -7,6 +7,6 @@ tag @s remove death_sentence
 
 tellraw @s [{selector:"@s"},{"text":" was sentenced to death."}]
 
-kill @s
+function dark_dungeons:creatures/management/tp_to_world_kill_zone
 
 function dark_dungeons:locations/dawnshore/town_hall/court/teardown
