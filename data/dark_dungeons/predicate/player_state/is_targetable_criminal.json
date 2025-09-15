@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:reference",
+        "name": "dark_dungeons:positioning/in_jail"
+      }
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:player_state/is_criminal"
+    }
+  ]
+}

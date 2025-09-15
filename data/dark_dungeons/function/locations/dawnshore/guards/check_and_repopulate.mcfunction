@@ -1,0 +1,1 @@
+execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_town_hall_guard,tag=positioned_guard] run function dark_dungeons:locations/dawnshore/guards/town_hall_guard/setup

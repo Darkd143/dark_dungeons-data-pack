@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{'Tags':['wanted_criminal']}"
+      }
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:player_state/is_area_criminal"
+    }
+  ]
+}

@@ -5,6 +5,12 @@
       "conditions": {
         "entity": {
           "nbt": "{'Tags':['guard']}"
+        },
+        "killing_blow": {
+          "source_entity": {
+            "type": "minecraft:player"
+          },
+          "is_direct": true
         }
       }
     }
