@@ -1,4 +1,4 @@
-data modify storage dark_dungeons:court_info punishment_string set value "items will be confiscated from your inn room."
+data modify storage dark_dungeons:court_info punishment_string set value "items will be confiscated from your local inn room."
 
 execute unless data block ~ ~ ~ Items[0] run return 0
 

@@ -6,4 +6,4 @@ execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall/
 
 data remove storage dark_dungeons:court_info crime_string
 
-schedule function dark_dungeons:locations/dawnshore/town_hall/court/messages/punishment 100
+schedule function dark_dungeons:locations/dawnshore/town_hall/court/messages/announce_fine 100

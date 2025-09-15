@@ -1,4 +1,4 @@
-data modify storage dark_dungeons:court_info punishment_string set value "money will be confiscated from your bank account and it will be closed."
+data modify storage dark_dungeons:court_info punishment_string set value "all money will be confiscated from your bank account."
 scoreboard players operation @s charge_money -= @s bank_money_1
 scoreboard players remove @s charge_money 10
 execute if entity @s[scores={charge_money=..0}] run scoreboard players set @s charge_money 0
