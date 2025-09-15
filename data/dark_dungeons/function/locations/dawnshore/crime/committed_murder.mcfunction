@@ -7,4 +7,4 @@ tag @s add dawnshore_criminal
 execute if entity @s[scores={reputation=..-1001},tag=!wanted_criminal] run tag @s add wanted_criminal
 
 # Summon Guard
-function dark_dungeons:players/crime/summon_guard_positioning/north
+function dark_dungeons:players/crime/guards/summon_guard_positioning/north

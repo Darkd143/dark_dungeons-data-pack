@@ -10,7 +10,7 @@ execute as @a[scores={left_game=1..}] run function dark_dungeons:players/logged_
 # Mob Management
 function dark_dungeons:creatures/management/world_kill_zone
 function dark_dungeons:creatures/management/remove_size_0_slimes
-execute as @e[tag=guard,type=!player] at @s run function dark_dungeons:players/crime/guard_management
+execute as @e[tag=guard,type=!player] at @s run function dark_dungeons:players/crime/guards/manage_guard
 
 # Run Gamemode Positioning Commands
 execute as @a[predicate=dark_dungeons:positioning/area/in_valid_area,gamemode=survival] run gamemode adventure @s

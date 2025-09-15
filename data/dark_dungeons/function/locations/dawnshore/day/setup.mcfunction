@@ -6,3 +6,6 @@ function dark_dungeons:locations/dawnshore/market/day/setup
 function dark_dungeons:locations/dawnshore/butcher/day/setup
 function dark_dungeons:locations/dawnshore/registration_hut/day/setup
 function dark_dungeons:locations/dawnshore/craftsman/day/setup
+
+# Town Guards
+
