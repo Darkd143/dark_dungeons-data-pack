@@ -13,25 +13,21 @@ execute if entity @s[scores={bank_money_1=0..}] run return run function dark_dun
 # 4 Money Removed From Person
 execute if function dark_dungeons:players/crime/court/punishments/player_money_confiscated run return 0
 
-# 5 Money Removed From Inn
+# 5 Items Removed from Inn
 
-# TODO
+execute if function dark_dungeons:players/crime/court/punishments/remove_inn_items run return 0
 
-# 6 Money Removed From Property
+# 6 Items Removed From Property
 
-# TODO
+execute if function dark_dungeons:players/crime/court/punishments/remove_property_items run return 0
 
-# 7 Items Removed from Inn
+# 7 Items Cleared From Person
+execute if entity @s[predicate=!dark_dungeons:has_items/no_items] run return run function dark_dungeons:players/crime/court/punishments/clear_inventory
 
-# TODO
-
-# 8 Items Cleared From Person
-execute if entity @s[predicate=!dark_dungeons:has_items/no_items] run return run function dark_dungeons:players/crime/court/punishments/cleared_inventory
-
-# 9 Property Seizure
+# 8 Property Seizure
 execute if function dark_dungeons:players/crime/court/punishments/property_seizure run return 0
 
-# 10 Death Penalty
+# 9 Death Penalty
 data modify storage dark_dungeons:court_info punishment_string set value "you will be condemned to death."
 scoreboard players remove @s reputation 500
 execute if entity @s[scores={reputation=..-2001}] run scoreboard players set @s reputation -2000
