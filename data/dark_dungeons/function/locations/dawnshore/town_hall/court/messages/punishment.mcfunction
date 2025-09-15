@@ -1,9 +1,11 @@
 execute unless entity @p[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall/courtroom_cell] run return run function dark_dungeons:locations/dawnshore/town_hall/court/messages/criminal_left_the_game
 
+# TODO
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall/courtroom_cell] unless entity @s[scores={left_game=1..}] run function dark_dungeons:players/crime/court/select_punishment
 
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall/courtroom_cell] unless entity @s[scores={left_game=1..}] run tellraw @a[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall/court_room] [{"text":"Judge Thalric: Let's begin with "},{"selector":"@s"},{"text":"'s charge of "},{"nbt":"crime_string",storage:"dark_dungeons:court_info"},{"text":"."}]
 
 data remove storage dark_dungeons:court_info crime_string
 
-schedule function dark_dungeons:locations/dawnshore/town_hall/court/messages/punishment 100
+# TODO
+schedule function dark_dungeons:locations/dawnshore/town_hall/court/messages/next_charge 100

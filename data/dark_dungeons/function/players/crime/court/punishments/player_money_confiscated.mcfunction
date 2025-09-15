@@ -12,4 +12,6 @@ execute if entity @s[predicate=dark_dungeons:has_items/currency/platinum_coin] r
 
 # Bundle Money Confiscate
 
+# TODO
+
 return 1

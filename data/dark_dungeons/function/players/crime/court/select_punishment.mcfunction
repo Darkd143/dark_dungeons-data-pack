@@ -15,9 +15,15 @@ execute if function dark_dungeons:players/crime/court/punishments/player_money_c
 
 # 5 Money Removed From Inn
 
+# TODO
+
 # 6 Money Removed From Property
 
+# TODO
+
 # 7 Items Removed from Inn
+
+# TODO
 
 # 8 Items Cleared From Person
 execute if entity @s[predicate=!dark_dungeons:has_items/no_items] run return run function dark_dungeons:players/crime/court/punishments/cleared_inventory
