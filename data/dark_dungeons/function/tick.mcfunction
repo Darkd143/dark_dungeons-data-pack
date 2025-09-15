@@ -4,6 +4,9 @@ execute as @e[tag=default-time-manager,predicate=dark_dungeons:time/noon_tick] r
 execute as @e[tag=default-time-manager,predicate=dark_dungeons:time/night_tick] run function dark_dungeons:time/night_tick
 execute as @e[tag=default-time-manager,predicate=dark_dungeons:time/midnight_tick] run function dark_dungeons:time/midnight_tick
 
+# Left Game Management
+execute as @a[scores={left_game=1..}] run function dark_dungeons:players/logged_out/logged_out_check
+
 # Mob Management
 function dark_dungeons:creatures/management/world_kill_zone
 function dark_dungeons:creatures/management/remove_size_0_slimes

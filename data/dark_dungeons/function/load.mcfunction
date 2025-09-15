@@ -2,7 +2,7 @@
 scoreboard objectives add player_id dummy "Player ID"
 scoreboard objectives add reputation dummy "Reputation"
 scoreboard objectives add task_progress dummy "Task Progress"
-scoreboard objectives add JustLeft minecraft.custom:minecraft.leave_game
+scoreboard objectives add left_game minecraft.custom:minecraft.leave_game
 
 # RPG
 # scoreboard objectives add fishing_level dummy "Fishing Level"
@@ -34,3 +34,7 @@ scoreboard objectives add temp_storage dummy
 scoreboard objectives add quest_type dummy
 scoreboard objectives add quest_id dummy
 scoreboard objectives add quest_day_limit dummy
+
+# Legal System
+scoreboard objectives add charge_count dummy
+scoreboard objectives add charge_money dummy
