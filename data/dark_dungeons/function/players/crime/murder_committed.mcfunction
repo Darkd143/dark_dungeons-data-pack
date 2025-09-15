@@ -4,7 +4,7 @@ execute at @s run tellraw @a[distance=0..20] [{selector:"@s",color:"red"},{text:
 # Tags
 tag @s add murderer
 
-# If Player is in Dawnshore Town, summon a guard
+# If Player is in Dawnshore Town, summon a guard and tag the individual
 execute if entity @s[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore] run return run function dark_dungeons:locations/dawnshore/crime/committed_murder
 
 # Default Reputation Drop

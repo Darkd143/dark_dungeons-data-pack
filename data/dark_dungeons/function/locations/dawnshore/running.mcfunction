@@ -44,3 +44,7 @@ execute as @a[predicate=!dark_dungeons:positioning/locations/dawnshore/adventure
 execute as @a[predicate=!dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_7_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
 
 execute as @a[predicate=!dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_8_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
+
+
+# Replace Prison Guard
+execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_jailhouse_guard] if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,gamemode=adventure] run function dark_dungeons:locations/dawnshore/jailhouse/jail_guard/setup
