@@ -19,5 +19,5 @@ execute unless entity @e[tag=dawnshore_ritual_summoner_interaction_7] run summon
 execute unless entity @e[tag=dawnshore_ritual_summoner_interaction_8] run summon minecraft:interaction -34 74 97 {width:0.8,height:2.0,CustomName:"Ritual Summoner",Tags:['dawnshore_ritual_summoner_interaction','dawnshore_ritual_summoner_interaction_8']}
 
 # Altar Guard
-execute unless entity @e[tag=dawnshore_altar_guard] run summon minecraft:pillager -45 73 100 {Invulnerable:1b,Silent:1b,NoAI:1b,PersistenceRequired:1b,equipment:{mainhand:{id:wooden_sword}},Rotation:[135,0],Tags:["dawnshore_altar_guard"]}
+execute unless entity @e[tag=dawnshore_altar_guard] run summon minecraft:pillager -45 73 100 {Invulnerable:1b,Silent:1b,CustomName:"Altar Guard",NoAI:1b,PersistenceRequired:1b,equipment:{mainhand:{id:wooden_sword}},Rotation:[135,0],Tags:["dawnshore_altar_guard","guard","lookout_guard","guard_summon_west"]}
 execute unless entity @e[tag=dawnshore_altar_guard_interaction] run summon minecraft:interaction -45 73 100 {width:0.8,height:2.0,CustomName:"Altar Guard",Tags:['dawnshore_altar_guard_interaction']}

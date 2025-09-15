@@ -6,4 +6,4 @@ execute as @s[predicate=dark_dungeons:targetting/entity_targetting_player] on ta
 
 execute as @s[predicate=!dark_dungeons:targetting/entity_targetting_player] run function dark_dungeons:players/crime/select_new_target
 
-execute on attacker if entity @s[type=player] unless entity @s[tag=wanted_criminal] unless entity @s[tag=dawnshore_criminal] run function dark_dungeons:players/crime/attacked_guard
+execute on attacker if entity @s[type=player] unless entity @s[tag=guard_assault] run function dark_dungeons:players/crime/attacked_guard
