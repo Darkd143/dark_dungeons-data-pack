@@ -1,7 +1,4 @@
-execute at @s run summon armor_stand ~ ~ ~ {Invisible:true,Marker:true,NoGravity:true,Tags:['stealing_data_entity_storage']}
-# scoreboard players operation @n[type=armor_stand,tag=stealing_data_entity_storage] player_id = @s player_id
-# scoreboard players operation @n[type=armor_stand,tag=stealing_data_entity_storage] temp_storage = @s temp_storage
-# execute as @n[type=armor_stand,tag=stealing_data_entity_storage] run function dark_dungeons:creatures/management/tp_to_entity_storage
+execute at @s run summon armor_stand ~ ~ ~ {Invisible:true,Marker:true,NoGravity:true,Tags:['stealing_data_entity_storage'],DisabledSlots:4144959}
 
 # Container 0
 execute if entity @s[scores={temp_storage=0}] run item replace entity @n[type=armor_stand,tag=stealing_data_entity_storage] weapon.mainhand from entity @s container.0
