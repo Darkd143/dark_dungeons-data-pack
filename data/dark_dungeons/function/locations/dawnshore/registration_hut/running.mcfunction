@@ -14,4 +14,4 @@ execute as @p[tag=registering_action] run function dark_dungeons:locations/dawns
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/registration_hut,tag=dawnshore_registration_hut_unauthorized] run function dark_dungeons:locations/dawnshore/registration_hut/unauthorized_interaction
 
 # Thievery
-execute as @a[x=-54,y=73,z=102,distance=5.7..6,predicate=dark_dungeons:has_items/user_stealing] run function dark_dungeons:locations/dawnshore/registration_hut/thievery
+execute as @a[x=-54,y=73,z=102,distance=5.7..6,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/registration_hut/thievery
