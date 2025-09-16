@@ -6,6 +6,6 @@ execute if entity @s[predicate=dark_dungeons:entity_state/projectiles/arrows/pro
 execute if entity @s[predicate=dark_dungeons:entity_state/projectiles/arrows/projectile_strength_7] run data modify entity @s damage set value 3.0d
 execute if entity @s[predicate=dark_dungeons:entity_state/projectiles/arrows/projectile_strength_8] run data modify entity @s damage set value 3.5d
 execute if entity @s[predicate=dark_dungeons:entity_state/projectiles/arrows/projectile_strength_9] run data modify entity @s damage set value 4.0d
-execute if entity @s[predicate=dark_dungeons:entity_state/projectiles/arrows/projectile_range_1] run function dark_dungeons:entity_state/projectiles/arrows/arrows_range_1
-execute if entity @s[predicate=dark_dungeons:entity_state/projectiles/arrows/projectile_range_2] run function dark_dungeons:entity_state/projectiles/arrows/arrows_range_2
+execute if entity @s[predicate=dark_dungeons:entity_state/projectiles/arrows/projectile_range_1] run function dark_dungeons:projectiles/arrows/arrows_range_1
+execute if entity @s[predicate=dark_dungeons:entity_state/projectiles/arrows/projectile_range_2] run function dark_dungeons:projectiles/arrows/arrows_range_2
 tag @s add processed_arrow

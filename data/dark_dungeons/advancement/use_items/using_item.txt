@@ -6,7 +6,7 @@
 - Ominous Bottle ❗ (low priority)
 - Honey ❗
 - Misc Drops (Spider Eye, Rotten Flesh, Pufferfish)
-- Trident ❗
+- Trident ✅
 - Shield ✅
 - Bundle
 - Brush
@@ -30,10 +30,10 @@
 - Fishing Rod
 - Shears
 - Bone Meal
-- Firework Rocket
+- Firework Rocket ❗
 - Snowball
 - eggs
-- Wind Charge ❗
+- Wind Charge ✅
 - Lead
 - Horse armor
 - Fire Charge
