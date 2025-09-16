@@ -1,0 +1,26 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "nbt": "{'equipment':{'legs':{'components':{'minecraft:damage':105}}}}"
+        }
+    },
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "nbt": "{'equipment':{'legs':{'components':{'minecraft:damage':104}}}}"
+        }
+    },
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "nbt": "{'equipment':{'legs':{'components':{'minecraft:damage':103}}}}"
+        }
+    }
+  ]
+}

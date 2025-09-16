@@ -1,0 +1,37 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:inventory/wearing_item/armor/head/leather"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:inventory/wearing_item/armor/head/copper"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:inventory/wearing_item/armor/head/chainmail"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:inventory/wearing_item/armor/head/iron"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:inventory/wearing_item/armor/head/golden"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:inventory/wearing_item/armor/head/diamond"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:inventory/wearing_item/armor/head/netherite"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:inventory/wearing_item/armor/head/turtle_shell"
+        }
+    ]
+}
