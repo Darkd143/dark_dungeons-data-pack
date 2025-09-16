@@ -35,8 +35,8 @@ kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=da
 
 # Bank NPCs
 kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=bank_seat]
-execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=bank_npc] run function dark_dungeons:creatures/management/tp_to_world_kill_zone
-kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=bank_npc_interaction]
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_npc] run function dark_dungeons:creatures/management/tp_to_world_kill_zone
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_npc_interaction]
 
 # Bank Manager Safe
-kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=bank_manager_safe_interaction]
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_manager_safe_interaction]

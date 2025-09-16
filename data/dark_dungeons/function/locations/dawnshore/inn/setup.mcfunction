@@ -3,11 +3,11 @@ execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore
 execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_innkeeper_interaction] run summon minecraft:interaction -60 72 84 {CustomName:"Innkeeper",Tags:['dawnshore_inn_innkeeper_interaction'],width:0.8,height:2.0}
 
 # NPC 1
-execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_npc_1] run summon minecraft:armor_stand -60.0 73.55 85.3 {Silent:1b,Passengers:[{id:vindicator,Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,Rotation:[180,0],Tags:['dawnshore_inn_npc','dawnshore_inn_npc_1']}],Tags:['inn_seat'],Invisible:1b,NoGravity:1b,Rotation:[180,0]}
+execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_npc_1] run summon minecraft:armor_stand -60.0 73.55 85.3 {Silent:1b,Passengers:[{id:vindicator,Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,Rotation:[180,0],Tags:['dawnshore_inn_npc','dawnshore_inn_npc_1','npc']}],Tags:['inn_seat'],Invisible:1b,NoGravity:1b,Rotation:[180,0]}
 execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_npc_interaction_1] run summon minecraft:interaction -60.0 75 85.3 {width:0.8,height:2.0,Tags:['dawnshore_inn_npc_interaction','dawnshore_inn_npc_interaction_1'],CustomName:"Alden Greylock"}
 
 # NPC 2
-execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_npc_2] run summon minecraft:armor_stand -60.0 73.55 83.7 {Silent:1b,Passengers:[{id:vindicator,Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,Rotation:[0,0],Tags:['dawnshore_inn_npc','dawnshore_inn_npc_2']}],Tags:['inn_seat'],Invisible:1b,NoGravity:1b,Rotation:[0,0]}
+execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_npc_2] run summon minecraft:armor_stand -60.0 73.55 83.7 {Silent:1b,Passengers:[{id:vindicator,Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,Rotation:[0,0],Tags:['dawnshore_inn_npc','dawnshore_inn_npc_2','npc']}],Tags:['inn_seat'],Invisible:1b,NoGravity:1b,Rotation:[0,0]}
 execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_npc_interaction_2] run summon minecraft:interaction -60.0 75 83.7 {width:0.8,height:2.0,Tags:['dawnshore_inn_npc_interaction','dawnshore_inn_npc_interaction_2'],CustomName:"Jarek Flynn"}
 
 # Room 1 Door

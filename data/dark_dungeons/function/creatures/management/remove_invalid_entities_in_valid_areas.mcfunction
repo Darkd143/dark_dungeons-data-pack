@@ -1,0 +1,1 @@
+execute as @e[predicate=dark_dungeons:entity_state/invalid_entity_in_valid_area] run function dark_dungeons:creatures/management/tp_to_world_kill_zone
