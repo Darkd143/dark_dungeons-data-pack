@@ -38,15 +38,15 @@ execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore
 execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_npc_interaction_1] run summon minecraft:interaction -83 73 84 {width:0.8,height:2.0,Tags:['dawnshore_bank_npc_interaction','dawnshore_bank_npc_interaction_1']}
 
 # Bank NPC 2
-execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_npc_2] run summon minecraft:armor_stand -78.7 71.55 90.3 {Silent:1b,Passengers:[{id:vindicator,Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,Rotation:[135,0],Tags:['dawnshore_bank_npc','dawnshore_bank_npc_2']}],Tags:['bank_seat'],Invisible:1b,NoGravity:1b,Rotation:[135,0]}
+execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_npc_2] run summon minecraft:armor_stand -78.7 71.55 90.3 {Silent:1b,Passengers:[{id:vindicator,Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,Rotation:[135,0],Tags:['dawnshore_bank_npc','dawnshore_bank_npc_2','npc']}],Tags:['bank_seat'],Invisible:1b,NoGravity:1b,Rotation:[135,0]}
 execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_npc_interaction_2] run summon minecraft:interaction -78.7 73 90.3 {width:0.8,height:2.0,Tags:['dawnshore_bank_npc_interaction','dawnshore_bank_npc_interaction_2']}
 
 # Bank NPC 3
-execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_npc_3] run summon minecraft:armor_stand -83 71.55 90.3 {Silent:1b,Passengers:[{id:vindicator,Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,Rotation:[180,0],Tags:['dawnshore_bank_npc','dawnshore_bank_npc_3']}],Tags:['bank_seat'],Invisible:1b,NoGravity:1b,Rotation:[180,0]}
+execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_npc_3] run summon minecraft:armor_stand -83 71.55 90.3 {Silent:1b,Passengers:[{id:vindicator,Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,Rotation:[180,0],Tags:['dawnshore_bank_npc','dawnshore_bank_npc_3','npc']}],Tags:['bank_seat'],Invisible:1b,NoGravity:1b,Rotation:[180,0]}
 execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_npc_interaction_3] run summon minecraft:interaction -83 73 90.3 {width:0.8,height:2.0,Tags:['dawnshore_bank_npc_interaction','dawnshore_bank_npc_interaction_3']}
 
 # Bank NPC 4
-execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_npc_4] run summon minecraft:armor_stand -85.3 71.55 89 {Silent:1b,Passengers:[{id:vindicator,Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,Rotation:[270,0],Tags:['dawnshore_bank_npc','dawnshore_bank_npc_4']}],Tags:['bank_seat'],Invisible:1b,NoGravity:1b,Rotation:[270,0]}
+execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_npc_4] run summon minecraft:armor_stand -85.3 71.55 89 {Silent:1b,Passengers:[{id:vindicator,Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,Rotation:[270,0],Tags:['dawnshore_bank_npc','dawnshore_bank_npc_4','npc']}],Tags:['bank_seat'],Invisible:1b,NoGravity:1b,Rotation:[270,0]}
 execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_npc_interaction_4] run summon minecraft:interaction -85.3 73 89 {width:0.8,height:2.0,Tags:['dawnshore_bank_npc_interaction','dawnshore_bank_npc_interaction_4']}
 
 # Bank NPC 5

@@ -13,3 +13,5 @@ function dark_dungeons:locations/dawnshore/wall/teardown
 function dark_dungeons:locations/dawnshore/pier/teardown
 function dark_dungeons:locations/dawnshore/garbage_dump/teardown
 function dark_dungeons:locations/dawnshore/adventurers_guild/teardown
+function dark_dungeons:locations/dawnshore/jailhouse/teardown
+function dark_dungeons:locations/dawnshore/inn/teardown
