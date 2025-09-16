@@ -17,7 +17,7 @@
         },
         {
           "condition": "minecraft:reference",
-          "name": "dark_dungeons:inventory/offhand/tool/valid_shield"
+          "name": "dark_dungeons:inventory/offhand/tool/shield/valid_shield"
         }
       ]
     }

@@ -7,7 +7,7 @@
         },
         {
             "condition": "minecraft:reference",
-            "name": "dark_dungeons:inventory/offhand/custom_data/valid"
+            "name": "dark_dungeons:inventory/offhand/components/custom_data/valid"
         }
     ]
 }
