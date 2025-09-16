@@ -6,8 +6,8 @@ function dark_dungeons:locations/dawnshore/adventurers_guild/actions/messages/se
 function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
 
 # Not An Adventurer
-execute unless entity @s[scores={adventurer_rank=0..}] if entity @s[predicate=!dark_dungeons:inventory/holding_item/currency/silver_coin] run tellraw @s ["Guild Receptionist Nessa: Adventurers complete quests to earn rewards and build reputation."]
-execute unless entity @s[scores={adventurer_rank=0..}] if entity @s[predicate=dark_dungeons:inventory/holding_item/currency/silver_coin] run tellraw @s ["Guild Receptionist Nessa: If you want to register as an adventurer, Elara can help you with that."]
+execute unless entity @s[scores={adventurer_rank=0..}] if entity @s[predicate=!dark_dungeons:inventory/selected_item/currency/silver_coin] run tellraw @s ["Guild Receptionist Nessa: Adventurers complete quests to earn rewards and build reputation."]
+execute unless entity @s[scores={adventurer_rank=0..}] if entity @s[predicate=dark_dungeons:inventory/selected_item/currency/silver_coin] run tellraw @s ["Guild Receptionist Nessa: If you want to register as an adventurer, Elara can help you with that."]
 execute unless entity @s[scores={adventurer_rank=0..}] run return 0
 
 # User is a wanted_criminal

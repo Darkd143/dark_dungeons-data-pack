@@ -1,2 +1,2 @@
-execute if entity @s[predicate=dark_dungeons:inventory/wearing_item/components/damage/chest/80] run say Valid!
-execute if entity @s[predicate=!dark_dungeons:inventory/wearing_item/components/damage/chest/80] run say Invalid!
+execute if entity @s[predicate=dark_dungeons:inventory/offhand/tool/totem/totem_of_undying] run say Valid!
+execute if entity @s[predicate=!dark_dungeons:inventory/offhand/tool/totem/totem_of_undying] run say Invalid!

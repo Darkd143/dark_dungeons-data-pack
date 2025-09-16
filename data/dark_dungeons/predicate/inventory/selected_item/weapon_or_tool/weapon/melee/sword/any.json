@@ -1,0 +1,33 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:inventory/selected_item/weapon_or_tool/weapon/melee/sword/copper"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:inventory/selected_item/weapon_or_tool/weapon/melee/sword/diamond"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:inventory/selected_item/weapon_or_tool/weapon/melee/sword/golden"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:inventory/selected_item/weapon_or_tool/weapon/melee/sword/iron"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:inventory/selected_item/weapon_or_tool/weapon/melee/sword/netherite"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:inventory/selected_item/weapon_or_tool/weapon/melee/sword/stone"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:inventory/selected_item/weapon_or_tool/weapon/melee/sword/wooden"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "terms": [
     {
       "condition": "minecraft:reference",
-      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/shield/valid_shield"
+      "name": "dark_dungeons:inventory/selected_item/weapon_or_tool/tool/shield/valid_shield"
     },
     {
       "condition": "minecraft:all_of",
@@ -12,7 +12,7 @@
           "condition": "minecraft:inverted",
           "term": {
             "condition": "minecraft:reference",
-            "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/shield/shield"
+            "name": "dark_dungeons:inventory/selected_item/weapon_or_tool/tool/shield/shield"
           }
         },
         {

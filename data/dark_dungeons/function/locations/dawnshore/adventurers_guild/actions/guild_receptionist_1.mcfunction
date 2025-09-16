@@ -1,7 +1,7 @@
 tag @s remove dawnshore_adventurer_guild_receptionist_1_action
 
 # Try to Pay Silver Coin
-execute if entity @s[predicate=dark_dungeons:inventory/holding_item/currency/silver_coin] run return run function dark_dungeons:locations/dawnshore/adventurers_guild/actions/messages/pay_silver_attempt
+execute if entity @s[predicate=dark_dungeons:inventory/selected_item/currency/silver_coin] run return run function dark_dungeons:locations/dawnshore/adventurers_guild/actions/messages/pay_silver_attempt
 
 # User is a wanted_criminal
 execute if entity @s[tag=wanted_criminal] run return run function dark_dungeons:locations/dawnshore/adventurers_guild/actions/messages/bad_status_as_an_adventurer
