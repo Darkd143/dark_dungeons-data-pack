@@ -4,13 +4,13 @@
     "terms": [
       {
         "condition": "minecraft:reference",
-        "name": "dark_dungeons:projectiles/arrow_or_spectral_arrow"
+        "name": "dark_dungeons:entity_state/projectiles/arrows/arrow_or_spectral_arrow"
       },
       {
         "condition": "minecraft:inverted",
         "term": {
           "condition": "minecraft:reference",
-          "name": "dark_dungeons:projectiles/entity_has_valid_weapon"
+          "name": "dark_dungeons:entity_state/projectiles/arrows/entity_has_valid_weapon"
         }
       }
     ]

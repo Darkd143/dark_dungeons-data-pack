@@ -1,2 +1,2 @@
 # #fixcopper
-execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_baker] run function dark_dungeons:creatures/management/tp_to_world_kill_zone
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_baker] run function dark_dungeons:entities/management/tp_to_world_kill_zone

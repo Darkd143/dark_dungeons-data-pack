@@ -1,4 +1,4 @@
-function dark_dungeons:creatures/management/tp_to_world_kill_zone
+function dark_dungeons:entities/management/tp_to_world_kill_zone
 
 # If time is night, return before following mobs are spawned
 

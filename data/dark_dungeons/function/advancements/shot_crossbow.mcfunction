@@ -1,3 +1,3 @@
 # Run Special Commands on Arrows shot from restrictive weapons
-function dark_dungeons:projectiles/run
+function dark_dungeons:entity_state/projectiles/arrows/run
 advancement revoke @s only dark_dungeons:use_items/shot_crossbow

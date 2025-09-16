@@ -1,32 +1,32 @@
 
 # Items that are identified by using item
-- Food
-- Milk
-- Potions
-- Ominous Bottle
-- Honey
+- Food ❗
+- Milk ❗
+- Potions ❗
+- Ominous Bottle ❗ (low priority)
+- Honey ❗
 - Misc Drops (Spider Eye, Rotten Flesh, Pufferfish)
-- Trident
-- Shield
+- Trident ❗
+- Shield ✅
 - Bundle
 - Brush
-- Bow
-- Crossbow
+- Bow ❗
+- Crossbow ❗
 - Eye of Ender
 - Spyglass
 - Goat Horn
 
 # Items that are not identified by using item
-- Splash Potions ❗
-- Lingering Potions ❗
+- Splash Potions ✅
+- Lingering Potions ✅
 - Mob spawn eggs
 - Blocks
-- Attacking with weapons ❗
+- Attacking with Melee Weapons ✅
 - Mace
 - Stripping wood with an axe, pathing with shovel, tilling with hoe
 - Equipping armor/elytra
 - Using bucket items (except milk)
-- Consuming a Totem of Undying
+- Consuming a Totem of Undying ❗
 - Fishing Rod
 - Shears
 - Bone Meal
@@ -39,7 +39,7 @@
 - Fire Charge
 - Flint & Steel
 - Name Tag
-- Ender Pearl ❗
+- Ender Pearl ✅
 - Compass
 - Clock
 - Recovery Compass
@@ -53,4 +53,3 @@
 - Dragon's Breath
 - Bottle o' Enchanting
 - trial keys
-

@@ -7,10 +7,10 @@ execute as @e[tag=default-time-manager,predicate=dark_dungeons:time/midnight_tic
 # Left Game Management
 execute as @a[scores={left_game=1..}] run function dark_dungeons:players/logged_out/logged_out_check
 
-# Mob Management
-function dark_dungeons:creatures/management/world_kill_zone
-function dark_dungeons:creatures/management/remove_size_0_slimes
-function dark_dungeons:creatures/management/remove_invalid_entities_in_valid_areas
+# Entity Management
+function dark_dungeons:entities/management/world_kill_zone
+function dark_dungeons:entities/management/remove_size_0_slimes
+function dark_dungeons:entities/management/remove_invalid_entities_in_valid_areas
 execute as @e[tag=guard,type=!player] at @s run function dark_dungeons:players/crime/guards/manage_guard
 
 # Run Gamemode Positioning Commands

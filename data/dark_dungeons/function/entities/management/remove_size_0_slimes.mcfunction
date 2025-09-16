@@ -1,0 +1,1 @@
+execute as @e[type=slime,nbt={Size:0},predicate=dark_dungeons:positioning/area/in_valid_area,predicate=!dark_dungeons:positioning/world_kill_zone] run function dark_dungeons:entities/management/tp_to_world_kill_zone
