@@ -1,0 +1,16 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:wearing_item/any_equipable/chest"
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:wearing_item/valid/chest"
+          }
+        }
+    ]
+}
