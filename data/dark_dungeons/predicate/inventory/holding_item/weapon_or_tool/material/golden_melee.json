@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/axe/golden"
+    },
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/hoe/golden"
+    },
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/pickaxe/golden"
+    },
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/shovel/golden"
+    },
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/weapon/melee/sword/golden"
+    }
+  ]
+}

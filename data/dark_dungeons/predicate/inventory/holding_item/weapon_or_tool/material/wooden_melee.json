@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/axe/wooden"
+    },
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/hoe/wooden"
+    },
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/pickaxe/wooden"
+    },
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/shovel/wooden"
+    },
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/weapon/melee/sword/wooden"
+    }
+  ]
+}

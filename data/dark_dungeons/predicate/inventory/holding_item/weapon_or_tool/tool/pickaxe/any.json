@@ -1,0 +1,33 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/pickaxe/copper"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/pickaxe/diamond"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/pickaxe/golden"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/pickaxe/iron"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/pickaxe/netherite"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/pickaxe/stone"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/pickaxe/wooden"
+    }
+  ]
+}

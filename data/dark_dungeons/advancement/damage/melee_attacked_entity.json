@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "attacked_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dark_dungeons:advancements/melee_attacked_entity"
+  }
+}

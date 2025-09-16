@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/axe/netherite"
+    },
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/hoe/netherite"
+    },
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/pickaxe/netherite"
+    },
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/shovel/netherite"
+    },
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/weapon/melee/sword/netherite"
+    }
+  ]
+}

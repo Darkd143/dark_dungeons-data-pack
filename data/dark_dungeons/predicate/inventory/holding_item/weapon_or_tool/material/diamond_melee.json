@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/axe/diamond"
+    },
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/hoe/diamond"
+    },
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/pickaxe/diamond"
+    },
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/tool/shovel/diamond"
+    },
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/holding_item/weapon_or_tool/weapon/melee/sword/diamond"
+    }
+  ]
+}
