@@ -3,7 +3,7 @@
   "terms": [
     {
       "condition": "reference",
-      "name": "dark_dungeons:inventory/selected_item/weapon_or_tool/weapon/ranged/crossbow"
+      "name": "dark_dungeons:inventory/selected_item/weapon_or_tool/weapon/ranged/crossbow/crossbow"
     },
     {
       "condition": "reference",

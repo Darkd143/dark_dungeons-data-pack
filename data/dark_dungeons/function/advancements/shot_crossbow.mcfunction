@@ -8,6 +8,12 @@ execute if entity @s[advancements={dark_dungeons:use_items/shot_crossbow_with_mu
 
 # Damage Weapon if not valid in valid area
 
-execute if entity @s[predicate=!dark_dungeons:positioning/area/in_valid_area] run return 0
+execute if entity @s[gamemode=!adventure] run return 0
 
-# Main item needs to be damaged by 10%
+execute if entity @s[predicate=dark_dungeons:inventory/holding/main/weapon/crossbow_is_valid] run return 0
+
+tellraw @s {"text":"[Looks like your crossbow isn't very durable around here.]",color:"gray"}
+
+execute if entity @s[predicate=dark_dungeons:inventory/selected_item/weapon_or_tool/weapon/ranged/crossbow/crossbow,predicate=!dark_dungeons:inventory/selected_item/weapon_or_tool/weapon/ranged/crossbow/durability_0] run return run item modify entity @s weapon.mainhand dark_dungeons:damage_item/10-percent
+
+execute if entity @s[predicate=dark_dungeons:inventory/offhand/weapons/ranged/crossbow/invalid,predicate=!dark_dungeons:inventory/offhand/weapons/ranged/crossbow/durability_0] run item modify entity @s weapon.offhand dark_dungeons:damage_item/10-percent

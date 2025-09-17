@@ -3,11 +3,11 @@
     "terms": [
         {
             "condition": "minecraft:reference",
-            "name": "dark_dungeons:inventory/offhand/tool/shield/shield"
+            "name": "dark_dungeons:inventory/selected_item/weapon_or_tool/weapon/ranged/crossbow/crossbow"
         },
         {
             "condition": "minecraft:reference",
-            "name": "dark_dungeons:inventory/offhand/components/damage/336"
+            "name": "dark_dungeons:inventory/selected_item/components/damage/465"
         }
     ]
 }
