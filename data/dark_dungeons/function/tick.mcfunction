@@ -27,4 +27,4 @@ function dark_dungeons:locations/running
 # Run Dungeon Functions
 function dark_dungeons:dungeons/running
 
-function dark_dungeons:test
+# function dark_dungeons:test

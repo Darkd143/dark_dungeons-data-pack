@@ -3,7 +3,7 @@
   "terms": [
     {
       "condition": "minecraft:reference",
-      "name": "dark_dungeons:entity_state/projectiles/arrow/shot_from/bow"
+      "name": "dark_dungeons:entity_state/projectiles/shot_from/bow"
     },
     {
       "condition": "minecraft:reference",

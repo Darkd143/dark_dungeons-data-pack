@@ -10,7 +10,7 @@
 - Shield ✅
 - Bundle
 - Brush
-- Bow ❗
+- Bow ✅
 - Crossbow ❗
 - Eye of Ender
 - Spyglass
@@ -31,6 +31,7 @@
 - Shears
 - Bone Meal
 - Firework Rocket ❗
+- Elytra ❗
 - Snowball
 - eggs
 - Wind Charge ✅

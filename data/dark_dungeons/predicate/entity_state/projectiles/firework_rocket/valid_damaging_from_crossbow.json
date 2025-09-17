@@ -1,0 +1,21 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:entity_state/projectiles/firework_rocket/firework_rocket"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:entity_state/projectiles/firework_rocket/from_crossbow"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:entity_state/projectiles/firework_rocket/with_explosions"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:entity_state/projectiles/firework_rocket/valid"
+        }
+    ]
+}
