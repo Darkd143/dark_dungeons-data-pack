@@ -37,7 +37,7 @@
 - Wind Charge ✅
 - Lead
 - Horse armor
-- Fire Charge
+- Fire Charge ❗ [From dispenser, ghast, etc...]
 - Flint & Steel
 - Name Tag
 - Ender Pearl ✅

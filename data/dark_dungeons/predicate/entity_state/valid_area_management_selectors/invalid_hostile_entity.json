@@ -3,7 +3,7 @@
   "terms": [
     {
       "condition": "minecraft:reference",
-      "name": "dark_dungeons:positioning/area/in_valid_area"
+      "name": "dark_dungeons:entity_state/valid_area_management_selectors/helpers/valid_area_not_kill_zone"
     },
     {
       "condition": "minecraft:entity_properties",
