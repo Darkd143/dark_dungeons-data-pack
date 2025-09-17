@@ -11,7 +11,7 @@
 - Bundle
 - Brush
 - Bow ✅
-- Crossbow ❗
+- Crossbow ✅
 - Eye of Ender
 - Spyglass
 - Goat Horn
@@ -30,14 +30,14 @@
 - Fishing Rod
 - Shears
 - Bone Meal
-- Firework Rocket ❗
+- Firework Rocket ✅
 - Elytra ❗
 - Snowball
 - eggs
 - Wind Charge ✅
 - Lead
 - Horse armor
-- Fire Charge ❗ [From dispenser, ghast, etc...]
+- Fire Charge ❗ [From dispenser, ghast, blaze etc...]
 - Flint & Steel
 - Name Tag
 - Ender Pearl ✅
