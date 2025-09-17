@@ -8,3 +8,6 @@ execute if entity @s[advancements={dark_dungeons:use_items/shot_crossbow_with_mu
 
 # Damage Weapon if not valid in valid area
 
+execute if entity @s[predicate=!dark_dungeons:positioning/area/in_valid_area] run return 0
+
+# Main item needs to be damaged by 10%

@@ -15,3 +15,9 @@ execute as @e[type=minecraft:trident,predicate=!dark_dungeons:entity_state/proje
 
 # Wind Charge
 execute as @e[type=minecraft:wind_charge,predicate=!dark_dungeons:entity_state/projectiles/thrown_item_is_valid,tag=!valid,tag=!processed] run function dark_dungeons:entities/management/used_invalid_item
+
+# Invalid Projectiles
+execute as @e[predicate=dark_dungeons:entity_state/projectiles/crossbow_projectiles,predicate=dark_dungeons:positioning/area/in_valid_area,tag=invalid_area_projectile] run function dark_dungeons:entities/management/tp_to_world_kill_zone
+execute as @e[predicate=dark_dungeons:entity_state/projectiles/crossbow_projectiles,predicate=dark_dungeons:positioning/area/in_valid_area,predicate=!dark_dungeons:entity_state/projectiles/data/valid] unless data entity @s Owner run function dark_dungeons:entities/management/tp_to_world_kill_zone
+
+
