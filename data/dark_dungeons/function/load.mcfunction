@@ -3,6 +3,7 @@ scoreboard objectives add player_id dummy "Player ID"
 scoreboard objectives add reputation dummy "Reputation"
 scoreboard objectives add task_progress dummy "Task Progress"
 scoreboard objectives add left_game minecraft.custom:minecraft.leave_game
+scoreboard objectives add used_bow minecraft.used:minecraft.bow
 
 # RPG
 scoreboard objectives add explorer_level dummy "Explorer Level"

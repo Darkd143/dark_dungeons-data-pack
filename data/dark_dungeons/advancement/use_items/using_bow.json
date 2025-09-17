@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "using_item": {
+    "using_bow": {
       "trigger": "minecraft:using_item",
       "conditions": {
         "item": {
@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "dark_dungeons:advancements/shot_bow"
+    "function": "dark_dungeons:advancements/using_bow"
   }
 }
