@@ -2,7 +2,7 @@ advancement revoke @s only dark_dungeons:damage/blocked_attack
 
 execute if entity @s[gamemode=!adventure] run return 0
 
-execute if entity @s[predicate=dark_dungeons:inventory/mixed/main_shield_is_valid] run return 0
+execute if entity @s[predicate=dark_dungeons:inventory/holding/main/tool/shield_is_valid] run return 0
 
 tellraw @s {"text":"[Looks like your shield isn't very durable around here.]",color:"gray"}
 

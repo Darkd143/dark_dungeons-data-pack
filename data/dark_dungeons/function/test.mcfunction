@@ -1,2 +1,2 @@
-execute if entity @s[predicate=dark_dungeons:inventory/offhand/tool/totem/totem_of_undying] run say Valid!
-execute if entity @s[predicate=!dark_dungeons:inventory/offhand/tool/totem/totem_of_undying] run say Invalid!
+execute as @n[type=arrow] if entity @s[predicate=dark_dungeons:entity_state/projectiles/can_be_picked_up] run say Valid!
+execute as @n[type=arrow] if entity @s[predicate=!dark_dungeons:entity_state/projectiles/can_be_picked_up] run say Invalid!

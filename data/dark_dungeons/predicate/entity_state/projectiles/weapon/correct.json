@@ -1,0 +1,22 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:entity_state/projectiles/weapon/valid"
+        },
+        {
+            "condition": "any_of",
+            "terms": [
+                {
+                    "condition": "minecraft:reference",
+                    "name": "dark_dungeons:entity_state/projectiles/arrow/correct_ammo/bow"
+                },
+                {
+                    "condition": "minecraft:reference",
+                    "name": "dark_dungeons:entity_state/projectiles/arrow/correct_ammo/crossbow"
+                }
+            ]
+        }
+    ]
+}

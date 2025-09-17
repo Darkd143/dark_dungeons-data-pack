@@ -3,7 +3,7 @@
     "terms": [
         {
             "condition": "minecraft:reference",
-            "name": "dark_dungeons:inventory/mixed/holding/totem_of_undying"
+            "name": "dark_dungeons:inventory/holding/tool/totem_of_undying"
         },
         {
             "condition": "minecraft:inverted",
