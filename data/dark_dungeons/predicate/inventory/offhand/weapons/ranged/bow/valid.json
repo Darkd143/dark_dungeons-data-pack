@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/offhand/weapons/ranged/bow/bow"
+    },
+    {
+      "condition": "reference",
+      "name": "dark_dungeons:inventory/offhand/components/custom_data/valid"
+    }
+  ]
+}
