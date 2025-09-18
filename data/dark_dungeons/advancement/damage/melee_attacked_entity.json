@@ -18,6 +18,6 @@
     }
   },
   "rewards": {
-    "function": "dark_dungeons:advancements/melee_attacked_entity"
+    "function": "dark_dungeons:advancements/damage/melee_attacked_entity"
   }
 }

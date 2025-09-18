@@ -1,4 +1,4 @@
-advancement revoke @s only dark_dungeons:use_items/consumed_bowled_food
+advancement revoke @s only dark_dungeons:using_item/consuming/bowled_food
 
 execute if entity @s[gamemode=!adventure] run return 0
 

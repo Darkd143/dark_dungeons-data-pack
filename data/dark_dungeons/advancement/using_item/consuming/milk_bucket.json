@@ -1,17 +1,17 @@
 {
   "criteria": {
-    "using_bow": {
+    "consuming_milk_bucket": {
       "trigger": "minecraft:using_item",
       "conditions": {
         "item": {
           "items": [
-            "minecraft:bow"
+            "minecraft:milk_bucket"
           ]
         }
       }
     }
   },
   "rewards": {
-    "function": "dark_dungeons:advancements/using_bow"
+    "function": "dark_dungeons:advancements/using_item/consuming/milk_bucket"
   }
 }

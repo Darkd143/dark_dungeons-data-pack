@@ -1,17 +1,17 @@
 {
   "criteria": {
-    "consuming_potion": {
+    "using_bow": {
       "trigger": "minecraft:using_item",
       "conditions": {
         "item": {
           "items": [
-            "minecraft:potion"
+            "minecraft:bow"
           ]
         }
       }
     }
   },
   "rewards": {
-    "function": "dark_dungeons:advancements/consuming_potion"
+    "function": "dark_dungeons:advancements/using_item/using_bow"
   }
 }

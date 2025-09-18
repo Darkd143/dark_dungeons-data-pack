@@ -1,5 +1,5 @@
 # Do not hook this up as a reward to the dark_dungeons:use_items/shot_crossbow_with_multishot advancement!
-advancement revoke @s only dark_dungeons:use_items/shot_crossbow_with_multishot
+advancement revoke @s only dark_dungeons:using_item/shot_crossbow_with_multishot
 
 execute if entity @s[gamemode=!adventure,gamemode=!survival] run return 0
 

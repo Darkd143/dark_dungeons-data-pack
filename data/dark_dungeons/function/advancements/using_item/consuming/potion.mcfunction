@@ -1,4 +1,4 @@
-advancement revoke @s only dark_dungeons:use_items/consuming_potion
+advancement revoke @s only dark_dungeons:using_item/consuming/potion
 
 execute if entity @s[gamemode=!adventure] run return 0
 

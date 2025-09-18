@@ -1,4 +1,4 @@
-advancement revoke @s only dark_dungeons:use_items/consuming_milk_bucket
+advancement revoke @s only dark_dungeons:using_item/consuming/milk_bucket
 
 execute if entity @s[gamemode=!adventure] run return 0
 

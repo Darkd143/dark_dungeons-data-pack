@@ -10,6 +10,6 @@
     }
   },
   "rewards": {
-    "function": "dark_dungeons:advancements/blocked_attack"
+    "function": "dark_dungeons:advancements/damage/blocked_attack"
   }
 }

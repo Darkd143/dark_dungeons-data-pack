@@ -16,6 +16,6 @@
     }
   },
   "rewards": {
-    "function": "dark_dungeons:advancements/killed_guard"
+    "function": "dark_dungeons:advancements/damage/killed_guard"
   }
 }

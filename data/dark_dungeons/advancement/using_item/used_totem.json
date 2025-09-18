@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "dark_dungeons:advancements/used_totem"
+    "function": "dark_dungeons:advancements/using_item/used_totem"
   }
 }

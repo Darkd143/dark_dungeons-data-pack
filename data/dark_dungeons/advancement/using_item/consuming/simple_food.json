@@ -41,6 +41,6 @@
     }
   },
   "rewards": {
-    "function": "dark_dungeons:advancements/consuming_simple_food"
+    "function": "dark_dungeons:advancements/using_item/consuming/simple_food"
   }
 }

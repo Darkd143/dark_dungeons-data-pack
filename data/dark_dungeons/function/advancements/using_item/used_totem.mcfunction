@@ -1,12 +1,12 @@
-advancement revoke @s only dark_dungeons:use_items/used_totem
+advancement revoke @s only dark_dungeons:using_item/used_totem
 
 # Player not in valid area
-execute if entity @s[predicate=!dark_dungeons:positioning/area/in_valid_area,advancements={dark_dungeons:use_items/used_valid_totem=true}] run return run function dark_dungeons:advancements/used_valid_totem
+execute if entity @s[predicate=!dark_dungeons:positioning/area/in_valid_area,advancements={dark_dungeons:using_item/used_valid_totem=true}] run return run function dark_dungeons:advancements/using_item/used_valid_totem
 
 execute if entity @s[predicate=!dark_dungeons:positioning/area/in_valid_area] run return 0
 
 # If Entity Used a valid totem
-execute if entity @s[advancements={dark_dungeons:use_items/used_valid_totem=true}] run return run function dark_dungeons:advancements/used_valid_totem
+execute if entity @s[advancements={dark_dungeons:using_item/used_valid_totem=true}] run return run function dark_dungeons:advancements/using_item/used_valid_totem
 
 # Otherwise... Used an invalid totem
 tellraw @s {"text":"[This totem doesn't seem to work?!]","color":"gray"}
