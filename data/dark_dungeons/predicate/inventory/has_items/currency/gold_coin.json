@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{'Inventory':[{'id':'minecraft:gold_nugget','components':{'minecraft:custom_name':'\u00A76🪙 Gold Coin 🪙','minecraft:custom_data':{'valid':True}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:inventory/offhand/currency/gold_coin"
+    }
+  ]
+}

@@ -10,6 +10,6 @@
     }
   },
   "rewards": {
-    "function": "dark_dungeons:advancements/killed_player"
+    "function": "dark_dungeons:advancements/damage/killed_player"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{'weapon':{'id':'minecraft:crossbow'}}"
+      }
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dark_dungeons:entity_state/projectiles/firework_rocket/damaging_from_crossbow"
+    }
+  ]
+}

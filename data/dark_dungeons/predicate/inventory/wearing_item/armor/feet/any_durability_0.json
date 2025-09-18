@@ -1,0 +1,83 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "minecraft:reference",
+                    "name": "dark_dungeons:inventory/wearing_item/armor/feet/leather"
+                },
+                {
+                    "condition": "minecraft:reference",
+                    "name": "dark_dungeons:inventory/wearing_item/components/damage/feet/65"
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "minecraft:reference",
+                    "name": "dark_dungeons:inventory/wearing_item/armor/feet/golden"
+                },
+                {
+                    "condition": "minecraft:reference",
+                    "name": "dark_dungeons:inventory/wearing_item/components/damage/feet/91"
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "minecraft:reference",
+                    "name": "dark_dungeons:inventory/wearing_item/armor/feet/chainmail"
+                },
+                {
+                    "condition": "minecraft:reference",
+                    "name": "dark_dungeons:inventory/wearing_item/components/damage/feet/195"
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "minecraft:reference",
+                    "name": "dark_dungeons:inventory/wearing_item/armor/feet/iron"
+                },
+                {
+                    "condition": "minecraft:reference",
+                    "name": "dark_dungeons:inventory/wearing_item/components/damage/feet/195"
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "minecraft:reference",
+                    "name": "dark_dungeons:inventory/wearing_item/armor/feet/diamond"
+                },
+                {
+                    "condition": "minecraft:reference",
+                    "name": "dark_dungeons:inventory/wearing_item/components/damage/feet/429"
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "minecraft:reference",
+                    "name": "dark_dungeons:inventory/wearing_item/armor/feet/netherite"
+                },
+                {
+                    "condition": "minecraft:reference",
+                    "name": "dark_dungeons:inventory/wearing_item/components/damage/feet/481"
+                }
+            ]
+        }
+    ]
+}

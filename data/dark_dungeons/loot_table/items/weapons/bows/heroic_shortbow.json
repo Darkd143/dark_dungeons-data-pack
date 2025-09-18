@@ -13,7 +13,7 @@
               "tag": {
                 "valid": true,
                 "range": "1",
-                "strength": "8"
+                "arrow_damage": "8"
               }
             },
             {

@@ -1,7 +1,0 @@
-{
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "nbt": "{'weapon':{'id':'minecraft:bow'},'CustomName':'§c🏹 Arrow 🏹'}"
-  }
-}

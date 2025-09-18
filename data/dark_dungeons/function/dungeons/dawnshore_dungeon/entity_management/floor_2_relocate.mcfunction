@@ -1,4 +1,3 @@
-say Ran!
 execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_2/middle_left_room] run tp @s[tag=monster] -50 63 159
 execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_2/middle_left_room] run return 0
 

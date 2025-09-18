@@ -1,0 +1,26 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{'SelectedItem':{'components':{'minecraft:damage':1561}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{'SelectedItem':{'components':{'minecraft:damage':1560}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{'SelectedItem':{'components':{'minecraft:damage':1559}}}"
+      }
+    }
+  ]
+}

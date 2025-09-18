@@ -1,8 +1,8 @@
 tag @s remove dawnshore_adventurer_guild_receptionist_3_action
 
 # Not An Adventurer
-execute unless entity @s[scores={adventurer_rank=0..}] if entity @s[predicate=!dark_dungeons:holding_items/currency/silver_coin] run tellraw @s ["Guild Receptionist Kael: Adventurers are the backbone of a thriving society. They accomplish tasks to help the public, town, and nation, all while maintaining the flexibility to accept or decline assignments as they see fit."]
-execute unless entity @s[scores={adventurer_rank=0..}] if entity @s[predicate=dark_dungeons:holding_items/currency/silver_coin] run tellraw @s ["Guild Receptionist Kael: If you want to register as an adventurer, Elara can help you with that."]
+execute unless entity @s[scores={adventurer_rank=0..}] if entity @s[predicate=!dark_dungeons:inventory/selected_item/currency/silver_coin] run tellraw @s ["Guild Receptionist Kael: Adventurers are the backbone of a thriving society. They accomplish tasks to help the public, town, and nation, all while maintaining the flexibility to accept or decline assignments as they see fit."]
+execute unless entity @s[scores={adventurer_rank=0..}] if entity @s[predicate=dark_dungeons:inventory/selected_item/currency/silver_coin] run tellraw @s ["Guild Receptionist Kael: If you want to register as an adventurer, Elara can help you with that."]
 execute unless entity @s[scores={adventurer_rank=0..}] run return 0
 
 # No Quest Assigned

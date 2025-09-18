@@ -1,0 +1,13 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:inventory/selected_item/weapon_or_tool/tool/totem/totem_of_undying"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:inventory/offhand/tool/totem/totem_of_undying"
+        }
+    ]
+}

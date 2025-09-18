@@ -7,7 +7,7 @@ kill @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/boss_room,
 function dark_dungeons:dungeons/dawnshore_dungeon/resetting/reset_boss
 
 # Kill the Old Boss
-execute as @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/boss_room,tag=dungeon_boss,tag=boss_battle_in_progress] run function dark_dungeons:creatures/management/tp_to_world_kill_zone
+execute as @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/boss_room,tag=dungeon_boss,tag=boss_battle_in_progress] run function dark_dungeons:entities/management/tp_to_world_kill_zone
 
 # Open Door
 place template dark_dungeons:dawnshore_open_boss_room_door -67 56 131

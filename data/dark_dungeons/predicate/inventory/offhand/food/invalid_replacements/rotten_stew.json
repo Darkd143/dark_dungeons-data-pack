@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{'weapon':{'offhand':{'id':'minecraft:suspicious_stew','components':{'minecraft:suspicious_stew_effects':[{'id':'minecraft:nausea','duration':240},{'id':'minecraft:weakness','duration':240}]}}}}"
+  }
+}

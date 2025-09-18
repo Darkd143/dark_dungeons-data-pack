@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "used_totem": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "valid": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

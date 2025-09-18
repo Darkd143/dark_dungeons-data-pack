@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:inventory/offhand/food/honey_bottle/honey_bottle"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:inventory/offhand/item_count/1"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:inventory/has_items/replacement_item/glass_bottle"
+        }
+    ]
+}

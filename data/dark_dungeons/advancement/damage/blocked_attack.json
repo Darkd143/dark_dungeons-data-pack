@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "attacked_by_entity": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dark_dungeons:advancements/damage/blocked_attack"
+  }
+}

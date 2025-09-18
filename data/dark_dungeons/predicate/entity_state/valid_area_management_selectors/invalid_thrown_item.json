@@ -1,0 +1,36 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+        "condition": "minecraft:reference",
+        "name": "dark_dungeons:entity_state/valid_area_management_selectors/helpers/valid_area_not_kill_zone"
+    },
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "type": [
+                "minecraft:ender_pearl",
+                "minecraft:splash_potion",
+                "minecraft:lingering_potion",
+                "minecraft:wind_charge"
+            ]
+        }
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "dark_dungeons:entity_state/valid_area_management_selectors/helpers/not_processed"
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:entity_state/projectiles/item_is_valid"
+        }
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "dark_dungeons:entity_state/valid_area_management_selectors/helpers/not_valid_tag"
+    }
+  ]
+}

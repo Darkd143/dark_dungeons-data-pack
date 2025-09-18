@@ -13,6 +13,6 @@
     }
   },
   "rewards": {
-    "function": "dark_dungeons:advancements/attacked_by_guard"
+    "function": "dark_dungeons:advancements/damage/attacked_by_guard"
   }
 }

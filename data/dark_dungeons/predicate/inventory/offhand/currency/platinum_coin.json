@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{'equipment':{'offhand':{'id':'minecraft:ghast_tear','components':{'minecraft:custom_name':'\u00A76🪙 Platinum Coin 🪙','minecraft:custom_data':{'valid':True}}}}}"
+  }
+}

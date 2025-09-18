@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "shot_crossbow": {
+      "trigger": "minecraft:shot_crossbow"
+    }
+  },
+  "rewards": {
+    "function": "dark_dungeons:advancements/using_item/shot_crossbow"
+  }
+}

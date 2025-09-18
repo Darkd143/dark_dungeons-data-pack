@@ -1,0 +1,20 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:inventory/offhand/food/simple_food/primary"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:inventory/selected_item/item_count/1"
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:reference",
+                "name": "dark_dungeons:inventory/has_items/replacement_item/rotten_food"
+            }
+        }
+    ]
+}

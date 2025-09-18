@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:inventory/offhand/tool/shield/shield"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:inventory/offhand/components/damage/336"
+        }
+    ]
+}

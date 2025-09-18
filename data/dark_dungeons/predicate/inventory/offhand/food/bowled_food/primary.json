@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:reference",
+                "name": "dark_dungeons:inventory/selected_item/food/bowled_food/bowled_food"
+            }
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:inventory/offhand/food/bowled_food/bowled_food"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "shot_crossbow_with_multishot": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:multishot": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}
