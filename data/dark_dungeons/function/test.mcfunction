@@ -1,2 +1,8 @@
-# execute as @a[predicate=dark_dungeons:entity_state/player/invalid_elytra_flying] run say Invalid Elytra Flying!
-# execute unless entity @a[predicate=dark_dungeons:entity_state/player/invalid_elytra_flying] run say No one is Invalid Elytra Flying!
+# execute as @p if entity @s[predicate=dark_dungeons:inventory/selected_item/item_count/1] run say 1 Item!
+# execute as @p if entity @s[predicate=!dark_dungeons:inventory/selected_item/item_count/1] run say Not 1 Item!
+
+# execute as @p if entity @s[predicate=dark_dungeons:inventory/offhand/item_count/1] run say 1 Item!
+# execute as @p if entity @s[predicate=!dark_dungeons:inventory/offhand/item_count/1] run say Not 1 Item!
+
+# execute as @p if entity @s[predicate=dark_dungeons:inventory/has_items/custom_invalid_item/rotten_food] run say Rotten Food!
+# execute as @p if entity @s[predicate=!dark_dungeons:inventory/has_items/custom_invalid_item/rotten_food] run say Not Rotten Food!

@@ -7,7 +7,7 @@
     },
     {
       "condition": "minecraft:reference",
-      "name": "dark_dungeons:inventory/selected_item/components/custom_data/valid_item"
+      "name": "dark_dungeons:inventory/selected_item/components/custom_data/valid"
     }
   ]
 }

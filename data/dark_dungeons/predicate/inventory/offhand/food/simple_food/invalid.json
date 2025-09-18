@@ -1,15 +1,15 @@
 {
-    "condition": "all_of",
+    "condition": "minecraft:all_of",
     "terms": [
         {
             "condition": "minecraft:reference",
-            "name": "dark_dungeons:inventory/holding/tool/totem_of_undying"
+            "name": "dark_dungeons:inventory/offhand/food/simple_food/simple_food"
         },
         {
             "condition": "minecraft:inverted",
             "term": {
                 "condition": "minecraft:reference",
-                "name": "dark_dungeons:inventory/selected_item/components/custom_data/valid"
+                "name": "dark_dungeons:inventory/offhand/components/custom_data/valid"
             }
         }
     ]

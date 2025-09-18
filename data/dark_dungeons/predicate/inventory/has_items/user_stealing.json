@@ -3,11 +3,11 @@
   "terms": [
     {
       "condition": "minecraft:reference",
-      "name": "dark_dungeons:has_items/custom_data/stealable_bundle_contents"
+      "name": "dark_dungeons:inventory/has_items/custom_data/stealable_bundle_contents"
     },
     {
       "condition": "minecraft:reference",
-      "name": "dark_dungeons:has_items/custom_data/stealable_item"
+      "name": "dark_dungeons:inventory/has_items/custom_data/stealable_item"
     }
   ]
 }
