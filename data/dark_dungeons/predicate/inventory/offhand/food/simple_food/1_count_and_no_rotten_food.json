@@ -2,15 +2,8 @@
     "condition": "minecraft:all_of",
     "terms": [
         {
-            "condition": "minecraft:inverted",
-            "term": {
-                "condition": "minecraft:reference",
-                "name": "dark_dungeons:inventory/selected_item/food/simple_food/simple_food"
-            }
-        },
-        {
             "condition": "minecraft:reference",
-            "name": "dark_dungeons:inventory/offhand/food/simple_food/simple_food"
+            "name": "dark_dungeons:inventory/offhand/food/simple_food/primary"
         },
         {
             "condition": "minecraft:reference",
