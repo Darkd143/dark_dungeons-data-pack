@@ -1,7 +1,5 @@
 advancement revoke @s only dark_dungeons:use_items/consuming_simple_food
 
-tellraw @s {"text":"Consuming Simple Food!","color":"green","bold":true}
-
 execute if entity @s[gamemode=!adventure] run return 0
 
 execute if entity @s[predicate=!dark_dungeons:positioning/area/in_valid_area] run return 0
@@ -11,9 +9,12 @@ execute if entity @s[predicate=dark_dungeons:inventory/holding/main/food/simple_
 tellraw @s {"text":"[Your food has gone bad.]",color:"gray"}
 
 # User Only Has 1 Item
-execute if entity @s[predicate=dark_dungeons:inventory/selected_item/item_count/1,predicate=!dark_dungeons:inventory/has_items/custom_invalid_item/rotten_food] run return run item replace entity @s weapon.mainhand with rotten_flesh[custom_name="Rotten Food"]
-execute if entity @s[predicate=dark_dungeons:inventory/selected_item/item_count/1,predicate=dark_dungeons:inventory/has_items/custom_invalid_item/rotten_food] run give @s rotten_flesh[custom_name="Rotten Food"]
-execute if entity @s[predicate=dark_dungeons:inventory/selected_item/item_count/1,predicate=dark_dungeons:inventory/has_items/custom_invalid_item/rotten_food] run return run item replace entity @s weapon.mainhand with air
+execute if entity @s[predicate=dark_dungeons:inventory/holding/other/advancemtent_helpers/has_1_selected_simple_food_item_and_no_rotten_food] run return run item replace entity @s weapon.mainhand with rotten_flesh[custom_name="Rotten Food"]
+execute if entity @s[predicate=dark_dungeons:inventory/holding/other/advancemtent_helpers/has_1_offhand_simple_food_item_and_no_rotten_food] run return run item replace entity @s weapon.offhand with rotten_flesh[custom_name="Rotten Food"]
+
+execute if entity @s[predicate=dark_dungeons:inventory/holding/other/advancemtent_helpers/has_1_holding_simple_food_item_and_has_rotten_food] run give @s rotten_flesh[custom_name="Rotten Food"]
+execute if entity @s[predicate=dark_dungeons:inventory/holding/other/advancemtent_helpers/has_1_selected_simple_food_item_and_has_rotten_food] run return run item replace entity @s weapon.mainhand with air
+execute if entity @s[predicate=dark_dungeons:inventory/holding/other/advancemtent_helpers/has_1_offhand_simple_food_item_and_has_rotten_food] run return run item replace entity @s weapon.offhand with air
 
 # Give Rotten Food
 give @s rotten_flesh[custom_name="Rotten Food"]
