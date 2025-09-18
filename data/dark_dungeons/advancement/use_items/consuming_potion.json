@@ -1,17 +1,17 @@
 {
   "criteria": {
-    "consuming_milk_bucket": {
+    "consuming_potion": {
       "trigger": "minecraft:using_item",
       "conditions": {
         "item": {
           "items": [
-            "minecraft:milk_bucket"
+            "minecraft:potion"
           ]
         }
       }
     }
   },
   "rewards": {
-    "function": "dark_dungeons:advancements/consuming_milk_bucket"
+    "function": "dark_dungeons:advancements/consuming_potion"
   }
 }

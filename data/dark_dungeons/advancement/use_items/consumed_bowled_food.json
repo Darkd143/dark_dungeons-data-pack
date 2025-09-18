@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "consuming_simple_food": {
+    "consuming_bowled_food": {
       "trigger": "minecraft:using_item",
       "conditions": {
         "item": {
