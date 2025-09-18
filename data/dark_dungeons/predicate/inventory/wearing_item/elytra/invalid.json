@@ -1,9 +1,9 @@
 {
-    "condition": "all_of",
+    "condition": "minecraft:all_of",
     "terms": [
         {
             "condition": "minecraft:reference",
-            "name": "dark_dungeons:inventory/wearing_item/armor/chest/any"
+            "name": "dark_dungeons:inventory/wearing_item/elytra/elytra"
         },
         {
             "condition": "minecraft:inverted",

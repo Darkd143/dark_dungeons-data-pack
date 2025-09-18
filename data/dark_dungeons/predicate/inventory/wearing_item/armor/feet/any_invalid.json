@@ -9,7 +9,7 @@
             "condition": "minecraft:inverted",
             "term": {
                 "condition": "minecraft:reference",
-                "name": "dark_dungeons:inventory/wearing_item/components/custom_data/feet"
+                "name": "dark_dungeons:inventory/wearing_item/components/custom_data/valid/feet"
             }
         }
     ]

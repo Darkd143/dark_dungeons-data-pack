@@ -10,16 +10,11 @@ execute as @a[scores={left_game=1..}] run function dark_dungeons:players/logged_
 # Entity Management
 function dark_dungeons:entities/management/world_kill_zone
 function dark_dungeons:entities/management/remove_size_0_slimes
-# May Be Causing Lag (TODO)
 function dark_dungeons:entities/management/remove_invalid_entities_in_valid_areas
 execute as @e[tag=guard,type=!player] at @s run function dark_dungeons:players/crime/guards/manage_guard
 
-# Run Gamemode Positioning Commands
-execute as @a[predicate=dark_dungeons:positioning/area/in_valid_area,gamemode=survival] run gamemode adventure @s
-execute as @a[predicate=!dark_dungeons:positioning/area/in_valid_area,gamemode=adventure] run gamemode survival @s
-
-# Spawnpoint Commands
-function dark_dungeons:players/respawning/world_respawning
+# Player Management
+function dark_dungeons:entities/players/manage_players
 
 # Run Location Functions
 function dark_dungeons:locations/running
@@ -27,4 +22,4 @@ function dark_dungeons:locations/running
 # Run Dungeon Functions
 function dark_dungeons:dungeons/running
 
-# function dark_dungeons:test
+function dark_dungeons:test

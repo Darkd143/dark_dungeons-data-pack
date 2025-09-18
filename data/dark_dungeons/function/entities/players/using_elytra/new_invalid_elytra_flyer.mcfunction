@@ -1,0 +1,3 @@
+tag @s add flying_with_invalid_elytra
+function dark_dungeons:entities/players/using_elytra/damage_elytra
+schedule function dark_dungeons:entities/players/using_elytra/identify_invalid_elytra_flyer 50 append
