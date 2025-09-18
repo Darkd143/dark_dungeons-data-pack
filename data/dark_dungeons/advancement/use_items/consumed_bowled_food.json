@@ -15,6 +15,6 @@
     }
   },
   "rewards": {
-    "function": "dark_dungeons:advancements/consumed_bowled_food"
+    "function": "dark_dungeons:advancements/consuming_bowled_food"
   }
 }

@@ -1,6 +1,6 @@
 
 # Items that are identified by using item
-- Food ❗
+- Food ✅
 - Milk ❗
 - Potions ❗
 - Ominous Bottle ❗ (low priority)

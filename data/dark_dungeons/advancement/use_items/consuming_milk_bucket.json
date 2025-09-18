@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "consuming_simple_food": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:milk_bucket"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dark_dungeons:advancements/consuming_milk_bucket"
+  }
+}
