@@ -3,7 +3,7 @@
     "terms": [
         {
             "condition": "minecraft:reference",
-            "name": "dark_dungeons:inventory/offhand/food/simple_food/primary"
+            "name": "dark_dungeons:inventory/offhand/food/honey_bottle/honey_bottle"
         },
         {
             "condition": "minecraft:reference",
@@ -11,7 +11,7 @@
         },
         {
             "condition": "minecraft:reference",
-            "name": "dark_dungeons:inventory/has_items/replacement_item/rotten_food"
+            "name": "dark_dungeons:inventory/has_items/replacement_item/glass_bottle"
         }
     ]
 }

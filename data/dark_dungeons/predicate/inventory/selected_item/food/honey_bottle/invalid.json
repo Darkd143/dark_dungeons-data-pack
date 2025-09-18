@@ -6,14 +6,10 @@
             "name": "dark_dungeons:inventory/selected_item/food/honey_bottle/honey_bottle"
         },
         {
-            "condition": "minecraft:reference",
-            "name": "dark_dungeons:inventory/selected_item/item_count/1"
-        },
-        {
             "condition": "minecraft:inverted",
             "term": {
                 "condition": "minecraft:reference",
-                "name": "dark_dungeons:inventory/has_items/replacement_item/glass_bottle"
+                "name": "dark_dungeons:inventory/selected_item/components/custom_data/valid"
             }
         }
     ]

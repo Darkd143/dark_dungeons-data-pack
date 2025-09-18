@@ -13,7 +13,7 @@
             "condition": "minecraft:inverted",
             "term": {
                 "condition": "minecraft:reference",
-                "name": "dark_dungeons:inventory/has_items/custom_invalid_item/rotten_food"
+                "name": "dark_dungeons:inventory/has_items/replacement_item/rotten_food"
             }
         }
     ]

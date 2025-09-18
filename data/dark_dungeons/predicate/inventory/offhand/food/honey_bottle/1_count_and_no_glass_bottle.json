@@ -3,11 +3,11 @@
     "terms": [
         {
             "condition": "minecraft:reference",
-            "name": "dark_dungeons:inventory/selected_item/food/honey_bottle/honey_bottle"
+            "name": "dark_dungeons:inventory/offhand/food/honey_bottle/honey_bottle"
         },
         {
             "condition": "minecraft:reference",
-            "name": "dark_dungeons:inventory/selected_item/item_count/1"
+            "name": "dark_dungeons:inventory/offhand/item_count/1"
         },
         {
             "condition": "minecraft:inverted",
