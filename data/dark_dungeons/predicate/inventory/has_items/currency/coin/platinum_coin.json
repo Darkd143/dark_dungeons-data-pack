@@ -10,7 +10,7 @@
     },
     {
       "condition": "minecraft:reference",
-      "name": "dark_dungeons:inventory/offhand/currency/platinum_coin"
+      "name": "dark_dungeons:inventory/offhand/currency/coin/platinum_coin"
     }
   ]
 }
