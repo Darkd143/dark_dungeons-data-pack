@@ -5,4 +5,4 @@ execute as @a[tag=get_initial_fishing_rod] run function dark_dungeons:locations/
 
 execute as @e[type=minecraft:interaction,tag=dawnshore_pier_ship_1_sentry_interaction] store success entity @s interaction.player[] int 0 on target run tellraw @s ["Crew Mate Borin: Do you have business on the Dawnflower?"]
 
-execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/ship/ship_entry_1] run function dark_dungeons:locations/dawnshore/pier/ship_1/actions/kick_out
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/ship/ship_entry_1,gamemode=!spectator,gamemode=!creative] run function dark_dungeons:locations/dawnshore/pier/ship_1/actions/kick_out
