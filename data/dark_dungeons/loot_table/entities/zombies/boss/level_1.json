@@ -10,7 +10,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.7
             }
           ]
         }
@@ -69,18 +69,53 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "dark_dungeons:chests/weapons/wooden_weapons/wooden_weapons_weight_19",
-          "weight": 19
+          "value": "dark_dungeons:chests/weapons/melee/axes/wood/weight_9",
+          "weight": 9
         },
         {
           "type": "minecraft:loot_table",
-          "value": "dark_dungeons:chests/weapons/wooden_weapons/wooden_weapons_weight_18",
-          "weight": 18
+          "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_9",
+          "weight": 9
         },
         {
           "type": "minecraft:loot_table",
-          "value": "dark_dungeons:chests/weapons/wooden_weapons/wooden_weapons_weight_17",
-          "weight": 17
+          "value": "dark_dungeons:chests/weapons/melee/axes/wood/weight_8",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_8",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/axes/wood/weight_7",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_7",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/axes/wood/weight_6",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_6",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/axes/wood/weight_5",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_5",
+          "weight": 5
         }
       ],
       "conditions": [
