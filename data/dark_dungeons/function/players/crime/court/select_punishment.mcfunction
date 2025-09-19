@@ -10,17 +10,20 @@ execute if entity @s[scores={bank_money_1=1..}] run return run function dark_dun
 # 4 Money Removed From Person
 execute if function dark_dungeons:players/crime/court/punishments/player_money_confiscated run return 0
 
-# 5 Items Removed from Inn
+# 5 Money Removed From Player's Money Pouch
+execute if function dark_dungeons:players/crime/court/punishments/player_money_confiscated_from_money_pouch run return 0
+
+# 6 Items Removed from Inn
 execute if function dark_dungeons:players/crime/court/punishments/remove_inn_items run return 0
 
-# 6 Items Removed From Property
+# 7 Items Removed From Property
 execute if function dark_dungeons:players/crime/court/punishments/remove_property_items run return 0
 
-# 7 Items Cleared From Person
+# 8 Items Cleared From Person
 execute if entity @s[predicate=!dark_dungeons:inventory/has_items/no_items] run return run function dark_dungeons:players/crime/court/punishments/clear_inventory
 
-# 8 Property Seizure
+# 9 Property Seizure
 execute if function dark_dungeons:players/crime/court/punishments/property_seizure run return 0
 
-# 9 Death Penalty
+# 10 Death Penalty
 return 1

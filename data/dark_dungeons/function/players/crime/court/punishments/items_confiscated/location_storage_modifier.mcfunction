@@ -1,0 +1,1 @@
+execute if entity @s[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall/courtroom_cell] positioned -120 72 79 run return run function dark_dungeons:players/crime/court/punishments/items_confiscated/money_pouch_items

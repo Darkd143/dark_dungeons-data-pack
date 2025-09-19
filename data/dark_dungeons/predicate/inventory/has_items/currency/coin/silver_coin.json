@@ -10,7 +10,7 @@
     },
     {
       "condition": "minecraft:reference",
-      "name": "dark_dungeons:inventory/offhand/currency/silver_coin"
+      "name": "dark_dungeons:inventory/offhand/currency/coin/silver_coin"
     }
   ]
 }

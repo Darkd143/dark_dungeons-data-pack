@@ -12,7 +12,7 @@ execute if entity @s[tag=bank_robbery] run return run scoreboard players set @s 
 
 execute if entity @s[tag=theft] run return run scoreboard players set @s charge_money 40
 
-execute if entity @s[tag=unlawful_escape] run return run scoreboard players add @s charge_count 30
+execute if entity @s[tag=unlawful_escape] run return run scoreboard players add @s charge_money 30
 
 execute if entity @s[tag=dereliction] run return run scoreboard players set @s charge_money 20
 
