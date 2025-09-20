@@ -1,0 +1,1 @@
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall/courtroom_cell] unless entity @s[scores={left_game=1..}] run function dark_dungeons:locations/dawnshore/town_hall/court/release_player
