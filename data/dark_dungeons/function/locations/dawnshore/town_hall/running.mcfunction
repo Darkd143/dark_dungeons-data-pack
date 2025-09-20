@@ -1,0 +1,2 @@
+execute if entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall/courtroom_cell,type=item] run tellraw @a[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall/courtroom_cell] {"text":"[The item was taken from you without thought. It won't be returned.]",color:"gray"}
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall/courtroom_cell,type=item] run kill @s
