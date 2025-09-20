@@ -1,0 +1,9 @@
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_adventurer_quest_1] run summon item_display -20 29 85 {item:{id:book},Tags:['dawnshore_adventurer_quest_1','dawnshore_adventurer_quest']}
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_adventurer_quest_2] run summon item_display -21 29 85 {item:{id:book},Tags:['dawnshore_adventurer_quest_2','dawnshore_adventurer_quest']}
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_adventurer_quest_3] run summon item_display -22 29 85 {item:{id:book},Tags:['dawnshore_adventurer_quest_3','dawnshore_adventurer_quest']}
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_adventurer_quest_4] run summon item_display -23 29 85 {item:{id:book},Tags:['dawnshore_adventurer_quest_4','dawnshore_adventurer_quest']}
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_adventurer_quest_5] run summon item_display -24 29 85 {item:{id:book},Tags:['dawnshore_adventurer_quest_5','dawnshore_adventurer_quest']}
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_adventurer_quest_6] run summon item_display -25 29 85 {item:{id:book},Tags:['dawnshore_adventurer_quest_6','dawnshore_adventurer_quest']}
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_adventurer_quest_7] run summon item_display -26 29 85 {item:{id:book},Tags:['dawnshore_adventurer_quest_7','dawnshore_adventurer_quest']}
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_adventurer_quest_8] run summon item_display -27 29 85 {item:{id:book},Tags:['dawnshore_adventurer_quest_8','dawnshore_adventurer_quest']}
+

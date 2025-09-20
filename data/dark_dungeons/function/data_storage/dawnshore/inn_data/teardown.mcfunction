@@ -1,0 +1,10 @@
+execute as @e[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_inn_room_1] run kill @s
+execute as @e[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_inn_room_2] run kill @s
+execute as @e[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_inn_room_3] run kill @s
+execute as @e[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_inn_room_4] run kill @s
+execute as @e[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_inn_room_5] run kill @s
+execute as @e[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_inn_room_6] run kill @s
+execute as @e[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_inn_room_7] run kill @s
+execute as @e[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_inn_room_8] run kill @s
+execute as @e[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_inn_room_9] run kill @s
+execute as @e[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_inn_room_10] run kill @s
