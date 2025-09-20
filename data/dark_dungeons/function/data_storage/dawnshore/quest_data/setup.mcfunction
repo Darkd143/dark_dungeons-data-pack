@@ -6,4 +6,3 @@ execute unless entity @n[predicate=dark_dungeons:positioning/locations/spawn_chu
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_adventurer_quest_6] run summon item_display -25 29 85 {item:{id:book},Tags:['dawnshore_adventurer_quest_6','dawnshore_adventurer_quest']}
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_adventurer_quest_7] run summon item_display -26 29 85 {item:{id:book},Tags:['dawnshore_adventurer_quest_7','dawnshore_adventurer_quest']}
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_adventurer_quest_8] run summon item_display -27 29 85 {item:{id:book},Tags:['dawnshore_adventurer_quest_8','dawnshore_adventurer_quest']}
-
