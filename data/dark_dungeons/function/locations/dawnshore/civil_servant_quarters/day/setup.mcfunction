@@ -1,0 +1,1 @@
+execute as @a[tag=dawnshore_civil_servant,tag=!dawnshore_new_civil_servant,tag=!dawnshore_new_civil_servant_settled_in] unless score @s civil_servant_write_ups matches 3 run function dark_dungeons:locations/dawnshore/civil_servant_quarters/cycle/task_completion_check

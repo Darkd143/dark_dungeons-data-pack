@@ -10,6 +10,9 @@ execute if entity @s[predicate=!dark_dungeons:inventory/selected_item/form/civil
 
 execute if entity @s[scores={reward_money=1..}] run return run tellraw @s {"text":"Civil Servant Receptionist: It seems you still haven't received your wages from your previous position. Please pick those up before registering."}
 
+# Adventure Quest Assigned TODO
+execute if entity @s[scores={quest_id=1..}] run return run tellraw @s {"text":"Civil Servant Receptionist: It seems you still have an adventurer task in progress. Please complete your business with the Adventurer's Guild before signing up as a civil servant."}
+
 # Sign Up as a Civil Servant
 tellraw @s [{"text":"Civil Servant Receptionist: We're glad to have you serve our humble town, "},{selector:"@s"},{"text":". Please report to the Civil Servant Quarters, immediately. If you need help finding it, the guard at the town's gate can point you in the right direction."}]
 function dark_dungeons:locations/dawnshore/town_hall/civil_servant_system/sign_up_as_a_civil_servant
