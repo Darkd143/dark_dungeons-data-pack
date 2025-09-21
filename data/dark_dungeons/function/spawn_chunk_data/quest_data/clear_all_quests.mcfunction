@@ -1,1 +1,0 @@
-function dark_dungeons:spawn_chunk_data/quest_data/dawnshore_quests/clear_quests
