@@ -1,0 +1,3 @@
+# Head Guard
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/civil_servant_quarters_zone,tag=dawnshore_civil_servant_head_guard] run summon minecraft:pillager -119 72 66 {Invulnerable:1b,Silent:1b,NoAI:1b,CustomName:"Head Guard",PersistenceRequired:1b,equipment:{mainhand:{id:wooden_sword}},Rotation:[90,0],Tags:["dawnshore_civil_servant_head_guard","npc"]}
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/civil_servant_quarters_zone,tag=dawnshore_civil_servant_head_guard_interaction] run summon minecraft:interaction -119 72 66 {width:0.8,height:2.0,CustomName:"Head Guard",Tags:['dawnshore_civil_servant_head_guard_interaction']}
