@@ -1,0 +1,6 @@
+# Receptionists
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall_zone,tag=dawnshore_civil_servant_receptionist] run function dark_dungeons:entities/management/tp_to_world_kill_zone
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall_zone,tag=dawnshore_civil_servant_receptionist_interaction]
+
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall_zone,tag=dawnshore_civil_servant_paymaster] run function dark_dungeons:entities/management/tp_to_world_kill_zone
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall_zone,tag=dawnshore_civil_servant_paymaster_interaction]

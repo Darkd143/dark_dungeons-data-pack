@@ -29,6 +29,12 @@ scoreboard objectives add quest_type dummy
 scoreboard objectives add quest_id dummy
 scoreboard objectives add quest_day_limit dummy
 
+# Civil Servants
+scoreboard objectives add civil_servant_task_id dummy
+scoreboard objectives add civil_servant_task_daytime dummy
+scoreboard objectives add civil_servant_write_ups dummy
+scoreboard objectives add civil_servant_owe_money dummy
+
 # Legal System
 scoreboard objectives add charge_count dummy
 scoreboard objectives add charge_money dummy

@@ -13,6 +13,8 @@ execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/cra
 execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone] run function dark_dungeons:locations/dawnshore/bank/running
 execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone] run function dark_dungeons:locations/dawnshore/inn/running
 execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/jailhouse_zone] run function dark_dungeons:locations/dawnshore/jailhouse/running
+execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall_zone] run function dark_dungeons:locations/dawnshore/town_hall/running
+
 
 # Open Bank Staff Door
 execute as @e[type=minecraft:interaction,tag=dawnshore_bank_staff_door_interaction] store success entity @s interaction.player[] int 0 on target if block -72 73 75 minecraft:iron_door[open=true] run tag @s add dawnshore_bank_close_staff_door_action

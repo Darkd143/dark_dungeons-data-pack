@@ -1,0 +1,1 @@
+tellraw @s {"text":"Civil Servant Paymaster: Civil servants receive 5 to 20 Copper Coins a day and enjoy ample time off to rest and attend to personal matters. This provides a steady income while maintaining a good work-life balance."}
