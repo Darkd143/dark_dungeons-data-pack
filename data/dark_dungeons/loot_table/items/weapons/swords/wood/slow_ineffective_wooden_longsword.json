@@ -38,7 +38,7 @@
                 {
                   "attribute": "minecraft:attack_speed",
                   "id": "weapon_attack_speed",
-                  "amount": 0.8,
+                  "amount": -3.2,
                   "operation": "add_value",
                   "slot": "mainhand"
                 }
