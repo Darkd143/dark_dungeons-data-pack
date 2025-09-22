@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{'SelectedItem':{'id':'minecraft:leather_leggings','components':{'minecraft:custom_name':'§1👕 Mudsnarl Hide Greaves 👕','minecraft:custom_data':{'valid':true}}}}"
+  }
+}
