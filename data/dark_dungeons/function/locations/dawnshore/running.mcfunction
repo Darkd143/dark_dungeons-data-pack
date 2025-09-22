@@ -8,6 +8,7 @@ function dark_dungeons:locations/dawnshore/dungeon_entrance/running
 function dark_dungeons:locations/dawnshore/ownable_housing/running
 function dark_dungeons:locations/dawnshore/pier/running
 function dark_dungeons:locations/dawnshore/garbage_dump/running
+function dark_dungeons:locations/dawnshore/guards/running
 execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone] run function dark_dungeons:locations/dawnshore/adventurers_guild/running
 execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone] run function dark_dungeons:locations/dawnshore/craftsman/running
 execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone] run function dark_dungeons:locations/dawnshore/bank/running
@@ -29,23 +30,20 @@ execute as @a[predicate=!dark_dungeons:positioning/locations/dawnshore/bank_zone
 execute as @a[predicate=!dark_dungeons:positioning/locations/dawnshore/bank_zone,gamemode=!spectator,nbt={Inventory:[{id:"minecraft:paper",components:{"minecraft:custom_name":"\u00A77🖹 Platinum Coin Withdraw Voucher 🖹","minecraft:custom_data":{valid:True}}}]}] run clear @s minecraft:paper[minecraft:custom_name="\u00A77🖹 Platinum Coin Withdraw Voucher 🖹",minecraft:custom_data={valid:True}] 2304
 
 # Clear Dawnshore Quest Tags
-
 execute as @a[predicate=!dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_1_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
-
 execute as @a[predicate=!dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_2_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
-
 execute as @a[predicate=!dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_3_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
-
 execute as @a[predicate=!dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_4_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
-
 execute as @a[predicate=!dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_5_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
-
 execute as @a[predicate=!dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_6_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
-
 execute as @a[predicate=!dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_7_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
-
 execute as @a[predicate=!dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_8_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
 
 
 # Replace Prison Guard
 execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_jailhouse_guard] if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,gamemode=adventure] run function dark_dungeons:locations/dawnshore/jailhouse/jail_guard/setup
+
+# Civil Servant Head Guard Interaction
+execute as @e[type=minecraft:interaction,tag=dawnshore_civil_servant_head_guard_interaction] store success entity @s interaction.player[] int 0 on target run tag @s add dawnshore_civil_servant_head_guard_action
+
+execute as @a[tag=dawnshore_civil_servant_head_guard_action] run function dark_dungeons:locations/dawnshore/civil_servant_quarters/head_guard/action

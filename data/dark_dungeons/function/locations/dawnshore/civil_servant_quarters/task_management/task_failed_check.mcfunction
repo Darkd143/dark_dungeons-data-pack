@@ -1,5 +1,5 @@
+# Criminals are unassigned as Civil Servants
 execute if entity @s[tag=dawnshore_criminal] run return run function dark_dungeons:locations/dawnshore/civil_servant_quarters/task_management/unassign_civil_servant_tags
-
 execute if entity @s[tag=wanted_criminal] run return run function dark_dungeons:locations/dawnshore/civil_servant_quarters/task_management/unassign_civil_servant_tags
 
 execute if score @s civil_servant_write_ups matches 3 run tag @s remove dawnshore_civil_servant_task_completed
