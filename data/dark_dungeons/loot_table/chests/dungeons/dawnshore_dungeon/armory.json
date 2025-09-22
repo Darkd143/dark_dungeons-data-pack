@@ -123,7 +123,7 @@
       "entries": [
         {
             "type": "minecraft:loot_table",
-            "value": "dark_dungeons:items/armor/leather/hogsnarl/hogsnarl_hide_hood",
+            "value": "dark_dungeons:items/armor/leather/mudsnarl/hood",
             "weight": 3,
             "functions": [
                 {
@@ -144,7 +144,7 @@
         },
         {
             "type": "minecraft:loot_table",
-            "value": "dark_dungeons:items/armor/leather/hogsnarl/hogsnarl_hide_cuirass",
+            "value": "dark_dungeons:items/armor/leather/mudsnarl/cuirass",
             "weight": 1,
             "functions": [
                 {
@@ -165,7 +165,7 @@
         },
         {
             "type": "minecraft:loot_table",
-            "value": "dark_dungeons:items/armor/leather/hogsnarl/hogsnarl_hide_greaves",
+            "value": "dark_dungeons:items/armor/leather/mudsnarl/greaves",
             "weight": 4,
             "functions": [
                 {
@@ -186,7 +186,7 @@
         },
         {
             "type": "minecraft:loot_table",
-            "value": "dark_dungeons:items/armor/leather/hogsnarl/hogsnarl_hide_sabatons",
+            "value": "dark_dungeons:items/armor/leather/mudsnarl/sabatons",
             "weight": 8,
             "functions": [
                 {

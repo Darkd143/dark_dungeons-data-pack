@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather_boots",
+          "name": "minecraft:leather_helmet",
           "functions": [
             {
               "function": "minecraft:set_custom_data",
@@ -16,17 +16,17 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "§1👕 Hogsnarl Hide Sabatons 👕"
+              "name": "§1👕 Mudsnarl Hide Hood 👕"
             },
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
                   "attribute": "minecraft:armor",
-                  "id": "feet_armor",
-                  "amount": 0.5,
+                  "id": "head_armor",
+                  "amount": 1.3,
                   "operation": "add_value",
-                  "slot": "feet"
+                  "slot": "head"
                 }
               ]
             },

@@ -1,4 +1,4 @@
-# Hunting for Hogsnarl Meat 
+# Hunting for Mudsnarl Meat 
 scoreboard players set @s quest_id 11
 scoreboard players set @s quest_type 7
 scoreboard players set @s quest_day_limit 1
