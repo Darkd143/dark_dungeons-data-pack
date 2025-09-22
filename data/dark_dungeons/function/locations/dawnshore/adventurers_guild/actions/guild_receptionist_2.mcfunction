@@ -16,6 +16,10 @@ execute if entity @s[tag=wanted_criminal] run return run function dark_dungeons:
 # User is a dawnshore_criminal
 execute if entity @s[tag=dawnshore_criminal] run return run function dark_dungeons:locations/dawnshore/adventurers_guild/actions/messages/bad_status_cant_quest
 
+# User has reward money from completing a quest
+execute unless score @s reward_money matches 0 run scoreboard players reset @s temp_storage
+execute unless score @s reward_money matches 0 run return run function dark_dungeons:locations/dawnshore/adventurers_guild/actions/quest_reward_payment
+
 # User has low reputation
 execute if entity @s[scores={reputation=..-1000}] run return run function dark_dungeons:locations/dawnshore/adventurers_guild/actions/messages/bad_status_cant_quest
 
