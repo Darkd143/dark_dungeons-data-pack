@@ -1,0 +1,3 @@
+# Head Guard
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/civil_servant_quarters_zone,tag=dawnshore_civil_servant_head_guard] run function dark_dungeons:entities/management/tp_to_world_kill_zone
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/civil_servant_quarters_zone,tag=dawnshore_civil_servant_head_guard_interaction]

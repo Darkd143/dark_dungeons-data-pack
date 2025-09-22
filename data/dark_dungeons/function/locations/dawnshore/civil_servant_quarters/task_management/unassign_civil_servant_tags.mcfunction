@@ -1,0 +1,4 @@
+tag @s remove dawnshore_civil_servant
+tag @s remove dawnshore_new_civil_servant
+tag @s remove dawnshore_civil_servant_resigning
+function dark_dungeons:locations/dawnshore/civil_servant_quarters/task_management/task_over_cleanup
