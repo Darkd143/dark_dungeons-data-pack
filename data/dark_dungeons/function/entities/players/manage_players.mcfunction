@@ -1,6 +1,6 @@
 # Gamemode Positioning
 execute as @a[predicate=dark_dungeons:positioning/area/in_valid_area,gamemode=survival] run function dark_dungeons:entities/players/positioning_gamemode/entered_valid_area
-execute as @a[predicate=!dark_dungeons:positioning/area/in_valid_area,gamemode=adventure] run gamemode survival @s
+execute as @a[predicate=!dark_dungeons:positioning/area/in_valid_area,gamemode=adventure] run function dark_dungeons:entities/players/positioning_gamemode/left_valid_area
 
 # Spawnpoint Commands
 function dark_dungeons:entities/players/respawning/world_respawning
