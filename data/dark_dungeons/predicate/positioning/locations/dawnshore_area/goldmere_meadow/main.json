@@ -1,0 +1,32 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": -231,
+            "max": -64
+          },
+          "y": {
+            "min": -64,
+            "max": 320
+          },
+          "z": {
+            "min": 136,
+            "max": 310
+          }
+        },
+        "dimension": "minecraft:overworld"
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:reference",
+        "name": "dark_dungeons:positioning/dungeon/dawnshore_dungeon/entire_dungeon"
+      }
+    }
+  ]
+}
