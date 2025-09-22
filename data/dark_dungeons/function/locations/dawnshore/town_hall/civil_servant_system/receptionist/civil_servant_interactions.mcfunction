@@ -11,6 +11,5 @@ execute if entity @s[predicate=!dark_dungeons:inventory/selected_item/form/civil
 execute if entity @s[predicate=!dark_dungeons:inventory/selected_item/form/civil_servant/resignation_form] run return run function dark_dungeons:locations/dawnshore/town_hall/civil_servant_system/reset_form_chest
 
 # Resigning
+
 function dark_dungeons:locations/dawnshore/town_hall/civil_servant_system/receptionist/resigning_complications
-
-
