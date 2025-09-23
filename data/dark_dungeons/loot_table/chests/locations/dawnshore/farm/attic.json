@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dark_dungeons:items/misc/dirty_food_bowl"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dark_dungeons:items/misc/empty_bottle"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dark_dungeons:items/food/drinks/non-potible_water"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": {
+                        "stealable": true
+                    }
+                }
+            ]
+        }
+    ]
+}
