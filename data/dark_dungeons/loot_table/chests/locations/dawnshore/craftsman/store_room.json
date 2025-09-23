@@ -1,0 +1,92 @@
+{
+    "pools": [
+        {
+            "rolls": 10,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 28,
+                    "value": "dark_dungeons:items/currency/containers/money_pouch"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 4,
+                    "value": "dark_dungeons:items/armor/leather/mudsnarl/cuirass"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 6,
+                    "value": "dark_dungeons:items/armor/leather/mudsnarl/hood"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 8,
+                    "value": "dark_dungeons:items/armor/leather/mudsnarl/sabatons"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 6,
+                    "value": "dark_dungeons:items/armor/leather/mudsnarl/greaves"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 9,
+                    "value": "dark_dungeons:items/weapons/swords/wood/slow_puny_wooden_shortsword"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 7,
+                    "value": "dark_dungeons:items/weapons/swords/wood/quick_pathetic_wooden_sword"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 5,
+                    "value": "dark_dungeons:items/weapons/swords/wood/quick_wooden_shortsword"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 3,
+                    "value": "dark_dungeons:items/weapons/swords/wood/fast_weak_wooden_longsword"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 9,
+                    "value": "dark_dungeons:items/weapons/axes/wood/slow_pathetic_wooden_axe"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 7,
+                    "value": "dark_dungeons:items/weapons/axes/wood/pathetic_wooden_battleaxe"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 5,
+                    "value": "dark_dungeons:items/weapons/axes/wood/rapid_puny_wooden_hatchet"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 3,
+                    "value": "dark_dungeons:items/weapons/axes/wood/fast_tough_wooden_axe"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "set_count",
+                    "count": 0,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.4
+                        }
+                    ]
+                },
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": {
+                        "stealable": true
+                    }
+                }
+            ]
+        }
+    ]
+}
