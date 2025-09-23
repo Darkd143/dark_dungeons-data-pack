@@ -1,0 +1,119 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "value": "dark_dungeons:items/tools/fishing/basic_fishing_rod"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 20,
+                    "value": "dark_dungeons:items/fishing/fish/vortex_minnow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 15
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 12,
+                    "value": "dark_dungeons:items/fishing/fish/foamfin",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 9,
+                    "value": "dark_dungeons:items/fishing/fish/glimmershade",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 4,
+                    "value": "dark_dungeons:items/fishing/fish/pearlspine"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 20,
+                    "value": "dark_dungeons:items/food/fish/cooked_vortex_minnow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 12,
+                    "value": "dark_dungeons:items/food/fish/cooked_foamfin",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 9,
+                    "value": "dark_dungeons:items/food/fish/cooked_glimmershade",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 4,
+                    "value": "dark_dungeons:items/food/fish/cooked_pearlspine"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": {
+                        "stealable": true
+                    }
+                }
+            ]
+        }
+    ]
+}
