@@ -39,9 +39,18 @@ execute as @a[predicate=!dark_dungeons:positioning/locations/dawnshore/adventure
 execute as @a[predicate=!dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_7_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
 execute as @a[predicate=!dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_8_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
 
+# Replace Jailhouse Guard
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_jailhouse_guard,tag=!positioned_guard] at @s unless entity @a[gamemode=adventure,distance=..10] run function dark_dungeons:locations/dawnshore/jailhouse/jail_guard/setup
 
-# Replace Prison Guard
-execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_jailhouse_guard] if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,gamemode=adventure] run function dark_dungeons:locations/dawnshore/jailhouse/jail_guard/setup
+# Jailhouse Guard Leaves Town
+execute as @e[predicate=!dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_jailhouse_guard] run function dark_dungeons:locations/dawnshore/jailhouse/jail_guard/setup
+execute as @e[predicate=!dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_jailhouse_guard] run kill @s
+
+# Bank Guard Leaves Bank Rooms
+execute if entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,predicate=!dark_dungeons:positioning/locations/dawnshore/bank/unauthorized_lower_rooms,tag=dawnshore_bank_guard,type=!player] run function dark_dungeons:locations/dawnshore/bank/bank_guard/reset_bank_guard
+
+# Player Leaves Bank Rooms after Bank Guard is Activated
+execute if entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank/unauthorized_lower_rooms,tag=dawnshore_bank_guard,tag=!positioned_guard,type=!player] unless entity @a[gamemode=adventure,predicate=dark_dungeons:positioning/locations/dawnshore/bank/unauthorized_lower_rooms] run function dark_dungeons:locations/dawnshore/bank/bank_guard/reset_bank_guard
 
 # Civil Servant Head Guard Interaction
 execute as @e[type=minecraft:interaction,tag=dawnshore_civil_servant_head_guard_interaction] store success entity @s interaction.player[] int 0 on target run tag @s add dawnshore_civil_servant_head_guard_action

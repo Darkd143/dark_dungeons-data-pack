@@ -1,3 +1,6 @@
+# Bank Guard
+function dark_dungeons:locations/dawnshore/bank/bank_guard/teardown
+
 # Currency Exchanger
 execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_currency_exchanger] run function dark_dungeons:entities/management/tp_to_world_kill_zone
 
