@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:trial_key",
+          "name": "minecraft:beehive",
           "functions": [
             {
               "function": "minecraft:set_custom_data",
@@ -16,7 +16,7 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "§a🔑 Dawnshore Butcher Shop Key 🔑"
+              "name": "§8🎁 Package🎁"
             }
           ]
         }
