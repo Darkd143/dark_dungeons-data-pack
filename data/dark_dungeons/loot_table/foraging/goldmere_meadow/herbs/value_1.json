@@ -5,23 +5,23 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "dark_dungeons:items/food/berries/everbloom_berries",
-          "weight": 99,
+          "value": "dark_dungeons:items/plants/herbs/dullweed",
+          "weight": 80,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 2
+                "max": 3
               }
             }
           ]
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 1,
-          "value": "dark_dungeons:items/food/berries/sunveil_berries"
+          "weight": 20,
+          "value": "dark_dungeons:items/plants/herbs/sunwort"
         }
       ]
     }
