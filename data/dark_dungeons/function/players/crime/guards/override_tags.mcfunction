@@ -1,5 +1,6 @@
 # Override
-execute if entity @s[tag=dawnshore_jailhouse_guard] run return 1
+execute if entity @s[tag=dawnshore_jailhouse_guard,tag=positioned_guard] run return 1
+execute if entity @s[tag=dawnshore_bank_guard,tag=positioned_guard] run return 1
 
 # Other Guard Types
 execute if entity @s[tag=positioned_guard] run return run function dark_dungeons:players/crime/guards/manage_positioned_guard

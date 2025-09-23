@@ -1,3 +1,5 @@
+# Bank Guard
+execute as @n[predicate=dark_dungeons:positioning/locations/dawnshore/bank/staff_room,tag=dawnshore_bank_guard,tag=positioned_guard,tag=!player] if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/bank/unauthorized_lower_rooms,gamemode=adventure] run function dark_dungeons:locations/dawnshore/bank/bank_guard/activate_guard
 
 # Deposit Clerk
 execute as @e[type=minecraft:interaction,tag=dawnshore_bank_deposit_interaction] store success entity @s interaction.player[] int 0 on target if entity @s[scores={bank_money_1=0..}] unless entity @s[predicate=dark_dungeons:inventory/selected_item/currency/copper_coin] unless entity @s[predicate=dark_dungeons:inventory/selected_item/currency/silver_coin] unless entity @s[predicate=dark_dungeons:inventory/selected_item/currency/gold_coin] unless entity @s[predicate=dark_dungeons:inventory/selected_item/currency/platinum_coin] run tellraw @s {"text":"Deposit Clerk: Hand me money and I'll deposit it into your account."}
