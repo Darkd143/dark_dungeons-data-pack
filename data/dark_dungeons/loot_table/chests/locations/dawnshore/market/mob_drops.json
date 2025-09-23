@@ -1,0 +1,75 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 40,
+                    "value": "dark_dungeons:items/mob_drops/zombies/zombie_flesh",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 30,
+                    "value": "dark_dungeons:items/mob_drops/slimes/green_slime_gel",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 20,
+                    "value": "dark_dungeons:items/mob_drops/zombies/zombie_boss_eye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2,
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 8,
+                    "value": "dark_dungeons:items/mob_drops/zombies/zombie_boss_head"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "value": "dark_dungeons:items/mob_drops/sylverpounce/sylverpounce_foot"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": {
+                        "stealable": true
+                    }
+                }
+            ]
+        }
+    ]
+}

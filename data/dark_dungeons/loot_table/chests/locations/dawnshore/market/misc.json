@@ -1,0 +1,76 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 5
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 40,
+                    "value": "dark_dungeons:items/misc/pearlspine_bones",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 30,
+                    "value": "dark_dungeons:items/fishing/seashells/seabloom_shell",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 20,
+                    "value": "dark_dungeons:items/fishing/seashells/azurespire",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "value": "dark_dungeons:items/food/misc/rations",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": {
+                        "stealable": true
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -11,3 +11,5 @@ execute if score @s temp_storage matches 4 run loot replace block ~ ~ ~ containe
 execute if score @s temp_storage matches 5 run loot replace block ~ ~ ~ container.4 loot dark_dungeons:chests/dungeons/dawnshore_dungeon/library
 
 execute if score @s temp_storage matches 6 run loot replace block ~ ~ ~ container.5 loot dark_dungeons:chests/dungeons/dawnshore_dungeon/library
+
+scoreboard players reset @s temp_storage

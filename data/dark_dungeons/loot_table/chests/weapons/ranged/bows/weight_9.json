@@ -1,0 +1,21 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dark_dungeons:items/weapons/bows/shortbow"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dark_dungeons:items/weapons/bows/cheap_bow"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dark_dungeons:items/weapons/bows/pathetic_longbow"
+                }
+            ]
+        }
+    ]
+}

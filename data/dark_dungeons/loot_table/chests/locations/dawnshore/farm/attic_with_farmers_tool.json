@@ -1,0 +1,22 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dark_dungeons:items/tools/farming/wooden_farming_sickle"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dark_dungeons:chests/locations/dawnshore/farm/attic"
+                }
+            ]
+        }
+    ]
+}
