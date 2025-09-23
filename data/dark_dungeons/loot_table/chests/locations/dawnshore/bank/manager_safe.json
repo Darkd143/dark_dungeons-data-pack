@@ -8,6 +8,14 @@
           "type": "minecraft:loot_table",
           "value": "dark_dungeons:items/access/keys/dawnshore/bank_key"
         }
+      ],
+      "functions": [
+          {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                  "stealable": true
+              }
+          }
       ]
     },
     {
@@ -23,6 +31,14 @@
             }
           ]
         }
+      ],
+      "functions": [
+          {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                  "stealable": true
+              }
+          }
       ]
     }
   ]

@@ -1,0 +1,17 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dark_dungeons:items/weapons/bows/legendary_bow"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dark_dungeons:items/weapons/bows/powerful_longbow"
+                }
+            ]
+        }
+    ]
+}
