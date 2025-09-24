@@ -1,1 +1,1 @@
-summon slime ~ ~ ~ {Size:1,CustomName:[{text:"Green Slime - Lv 2"}],Health:2,PersistenceRequired:1b,attributes:[{id:attack_damage,base:1f},{id:max_health,base:2f},{id:scale,base:0.6f}],Tags:["monster"],DeathLootTable:"dark_dungeons:entities/slimes/green_baby_slime/level_2"}
+summon slime ~ ~ ~ {Size:1,CustomName:[{text:"Green Slime - Lv 2"}],Health:2,PersistenceRequired:1b,attributes:[{id:attack_damage,base:1f},{id:max_health,base:2f},{id:scale,base:0.6f}],Tags:["monster"],DeathLootTable:"dark_dungeons:entities/monsters/slimes/green_baby_slimes/level_2"}
