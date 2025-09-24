@@ -5,6 +5,10 @@ function dark_dungeons:locations/dawnshore/bakery/day/teardown
 function dark_dungeons:locations/dawnshore/market/day/teardown
 function dark_dungeons:locations/dawnshore/butcher/day/teardown
 function dark_dungeons:locations/dawnshore/craftsman/day/teardown
+function dark_dungeons:locations/dawnshore/tavern/day/teardown
+function dark_dungeons:locations/dawnshore/adventurers_guild/day/teardown
+function dark_dungeons:locations/dawnshore/town_hall/day/teardown
+function dark_dungeons:locations/dawnshore/civil_servant_quarters/day/teardown
 
 # Guards
 function dark_dungeons:locations/dawnshore/guards/gate_guard_inside/teardown
