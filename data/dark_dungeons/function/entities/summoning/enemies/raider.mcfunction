@@ -1,0 +1,1 @@
+summon vindicator ~ ~ ~ {CustomName:[{text:Raider}],PersistenceRequired:1b,Tags:["raider","enemy"],equipment:{mainhand:{id:wooden_sword}},drop_chances:{mainhand:0f},DeathLootTable:"dark_dungeons:entities/enemies/raider"}

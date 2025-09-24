@@ -1,0 +1,71 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dark_dungeons:items/currency/containers/money_pouch",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_contents",
+                            "component": "minecraft:bundle_contents",
+                            "entries": [
+                                {
+                                    "type": "minecraft:loot_table",
+                                    "value": "dark_dungeons:items/currency/coins/copper_coin",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_count",
+                                            "count": {
+                                                "min": 5,
+                                                "max": 15
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.4
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_12"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_11"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_10"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_9"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dark_dungeons:chests/weapons/melee/swords/wood/weight_8"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.2
+                }
+            ]
+        }
+    ]
+}
