@@ -1,0 +1,3 @@
+tag @s remove dawnshore_bank_cleared_for_10_eni_loan
+tag @s remove dawnshore_bank_cleared_for_50_eni_loan
+tag @s remove dawnshore_bank_cleared_for_100_eni_loan

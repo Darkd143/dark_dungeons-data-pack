@@ -73,7 +73,7 @@ execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore
 execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_npc_interaction_9] run summon minecraft:interaction -77 78 87 {width:0.8,height:2.0,Tags:['dawnshore_bank_npc_interaction','dawnshore_bank_npc_interaction_9']}
 
 # Bank Manager Safe
-execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_manager_safe_interaction] run summon minecraft:interaction -86 78 86 {width:1.1,height:1.1,Tags:['dawnshore_bank_manager_safe_interaction']}
+function dark_dungeons:locations/dawnshore/bank/interactions/bank_manager_safe/setup
 
 data modify block -78 75 77 LootTable set value "dark_dungeons:chests/locations/dawnshore/bank/vault_loot"
 data modify block -83 75 76 LootTable set value "dark_dungeons:chests/locations/dawnshore/bank/vault_loot"

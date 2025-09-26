@@ -14,6 +14,7 @@ scoreboard objectives add adventurer_xp dummy "Adventurer XP"
 # Currency
 scoreboard objectives add bank_money_1 dummy
 scoreboard objectives add loan_money_1 dummy
+scoreboard objectives add interest dummy
 scoreboard objectives add reward_money dummy
 
 # Inn

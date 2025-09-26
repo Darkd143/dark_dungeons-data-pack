@@ -1,0 +1,1 @@
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_manager_safe_interaction]
