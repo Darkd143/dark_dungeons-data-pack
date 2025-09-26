@@ -52,12 +52,14 @@ execute as @e[type=minecraft:interaction,tag=dawnshore_bank_close_account_intera
 execute as @a[tag=dawnshore_bank_close_account] run function dark_dungeons:locations/dawnshore/bank/interactions/close_account
 
 # Loan Acquisition Clerk
-execute as @e[type=minecraft:interaction,tag=dawnshore_bank_loan_acquisition_interaction] store success entity @s interaction.player[] int 0 on target run tellraw @s ["Loan Acquisition Clerk: I'm sorry, but you are going to have to wait in line until I am finished helping these other customers."]
-# TODO
+execute as @e[type=minecraft:interaction,tag=dawnshore_bank_loan_acquisition_interaction] store success entity @s interaction.player[] int 0 on target run tag @s add dawnshore_bank_loan_aquisition_action
+
+execute as @a[tag=dawnshore_bank_loan_aquisition_action] run return run function dark_dungeons:locations/dawnshore/bank/interactions/loan_clerks/aquisition/main
 
 # Loan Repayment Clerk
-execute as @e[type=minecraft:interaction,tag=dawnshore_bank_loan_repayment_interaction] store success entity @s interaction.player[] int 0 on target run tellraw @s ["Loan Repayment Clerk: Looks like you don't have any loans to pay off."]
-# TODO
+execute as @e[type=minecraft:interaction,tag=dawnshore_bank_loan_repayment_interaction] store success entity @s interaction.player[] int 0 on target run tag @s add dawnshore_bank_loan_repayment_action
+
+execute as @a[tag=dawnshore_bank_loan_repayment_action] run return run function dark_dungeons:locations/dawnshore/bank/interactions/loan_clerks/repayment/main
 
 # Bank Manager
 execute as @e[type=minecraft:interaction,tag=dawnshore_bank_manager_interaction] store success entity @s interaction.player[] int 0 on target run tag @s add dawnshore_bank_manager_action
@@ -79,4 +81,11 @@ execute as @a[tag=dawnshore_bank_close_manager_office_door_action] run function 
 execute as @a[tag=dawnshore_bank_manager_office_door_interact] run function dark_dungeons:locations/dawnshore/bank/interactions/doors/interact/manager_office_door
 
 # Bank Manager Safe
+execute if entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/bank/manager_room,tag=dawnshore_bank_manager] unless entity @n[type=minecraft:interaction,predicate=dark_dungeons:positioning/locations/dawnshore/bank/manager_room,tag=dawnshore_bank_manager_safe_interaction] run function dark_dungeons:locations/dawnshore/bank/interactions/bank_manager_safe/setup
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/bank/manager_room,tag=dawnshore_bank_manager] if entity @n[type=minecraft:interaction,predicate=dark_dungeons:positioning/locations/dawnshore/bank/manager_room,tag=dawnshore_bank_manager_safe_interaction] run function dark_dungeons:locations/dawnshore/bank/interactions/bank_manager_safe/teardown
+
 execute as @e[type=minecraft:interaction,tag=dawnshore_bank_manager_safe_interaction] store success entity @s interaction.player[] int 0 on target run tellraw @s ["Bank Manager: Hey! Don't touch that."]
+
+# Bank Manager Doorway
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/bank/manager_room_doorway,predicate=dark_dungeons:inventory/has_items/form] run function dark_dungeons:players/clear_user_forms

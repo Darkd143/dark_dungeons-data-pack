@@ -42,4 +42,4 @@ execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,
 kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_npc_interaction]
 
 # Bank Manager Safe
-kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_manager_safe_interaction]
+function dark_dungeons:locations/dawnshore/bank/interactions/bank_manager_safe/teardown

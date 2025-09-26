@@ -1,0 +1,1 @@
+execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_manager_safe_interaction] run summon minecraft:interaction -86 78 86 {width:1.1,height:1.1,Tags:['dawnshore_bank_manager_safe_interaction']}

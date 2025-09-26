@@ -1,0 +1,6 @@
+scoreboard players set $hundred temp_storage 100
+scoreboard players operation @s interest = @s bank_money_1
+scoreboard players operation @s interest /= $hundred temp_storage
+scoreboard players operation @s bank_money_1 += @s interest
+scoreboard players reset @s interest
+scoreboard players reset $hundred temp_storage
