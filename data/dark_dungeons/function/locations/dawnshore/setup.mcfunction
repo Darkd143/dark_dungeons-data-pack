@@ -13,3 +13,4 @@ function dark_dungeons:locations/dawnshore/garbage_dump/setup
 function dark_dungeons:locations/dawnshore/adventurers_guild/setup
 function dark_dungeons:locations/dawnshore/inn/setup
 function dark_dungeons:locations/dawnshore/jailhouse/setup
+function dark_dungeons:locations/dawnshore/ownable_housing/setup

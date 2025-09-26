@@ -60,7 +60,9 @@ execute as @e[type=minecraft:interaction,tag=dawnshore_bank_loan_repayment_inter
 # TODO
 
 # Bank Manager
-execute as @e[type=minecraft:interaction,tag=dawnshore_bank_manager_interaction] store success entity @s interaction.player[] int 0 on target run tellraw @s ["Bank Manager: Can I help you?"]
+execute as @e[type=minecraft:interaction,tag=dawnshore_bank_manager_interaction] store success entity @s interaction.player[] int 0 on target run tag @s add dawnshore_bank_manager_action
+
+execute as @a[tag=dawnshore_bank_manager_action] run function dark_dungeons:locations/dawnshore/bank/interactions/bank_manager/main
 
 # Open Vault Door
 execute as @e[type=minecraft:interaction,tag=dawnshore_bank_vault_door_interaction] store success entity @s interaction.player[] int 0 on target if block -77 73 76 minecraft:iron_door[open=true] run tag @s add dawnshore_bank_close_vault_door_action

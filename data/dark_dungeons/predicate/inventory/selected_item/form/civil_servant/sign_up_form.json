@@ -2,6 +2,6 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "nbt": "{'SelectedItem':{'id':'minecraft:paper','components':{'minecraft:custom_name':'\u00A77🖹 Civil Servant Sign Up Form 🖹','minecraft:custom_data':{'valid':True}}}}"
+    "nbt": "{'SelectedItem':{'id':'minecraft:paper','components':{'minecraft:custom_name':'\u00A77🖹 Civil Servant Sign Up Form 🖹','minecraft:custom_data':{'valid':True,'form':True}}}}"
   }
 }
