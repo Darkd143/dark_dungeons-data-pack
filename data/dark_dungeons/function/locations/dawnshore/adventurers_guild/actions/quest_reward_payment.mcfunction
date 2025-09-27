@@ -1,6 +1,6 @@
-tellraw @s [{"text":"Guild Receptionist Nessa: Good job completing your quest,"},{selector:"@s"},{"text":"! Here is your payment."}]
+tellraw @s [{"text":"Guild Receptionist Nessa: Good job completing your quest, "},{selector:"@s"},{"text":"! Here is your payment."}]
 
-tellraw @s [{"text":"[",color:"gray"},{selector:"@s",color:"gray"},{"text":"received ",color:"gray"},{"score":{"name":"@s",objective:"reward_money"},color:"gray"},{"text":" Eni.]",color:"gray"}]
+tellraw @s [{"text":"[",color:"gray"},{selector:"@s",color:"gray"},{"text":" received ",color:"gray"},{"score":{"name":"@s",objective:"reward_money"},color:"gray"},{"text":" Eni.]",color:"gray"}]
 
 function dark_dungeons:payment/payment
 
