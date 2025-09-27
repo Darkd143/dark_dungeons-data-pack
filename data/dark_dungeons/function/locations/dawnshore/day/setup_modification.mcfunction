@@ -17,4 +17,7 @@ function dark_dungeons:locations/dawnshore/guards/outside_bank_guard_1/setup
 function dark_dungeons:locations/dawnshore/guards/outside_bank_guard_2/setup
 function dark_dungeons:locations/dawnshore/guards/town_hall_guard/setup
 
-function dark_dungeons:locations/dawnshore/day/chunk_loading/unload
+# Inn Cycle
+function dark_dungeons:locations/dawnshore/inn/cycle/cycle
+
+schedule function dark_dungeons:locations/dawnshore/day/chunk_loading/unload 120
