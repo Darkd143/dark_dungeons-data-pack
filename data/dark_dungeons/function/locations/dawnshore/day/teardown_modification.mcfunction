@@ -16,4 +16,4 @@ function dark_dungeons:locations/dawnshore/guards/outside_bank_guard_1/teardown
 function dark_dungeons:locations/dawnshore/guards/outside_bank_guard_2/teardown
 function dark_dungeons:locations/dawnshore/guards/town_hall_guard/teardown
 
-function dark_dungeons:locations/dawnshore/day/chunk_loading/unload
+schedule function dark_dungeons:locations/dawnshore/day/chunk_loading/unload 120

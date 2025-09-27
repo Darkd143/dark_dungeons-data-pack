@@ -5,4 +5,4 @@ execute positioned 74 71 264 run function dark_dungeons:locations/dawnshore_area
 
 execute positioned 74 71 264 run function dark_dungeons:locations/dawnshore_area/raiders/add_container_loot
 
-forceload remove 4 16 5 16
+forceload remove 64 256 95 271
