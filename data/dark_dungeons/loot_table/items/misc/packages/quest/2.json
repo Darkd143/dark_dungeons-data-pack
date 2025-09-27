@@ -1,0 +1,22 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dark_dungeons:items/misc/packages/delivery_package"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": {
+                        "valid": true,
+                        "quest": "2"
+                    }
+                }
+            ]
+        }
+    ]
+}

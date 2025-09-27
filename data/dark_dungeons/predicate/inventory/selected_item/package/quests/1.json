@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{'SelectedItem':{'id':'minecraft:beehive','components':{'minecraft:custom_name':'\u00A78🎁 Delivery Package 🎁','minecraft:custom_data':{'valid':True,'quest':'1'}}}}"
+  }
+}
