@@ -1,0 +1,14 @@
+function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_slimes
+function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_slimes
+function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_slimes
+function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_slimes
+function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_slimes
+function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_slimes
+function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_slimes
+function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_slimes
+function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_slimes
+function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_slimes
+
+tag @e[type=minecraft:slime,predicate=dark_dungeons:positioning/locations/dawnshore_area/goldmere_meadow/summon_zone] add just_summoned
+
+execute as @e[type=minecraft:slime,predicate=dark_dungeons:positioning/locations/dawnshore_area/goldmere_meadow/summon_zone] run function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/spread_slimes

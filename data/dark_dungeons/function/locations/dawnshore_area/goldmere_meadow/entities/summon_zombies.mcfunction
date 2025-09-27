@@ -1,0 +1,10 @@
+execute positioned -107 50 160 run function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_zombies
+execute positioned -135 84 197 run function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_zombies
+execute positioned -159 82 197 run function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_zombies
+execute positioned -113 86 199 run function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_zombies
+execute positioned -170 78 170 run function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_zombies
+execute positioned -212 72 199 run function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_zombies
+execute positioned -185 72 198 run function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_zombies
+execute positioned -191 71 251 run function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_zombies
+execute positioned -217 78 265 run function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_zombies
+execute positioned -197 81 202 run function dark_dungeons:locations/dawnshore_area/goldmere_meadow/entities/summon_lv_1_to_3_zombies
