@@ -57,3 +57,8 @@ execute if entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/ban
 execute as @e[type=minecraft:interaction,tag=dawnshore_civil_servant_head_guard_interaction] store success entity @s interaction.player[] int 0 on target run tag @s add dawnshore_civil_servant_head_guard_action
 
 execute as @a[tag=dawnshore_civil_servant_head_guard_action] run function dark_dungeons:locations/dawnshore/civil_servant_quarters/head_guard/action
+
+# Night Locked Doors
+execute if entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=default-time-manager,predicate=!dark_dungeons:time/during_night] run return 0
+
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/tavern_zone,tag=dawnshore_tavern_door] at @s store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/tavern/doors/interact
