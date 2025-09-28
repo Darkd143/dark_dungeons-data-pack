@@ -1,1 +1,0 @@
-function dark_dungeons:locations/dawnshore/butcher/day/setup

@@ -64,3 +64,5 @@ execute if entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_r
 execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/tavern_zone,tag=dawnshore_tavern_door] at @s store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/tavern/doors/interact
 
 execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_craftsman_door] at @s store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/craftsman/doors/interact
+
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_butcher_front_door] store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/butcher/doors/front_door/interact
