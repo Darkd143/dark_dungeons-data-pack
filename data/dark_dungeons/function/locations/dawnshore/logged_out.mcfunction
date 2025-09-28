@@ -21,3 +21,6 @@ execute if entity @s[predicate=dark_dungeons:positioning/locations/dawnshore/bak
 
 # Adventurers Guild
 execute if entity @s[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild/inside] run return run function dark_dungeons:locations/dawnshore/adventurers_guild/kick_out
+
+# Market
+execute if entity @s[predicate=dark_dungeons:positioning/locations/dawnshore/market/inside] run return run function dark_dungeons:locations/dawnshore/market/kick_out

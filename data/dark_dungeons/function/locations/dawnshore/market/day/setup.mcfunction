@@ -106,3 +106,6 @@ data modify block -103 75 60 LootTable set value "dark_dungeons:chests/locations
 data modify block -103 75 59 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
 data modify block -103 75 58 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
 data modify block -103 75 57 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
+
+# Unlock Doors
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_front_door]

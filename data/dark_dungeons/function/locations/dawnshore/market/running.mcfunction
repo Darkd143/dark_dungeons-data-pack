@@ -1,4 +1,3 @@
-
 # Quest Interactions (Drop Dealer Package Delivery)
 execute if entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_mob_drop_trader] unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_drop_dealer_quest_interaction] as @a[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,scores={quest_id=2}] if function dark_dungeons:quests/active_task/dawnshore_active_quest run function dark_dungeons:locations/dawnshore/market/quest_interactions/drop_dealer/setup
 
