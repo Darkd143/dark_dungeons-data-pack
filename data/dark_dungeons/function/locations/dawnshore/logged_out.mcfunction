@@ -9,3 +9,6 @@ execute if entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_r
 
 # Tavern
 execute if entity @s[predicate=dark_dungeons:positioning/locations/dawnshore/tavern/inside] run function dark_dungeons:locations/dawnshore/tavern/kick_out
+
+# Craftsman
+execute if entity @s[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone] run function dark_dungeons:locations/dawnshore/craftsman/kick_out

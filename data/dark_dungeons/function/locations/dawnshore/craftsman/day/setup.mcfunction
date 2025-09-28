@@ -25,3 +25,6 @@ data modify block -118 76 108 LootTable set value "dark_dungeons:chests/location
 data modify block -120 76 109 LootTable set value "dark_dungeons:chests/locations/dawnshore/craftsman/work_room"
 data modify block -120 76 110 LootTable set value "dark_dungeons:chests/locations/dawnshore/craftsman/work_room"
 data modify block -120 76 111 LootTable set value "dark_dungeons:chests/locations/dawnshore/craftsman/work_room"
+
+# Unlock Doors
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_craftsman_door]
