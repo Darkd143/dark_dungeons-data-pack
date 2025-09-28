@@ -15,4 +15,4 @@ execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore
 function dark_dungeons:locations/dawnshore/craftsman/doors/close
 
 # Kick out Players
-execute as @a[gamemode=adventure,predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone] run function dark_dungeons:locations/dawnshore/craftsman/kick_out
+execute as @a[gamemode=adventure,predicate=dark_dungeons:positioning/locations/dawnshore/craftsman/inside] run function dark_dungeons:locations/dawnshore/craftsman/kick_out
