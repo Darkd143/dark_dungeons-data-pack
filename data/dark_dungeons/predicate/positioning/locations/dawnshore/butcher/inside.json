@@ -11,10 +11,10 @@
                 },
                 "y": {
                     "min": 71,
-                    "max": 79
+                    "max": 78
                 },
                 "z": {
-                    "min": 56,
+                    "min": 56.5,
                     "max": 68.5
                 }
             },
@@ -36,6 +36,26 @@
                 "z": {
                     "min": 68,
                     "max": 69
+                }
+            },
+            "dimension": "minecraft:overworld"
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "position": {
+                "x": {
+                    "min": -110,
+                    "max": -108
+                },
+                "y": {
+                    "min": 77,
+                    "max": 79
+                },
+                "z": {
+                    "min": 57,
+                    "max": 68
                 }
             },
             "dimension": "minecraft:overworld"

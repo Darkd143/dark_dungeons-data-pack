@@ -1,0 +1,73 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "position": {
+                "x": {
+                    "min": -121,
+                    "max": -106.5
+                },
+                "y": {
+                    "min": 72,
+                    "max": 77
+                },
+                "z": {
+                    "min": 78,
+                    "max": 91.5
+                }
+            },
+            "dimension": "minecraft:overworld"
+        }
+    }
+    // {
+    //     "condition": "minecraft:inverted",
+    //     "term": {
+    //         "condition": "any_of",
+    //         "terms": [
+    //             {
+    //                 "condition": "minecraft:location_check",
+    //                 "predicate": {
+    //                     "position": {
+    //                         "x": {
+    //                             "min": -99,
+    //                             "max": -97
+    //                         },
+    //                         "y": {
+    //                             "min": 71,
+    //                             "max": 79
+    //                         },
+    //                         "z": {
+    //                             "min": 89,
+    //                             "max": 92
+    //                         }
+    //                     },
+    //                     "dimension": "minecraft:overworld"
+    //                 }
+    //             },
+    //             {
+    //                 "condition": "minecraft:location_check",
+    //                 "predicate": {
+    //                     "position": {
+    //                         "x": {
+    //                             "min": -97,
+    //                             "max": -96
+    //                         },
+    //                         "y": {
+    //                             "min": 71,
+    //                             "max": 79
+    //                         },
+    //                         "z": {
+    //                             "min": 91,
+    //                             "max": 92
+    //                         }
+    //                     },
+    //                     "dimension": "minecraft:overworld"
+    //                 }
+    //             }
+    //         ]
+    //     }
+    // }
+  ]
+}
