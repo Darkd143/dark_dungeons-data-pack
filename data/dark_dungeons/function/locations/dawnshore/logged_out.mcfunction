@@ -24,3 +24,6 @@ execute if entity @s[predicate=dark_dungeons:positioning/locations/dawnshore/adv
 
 # Market
 execute if entity @s[predicate=dark_dungeons:positioning/locations/dawnshore/market/inside] run return run function dark_dungeons:locations/dawnshore/market/kick_out
+
+# Bank
+execute if entity @s[predicate=dark_dungeons:positioning/locations/dawnshore/bank/inside,predicate=!dark_dungeons:positioning/locations/dawnshore/bank/unauthorized_lower_rooms] run return run function dark_dungeons:locations/dawnshore/bank/kick_out

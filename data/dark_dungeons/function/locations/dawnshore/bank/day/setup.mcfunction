@@ -79,3 +79,7 @@ data modify block -78 75 77 LootTable set value "dark_dungeons:chests/locations/
 data modify block -83 75 76 LootTable set value "dark_dungeons:chests/locations/dawnshore/bank/vault_loot"
 data modify block -81 73 74 LootTable set value "dark_dungeons:chests/locations/dawnshore/bank/vault_loot"
 data modify block -86 78 86 LootTable set value "dark_dungeons:chests/locations/dawnshore/bank/manager_safe"
+
+# Unlock Front Doors
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_front_door_a]
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_front_door_b]

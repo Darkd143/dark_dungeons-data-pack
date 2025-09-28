@@ -83,3 +83,8 @@ execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurer
 
 # Market Locked Doors
 execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_front_door] at @s store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/market/doors/front_doors/interact
+
+# Bank Locked Doors
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_front_door_a] at @s store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/bank/interactions/doors/front_doors_a/interact
+
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_front_door_b] at @s store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/bank/interactions/doors/front_doors_b/interact
