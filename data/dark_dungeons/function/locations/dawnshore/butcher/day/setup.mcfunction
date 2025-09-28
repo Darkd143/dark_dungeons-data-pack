@@ -7,3 +7,6 @@ data modify block -110 73 57 LootTable set value "dark_dungeons:chests/locations
 
 data modify block -111 76 60 LootTable set value "dark_dungeons:chests/locations/dawnshore/butcher/living_space"
 data modify block -111 76 62 LootTable set value "dark_dungeons:chests/locations/dawnshore/butcher/living_space"
+
+# Unlock Door
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/butcher/inside,tag=dawnshore_butcher_front_door]
