@@ -1,5 +1,3 @@
-function dark_dungeons:locations/dawnshore/adventurers_guild/day/setup
-
 # Sign Interactions
 
 # Sign 1: -79 73 101

@@ -61,12 +61,22 @@ execute as @a[tag=dawnshore_civil_servant_head_guard_action] run function dark_d
 # Night Locked Doors
 execute if entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=default-time-manager,predicate=!dark_dungeons:time/during_night] run return 0
 
+# Tavern Locked Doors
 execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/tavern_zone,tag=dawnshore_tavern_door] at @s store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/tavern/doors/interact
 
+# Craftsman Locked Doors
 execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_craftsman_door] at @s store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/craftsman/doors/interact
 
+# Butcher Locked Doors
 execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_butcher_front_door] store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/butcher/doors/front_door/interact
 
+# Bakery Locked Doors
 execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_bakery_door] store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/bakery/door/interact
 
+# Town Hall Locked Doors
 execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall_zone,tag=dawnshore_town_hall_door] at @s store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/town_hall/doors/front_doors/interact
+
+# Craftsman Adventurers Guild Doors
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurers_guild_front_door_a] at @s store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/adventurers_guild/doors/front_doors_a/interact
+
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurers_guild_front_door_b] at @s store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/adventurers_guild/doors/front_doors_b/interact

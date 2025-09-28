@@ -1,3 +1,1 @@
-function dark_dungeons:locations/dawnshore/adventurers_guild/day/teardown
-
 kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_interaction]
