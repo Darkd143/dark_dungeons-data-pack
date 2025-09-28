@@ -21,11 +21,3 @@ function dark_dungeons:locations/running
 
 # Run Dungeon Functions
 function dark_dungeons:dungeons/running
-
-execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/tavern/inside] run return run say Tavern!
-execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman/inside] run return run say Craftsman!
-execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/butcher/inside] run return run say Butcher!
-execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/bakery/inside] run return run say Bakery!
-execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall/inside] run return run say Town Hall!
-
-say None!
