@@ -15,3 +15,6 @@ execute if entity @s[predicate=dark_dungeons:positioning/locations/dawnshore/cra
 
 # Butcher
 execute if entity @s[predicate=dark_dungeons:positioning/locations/dawnshore/butcher/inside] run function dark_dungeons:locations/dawnshore/butcher/kick_out
+
+# Bakery 
+execute if entity @s[predicate=dark_dungeons:positioning/locations/dawnshore/bakery/inside] run function dark_dungeons:locations/dawnshore/bakery/kick_out
