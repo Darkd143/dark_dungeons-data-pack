@@ -26,3 +26,7 @@ data modify block -85 78 110 LootTable set value "dark_dungeons:chests/locations
 
 # Guild Master's Office Loot
 data modify block -83 76 101 LootTable set value "dark_dungeons:chests/locations/dawnshore/adventurers_guild/guild_masters_room"
+
+# Unlock Doors
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurers_guild_front_door_a]
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurers_guild_front_door_b]
