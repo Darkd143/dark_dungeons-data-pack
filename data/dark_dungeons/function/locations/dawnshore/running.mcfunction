@@ -68,3 +68,5 @@ execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_
 execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_butcher_front_door] store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/butcher/doors/front_door/interact
 
 execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_bakery_door] store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/bakery/door/interact
+
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall_zone,tag=dawnshore_town_hall_door] at @s store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/town_hall/doors/front_doors/interact
