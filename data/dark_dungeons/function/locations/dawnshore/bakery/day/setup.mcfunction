@@ -5,3 +5,6 @@ execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore
 data modify block -98 76 88 LootTable set value "dark_dungeons:chests/locations/dawnshore/bakery/default"
 data modify block -98 76 87 LootTable set value "dark_dungeons:chests/locations/dawnshore/bakery/default"
 data modify block -98 76 86 LootTable set value "dark_dungeons:chests/locations/dawnshore/bakery/default"
+
+# Unlock Door
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/bakery/inside,tag=dawnshore_bakery_door]
