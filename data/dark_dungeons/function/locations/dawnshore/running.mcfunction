@@ -60,7 +60,10 @@ execute as @a[tag=dawnshore_civil_servant_head_guard_action] run function dark_d
 
 # THIEVERY
 # Craftsman
-execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman/stealing_zone,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/craftsman/thievery
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman/stealing_zone,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/crime/committed_theft
+
+# Bakery
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/bakery/stealing_zone,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/crime/committed_theft
 
 # Night Locked Doors
 execute if entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=default-time-manager,predicate=!dark_dungeons:time/during_night] run return 0
