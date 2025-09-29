@@ -58,6 +58,7 @@ execute as @e[type=minecraft:interaction,tag=dawnshore_civil_servant_head_guard_
 
 execute as @a[tag=dawnshore_civil_servant_head_guard_action] run function dark_dungeons:locations/dawnshore/civil_servant_quarters/head_guard/action
 
+
 # THIEVERY
 # Craftsman
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman/stealing_zone,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/crime/committed_theft
@@ -65,7 +66,11 @@ execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman/
 # Bakery
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/bakery/stealing_zone,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/crime/committed_theft
 
-# Night Locked Doors
+# Market
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/market/outside_entry,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/crime/committed_theft
+
+
+# LOCKED DOORS AT NIGHT
 execute if entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=default-time-manager,predicate=!dark_dungeons:time/during_night] run return 0
 
 # Tavern Locked Doors

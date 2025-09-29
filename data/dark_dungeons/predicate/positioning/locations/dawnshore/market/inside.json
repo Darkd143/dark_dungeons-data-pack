@@ -44,24 +44,8 @@
             "condition": "any_of",
             "terms": [
                 {
-                    "condition": "minecraft:location_check",
-                    "predicate": {
-                        "position": {
-                            "x": {
-                                "min": -103,
-                                "max": -101
-                            },
-                            "y": {
-                                "min": 72,
-                                "max": 76.0
-                            },
-                            "z": {
-                                "min": 72,
-                                "max": 75
-                            }
-                        },
-                        "dimension": "minecraft:overworld"
-                    }
+                    "condition": "minecraft:reference",
+                    "name": "dark_dungeons:positioning/locations/dawnshore/market/outside_entry"
                 }
             ]
         }
