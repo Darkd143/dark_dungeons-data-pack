@@ -15,3 +15,6 @@ execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/registrati
 
 # Thievery
 execute as @a[x=-54,y=73,z=102,distance=5.7..6,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/registration_hut/thievery
+
+# Bank Robbery Outside
+execute as @p[predicate=dark_dungeons:positioning/locations/dawnshore/bank/staff_doorway,tag=bank_robbery] unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/bank/staff_room,tag=dawnshore_bank_guard] run schedule function dark_dungeons:locations/dawnshore/bank/summon_guards_for_bank_robbery 10 replace

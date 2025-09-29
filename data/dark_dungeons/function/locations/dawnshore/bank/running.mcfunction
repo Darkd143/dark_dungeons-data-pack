@@ -89,3 +89,6 @@ execute as @e[type=minecraft:interaction,tag=dawnshore_bank_manager_safe_interac
 
 # Bank Manager Doorway
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/bank/manager_room_doorway,predicate=dark_dungeons:inventory/has_items/form] run function dark_dungeons:players/clear_user_forms
+
+# Robbing Bank
+execute as @a[predicate=dark_dungeons:inventory/has_items/user_stealing,predicate=dark_dungeons:positioning/locations/dawnshore/bank/staff_room] run function dark_dungeons:locations/dawnshore/bank/robbing_bank
