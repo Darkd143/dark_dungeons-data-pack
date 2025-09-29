@@ -69,6 +69,9 @@ execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/bakery/ste
 # Market
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/market/outside_entry,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/crime/committed_theft
 
+# Butcher
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/butcher/stealing_zone,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/crime/committed_theft
+
 
 # LOCKED DOORS AT NIGHT
 execute if entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=default-time-manager,predicate=!dark_dungeons:time/during_night] run return 0
