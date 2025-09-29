@@ -27,3 +27,6 @@ execute as @a[tag=dawnshore_adventurer_guild_quest_sign_5_action] run function d
 execute as @a[tag=dawnshore_adventurer_guild_quest_sign_6_action] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/signs/6
 execute as @a[tag=dawnshore_adventurer_guild_quest_sign_7_action] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/signs/7
 execute as @a[tag=dawnshore_adventurer_guild_quest_sign_8_action] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/signs/8
+
+# Thievery
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild/stealing_check_zone,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/adventurers_guild/thievery
