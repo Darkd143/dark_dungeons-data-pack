@@ -72,6 +72,9 @@ execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/bakery/ste
 # Market
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/market/outside_entry,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/crime/committed_theft
 
+# Butcher
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/butcher/stealing_zone,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/crime/committed_theft
+
 # Farmer's House
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/farmers_house/stealing_zone,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/crime/committed_theft
 
