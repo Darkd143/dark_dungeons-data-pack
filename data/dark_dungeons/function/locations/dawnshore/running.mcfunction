@@ -16,6 +16,7 @@ execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/inn
 execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/jailhouse_zone] run function dark_dungeons:locations/dawnshore/jailhouse/running
 execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall_zone] run function dark_dungeons:locations/dawnshore/town_hall/running
 execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone] run function dark_dungeons:locations/dawnshore/market/running
+execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/civil_servant_quarters_zone] run function dark_dungeons:locations/dawnshore/civil_servant_quarters/running
 
 # Open Bank Staff Door
 execute as @e[type=minecraft:interaction,tag=dawnshore_bank_staff_door_interaction] store success entity @s interaction.player[] int 0 on target if block -72 73 75 minecraft:iron_door[open=true] run tag @s add dawnshore_bank_close_staff_door_action
@@ -77,6 +78,9 @@ execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/butcher/st
 
 # Farmer's House
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/farmers_house/stealing_zone,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/crime/committed_theft
+
+# Civil Servant Quarters (Weaponry Tower)
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/civil_servant_quarters/weaponry_tower_stealing_zone,predicate=dark_dungeons:inventory/has_items/user_stealing,tag=!dawnshore_civil_servant] run function dark_dungeons:locations/dawnshore/civil_servant_quarters/weaponry_tower_thievery
 
 
 # LOCKED DOORS AT NIGHT

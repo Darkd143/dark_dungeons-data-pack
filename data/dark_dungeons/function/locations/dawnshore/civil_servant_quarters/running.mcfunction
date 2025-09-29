@@ -1,0 +1,4 @@
+# Thievery
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/civil_servant_quarters/guard_room_stealing_zone,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/civil_servant_quarters/guard_room_thievery
+
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/civil_servant_quarters/weaponry_stairs_stealing_zone,predicate=dark_dungeons:inventory/has_items/user_stealing,tag=!dawnshore_civil_servant] run function dark_dungeons:locations/dawnshore/civil_servant_quarters/weaponry_stairs_thievery
