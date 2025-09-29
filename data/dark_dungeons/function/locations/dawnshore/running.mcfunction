@@ -60,6 +60,9 @@ execute as @a[tag=dawnshore_civil_servant_head_guard_action] run function dark_d
 
 
 # THIEVERY
+# Adventurer's Guild (Backup)
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild/outside_entrance_a,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/crime/committed_theft
+
 # Craftsman
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman/stealing_zone,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/crime/committed_theft
 
@@ -68,6 +71,9 @@ execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/bakery/ste
 
 # Market
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/market/outside_entry,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/crime/committed_theft
+
+# Farmer's House
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/farmers_house/stealing_zone,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/crime/committed_theft
 
 
 # LOCKED DOORS AT NIGHT

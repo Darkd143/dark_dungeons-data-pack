@@ -52,44 +52,8 @@
             "condition": "any_of",
             "terms": [
                 {
-                    "condition": "minecraft:location_check",
-                    "predicate": {
-                        "position": {
-                        "x": {
-                            "min": -75,
-                            "max": -72
-                        },
-                        "y": {
-                            "min": 72,
-                            "max": 80
-                        },
-                        "z": {
-                            "min": 100,
-                            "max": 102
-                        }
-                        },
-                        "dimension": "minecraft:overworld"
-                    }
-                },
-                {
-                    "condition": "minecraft:location_check",
-                    "predicate": {
-                        "position": {
-                        "x": {
-                            "min": -73,
-                            "max": -71
-                        },
-                        "y": {
-                            "min": 72,
-                            "max": 80
-                        },
-                        "z": {
-                            "min": 100,
-                            "max": 104
-                        }
-                        },
-                        "dimension": "minecraft:overworld"
-                    }
+                    "condition": "minecraft:reference",
+                    "name": "dark_dungeons:positioning/locations/dawnshore/adventurers_guild/outside_entrance_a"
                 }
             ]
         }
