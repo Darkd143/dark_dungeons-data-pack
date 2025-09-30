@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{'SelectedItem':{'id':'minecraft:bucket','components':{'minecraft:custom_name':'\u00A74🛠 Empty Bucket 🛠','minecraft:custom_data':{'valid':True}}}}"
+  }
+}
