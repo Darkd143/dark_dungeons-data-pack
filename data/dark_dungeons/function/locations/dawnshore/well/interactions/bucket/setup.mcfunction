@@ -1,0 +1,1 @@
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_well_bucket_interaction] run summon interaction -137 72.8 86 {width:1.4,height:1.3,Tags:['dawnshore_well_bucket_interaction']}
