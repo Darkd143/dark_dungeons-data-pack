@@ -1,0 +1,3 @@
+function dark_dungeons:locations/dawnshore/farm/field/teardown
+function dark_dungeons:locations/dawnshore/farm/field/add_all_crop_interactions
+function dark_dungeons:locations/dawnshore/farm/field/add_all_fully_grown_crops
