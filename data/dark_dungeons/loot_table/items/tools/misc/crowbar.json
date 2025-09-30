@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:wooden_hoe",
+          "name": "minecraft:iron_hoe",
           "functions": [
             {
               "function": "minecraft:set_custom_data",
@@ -16,7 +16,7 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "§4🛠 Wooden Farming Sickle 🛠"
+              "name": "§4🛠 Crowbar 🛠"
             }
           ]
         }
