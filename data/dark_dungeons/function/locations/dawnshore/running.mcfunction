@@ -11,6 +11,7 @@ function dark_dungeons:locations/dawnshore/garbage_dump/running
 function dark_dungeons:locations/dawnshore/guards/running
 function dark_dungeons:locations/dawnshore/sewers/running
 function dark_dungeons:locations/dawnshore/well/running
+function dark_dungeons:locations/dawnshore/farm/running
 execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone] run function dark_dungeons:locations/dawnshore/adventurers_guild/running
 execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone] run function dark_dungeons:locations/dawnshore/craftsman/running
 execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone] run function dark_dungeons:locations/dawnshore/bank/running

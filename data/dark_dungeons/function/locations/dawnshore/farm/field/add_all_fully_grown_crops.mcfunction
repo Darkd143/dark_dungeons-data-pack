@@ -1,0 +1,1 @@
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_crop_interaction] at @s run function dark_dungeons:locations/dawnshore/farm/field/crop_spot/add_age_7_crop_plant

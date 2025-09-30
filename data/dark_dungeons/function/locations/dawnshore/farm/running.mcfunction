@@ -1,0 +1,1 @@
+execute as @e[type=interaction,predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_crop_interaction] store success entity @s interaction.player[] int 0 at @s on target positioned ~-0.5 ~ ~-0.5 run function dark_dungeons:locations/dawnshore/farm/field/crop_spot/interact
