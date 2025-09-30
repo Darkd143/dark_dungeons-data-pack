@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{'SelectedItem':{'id':'minecraft:cod','components':{'minecraft:custom_name':'\u00A73🐟 Glimmershade 🐟','minecraft:custom_data':{'valid':True}}}}"
+  }
+}
