@@ -21,3 +21,5 @@ function dark_dungeons:locations/running
 
 # Run Dungeon Functions
 function dark_dungeons:dungeons/running
+
+execute as @e[type=item] at @s unless block ~ ~-0.5 ~ air run tellraw @a[distance=..10] {"text":"Affirm!"}

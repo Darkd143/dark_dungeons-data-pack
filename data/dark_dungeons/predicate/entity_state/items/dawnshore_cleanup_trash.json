@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:entity_state/items/custom/misc/dirty_food_bowl"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:entity_state/items/custom/misc/empty_bottle"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:entity_state/items/custom/misc/paper_litter"
+        }
+    ]
+}
