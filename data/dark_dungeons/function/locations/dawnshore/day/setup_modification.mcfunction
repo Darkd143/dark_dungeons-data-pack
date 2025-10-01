@@ -10,6 +10,7 @@ function dark_dungeons:locations/dawnshore/tavern/day/setup
 function dark_dungeons:locations/dawnshore/adventurers_guild/day/setup
 function dark_dungeons:locations/dawnshore/town_hall/day/setup
 function dark_dungeons:locations/dawnshore/civil_servant_quarters/day/setup
+function dark_dungeons:locations/dawnshore/farm/day/setup
 
 # Town Guards
 function dark_dungeons:locations/dawnshore/guards/gate_guard_inside/setup
