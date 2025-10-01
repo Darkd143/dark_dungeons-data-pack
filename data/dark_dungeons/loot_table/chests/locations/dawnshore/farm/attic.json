@@ -8,11 +8,11 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "dark_dungeons:items/misc/dirty_food_bowl"
+                    "value": "dark_dungeons:items/misc/litter/dirty_food_bowl"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "dark_dungeons:items/misc/empty_bottle"
+                    "value": "dark_dungeons:items/misc/litter/empty_bottle"
                 },
                 {
                     "type": "minecraft:loot_table",
