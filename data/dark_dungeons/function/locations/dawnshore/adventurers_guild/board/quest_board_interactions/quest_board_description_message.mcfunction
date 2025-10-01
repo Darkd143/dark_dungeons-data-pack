@@ -13,7 +13,7 @@ execute if score @s quest_id matches 5 run tellraw @a[predicate=dark_dungeons:po
 
 execute if score @s quest_id matches 6 run tellraw @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_description] {"text":"Description: Fish Trader Eamon needs a Glimmershade for a special order."}
 
-execute if score @s quest_id matches 7 run tellraw @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_description] {"text":"Description: Farmer Jeremiah needs help farming and replanting his crops."}
+execute if score @s quest_id matches 7 run tellraw @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_description] {"text":"Description: Farmer Garrett needs help farming and replanting his crops."}
 
 execute if score @s quest_id matches 8 run tellraw @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_description] {"text":"Description: Berry Merchant Finn needs 15 Everbloom berries."}
 

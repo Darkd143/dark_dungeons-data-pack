@@ -6,6 +6,7 @@ execute if entity @s store result score @s temp_storage run data get storage dar
 execute if score @s temp_storage matches 0 run return run tellraw @s {"text":"Error: No Task Found",color:"red"}
 
 tellraw @s [{"text":"Quest Completed!",color:"green"}]
+execute at @s run playsound minecraft:entity.player.levelup master @a ~ ~ ~ 1 1
 
 tellraw @s {"text":"[Make sure to stop by the adventurer's guild for payment.]",color:"gray"}
 
