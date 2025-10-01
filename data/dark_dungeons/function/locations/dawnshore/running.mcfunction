@@ -86,6 +86,7 @@ execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/farmers_ho
 # Civil Servant Quarters (Weaponry Tower)
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/civil_servant_quarters/weaponry_tower_stealing_zone,predicate=dark_dungeons:inventory/has_items/user_stealing,tag=!dawnshore_civil_servant] run function dark_dungeons:locations/dawnshore/civil_servant_quarters/weaponry_tower_thievery
 
+
 # LOCKED DOORS AT NIGHT
 execute if entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=default-time-manager,predicate=!dark_dungeons:time/during_night] run return 0
 

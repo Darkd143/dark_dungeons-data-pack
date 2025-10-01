@@ -1,0 +1,9 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:positioning/locations/dawnshore/dawnshore"
+        }
+    ]
+}

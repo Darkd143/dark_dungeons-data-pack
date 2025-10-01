@@ -14,3 +14,4 @@ function dark_dungeons:locations/dawnshore/adventurers_guild/setup
 function dark_dungeons:locations/dawnshore/inn/setup
 function dark_dungeons:locations/dawnshore/jailhouse/setup
 function dark_dungeons:locations/dawnshore/ownable_housing/setup
+function dark_dungeons:locations/dawnshore/well/setup
