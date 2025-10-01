@@ -3,6 +3,9 @@ execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore
 
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_farmer_outside_interaction] run summon interaction -143 72 77 {"width":0.7,height:2.0,Tags:['dawnshore_farmer_outside_interaction'],CustomName:[{text:"Farmer Garrett"}]}
 
+# Grow Farm
+function dark_dungeons:locations/dawnshore/farm/field/setup
+
 # Container Loot
 function dark_dungeons:locations/dawnshore/farm/day/reset_attic_loot
 
