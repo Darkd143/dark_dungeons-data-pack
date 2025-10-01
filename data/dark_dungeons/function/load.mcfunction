@@ -24,6 +24,7 @@ scoreboard objectives add server_days_passed dummy
 
 # Temporary Storage
 scoreboard objectives add temp_storage dummy
+scoreboard objectives add random dummy
 
 # Quests
 scoreboard objectives add quest_type dummy

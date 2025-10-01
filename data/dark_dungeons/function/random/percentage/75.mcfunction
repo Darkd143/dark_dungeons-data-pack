@@ -1,3 +1,3 @@
-execute store result score @s temp_storage run function dark_dungeons:random/ranges/1-100
-execute if entity @s[scores={temp_storage=1..75}] run return 1
-return 0
+execute store result score @s random run function dark_dungeons:random/ranges/1-100
+execute if entity @s[scores={random=1..75}] run return run function dark_dungeons:random/truthy/true
+return run function dark_dungeons:random/truthy/false
