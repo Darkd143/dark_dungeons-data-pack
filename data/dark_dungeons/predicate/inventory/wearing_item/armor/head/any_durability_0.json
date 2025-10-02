@@ -19,6 +19,19 @@
             "terms": [
                 {
                     "condition": "minecraft:reference",
+                    "name": "dark_dungeons:inventory/wearing_item/armor/head/copper"
+                },
+                {
+                    "condition": "minecraft:reference",
+                    "name": "dark_dungeons:inventory/wearing_item/components/damage/head/121"
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "minecraft:reference",
                     "name": "dark_dungeons:inventory/wearing_item/armor/head/golden"
                 },
                 {
