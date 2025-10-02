@@ -1,3 +1,3 @@
-kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_leather_craftsman_quest_interaction]
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_leatherworker_quest_interaction]
 
-kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_leather_craftsman_quest_text_display]
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_leatherworker_quest_text_display]

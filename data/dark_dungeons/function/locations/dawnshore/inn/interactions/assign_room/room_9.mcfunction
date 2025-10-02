@@ -1,6 +1,6 @@
 execute as @s run function dark_dungeons:players/reset_inn_client
-# #fixcopper
-clear @s minecraft:resin_clump[minecraft:custom_name="\u00A76🪙 Copper Coin 🪙",minecraft:custom_data={valid:True}] 1
+
+clear @s minecraft:copper_nugget[minecraft:custom_name="\u00A76🪙 Copper Coin 🪙",minecraft:custom_data={valid:True}] 1
 data merge block -59 78 83 {LootTable:""}
 tag @s add dawnshore_inn_client
 scoreboard players set @s room_number 9

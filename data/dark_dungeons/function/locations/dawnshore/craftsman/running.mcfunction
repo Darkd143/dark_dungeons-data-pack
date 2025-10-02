@@ -21,4 +21,5 @@ execute unless entity @a[predicate=dark_dungeons:positioning/locations/dawnshore
 
 execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman/shop_room,type=minecraft:interaction,tag=dawnshore_leatherworker_quest_interaction] store success entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/craftsman/quest_interactions/leather_armorer/messages
 
+# Cauldron Interaction
 execute as @e[type=interaction,tag=dawnshore_craftsman_workroom_cauldron,predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone] store success entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/craftsman/cauldron/main

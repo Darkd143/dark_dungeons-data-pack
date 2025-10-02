@@ -5,9 +5,8 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{'Inventory':[{'id':'minecraft:resin_clump','components':{'minecraft:custom_name':'\u00A76🪙 Copper Coin 🪙','minecraft:custom_data':{'valid':True}}}]}"
-      },
-      "_comment": "#fixcopper"
+        "nbt": "{'Inventory':[{'id':'minecraft:copper_nugget','components':{'minecraft:custom_name':'\u00A76🪙 Copper Coin 🪙','minecraft:custom_data':{'valid':True}}}]}"
+      }
     },
     {
       "condition": "minecraft:reference",
