@@ -11,7 +11,8 @@
             {
               "function": "minecraft:set_custom_data",
               "tag": {
-                "valid": true
+                "valid": true,
+                "litter": true
               }
             },
             {

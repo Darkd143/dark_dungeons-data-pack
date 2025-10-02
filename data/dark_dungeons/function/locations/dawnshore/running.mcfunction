@@ -63,6 +63,9 @@ execute as @e[type=minecraft:interaction,tag=dawnshore_civil_servant_head_guard_
 
 execute as @a[tag=dawnshore_civil_servant_head_guard_action] run function dark_dungeons:locations/dawnshore/civil_servant_quarters/head_guard/action
 
+# Clean Up Dawnshore Quest (progress checks)
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,scores={quest_id=3}] run function dark_dungeons:locations/dawnshore/other/clean_up_dawnshore_quest/progress_check
+
 
 # THIEVERY
 # Adventurer's Guild (Backup)

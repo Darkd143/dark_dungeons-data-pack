@@ -30,8 +30,7 @@ execute if entity @s[tag=dawnshore_civil_servant] run return 0
 
 # Has Quest Assigned
 execute if entity @s[scores={quest_id=1..}] run function dark_dungeons:locations/dawnshore/adventurers_guild/actions/messages/user_already_has_quest_assigned
-execute if entity @s[scores={quest_id=1..}] run scoreboard players reset @s temp_storage
-execute if entity @s[scores={quest_id=1..}] run return 0
+execute if entity @s[scores={quest_id=1..}] run return run scoreboard players reset @s temp_storage
 
 # Doesn't Have Quest Assigned
 function dark_dungeons:locations/dawnshore/adventurers_guild/actions/messages/try_to_assign_quest
