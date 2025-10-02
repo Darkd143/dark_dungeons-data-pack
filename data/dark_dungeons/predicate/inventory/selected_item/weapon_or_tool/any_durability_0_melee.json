@@ -45,6 +45,19 @@
       "terms": [
         {
           "condition": "minecraft:reference",
+          "name": "dark_dungeons:inventory/selected_item/weapon_or_tool/material/copper_melee"
+        },
+        {
+          "condition": "minecraft:reference",
+          "name": "dark_dungeons:inventory/selected_item/components/damage/190"
+        }
+      ]
+    },
+    {
+      "condition": "all_of",
+      "terms": [
+        {
+          "condition": "minecraft:reference",
           "name": "dark_dungeons:inventory/selected_item/weapon_or_tool/material/iron_melee"
         },
         {
