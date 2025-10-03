@@ -1,0 +1,20 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+    "position": {
+        "x": {
+            "min": -114,
+            "max": -111
+        },
+        "y": {
+            "min": 63,
+            "max": 67
+        },
+        "z": {
+            "min": 79,
+            "max": 82
+        }
+    },
+    "dimension": "minecraft:overworld"
+    }
+}
