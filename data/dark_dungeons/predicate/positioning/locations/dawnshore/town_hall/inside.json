@@ -14,7 +14,7 @@
                         },
                         "y": {
                             "min": 72,
-                            "max": 78
+                            "max": 78.5
                         },
                         "z": {
                             "min": 78,
@@ -25,24 +25,8 @@
                 }
             },
             {
-                "condition": "minecraft:location_check",
-                "predicate": {
-                    "position": {
-                        "x": {
-                            "min": -120,
-                            "max": -107
-                        },
-                        "y": {
-                            "min": 78,
-                            "max": 79
-                        },
-                        "z": {
-                            "min": 79,
-                            "max": 91
-                        }
-                    },
-                    "dimension": "minecraft:overworld"
-                }
+                "condition": "minecraft:reference",
+                "name": "dark_dungeons:positioning/locations/dawnshore/town_hall/balcony"
             }
         ]
     },
@@ -52,124 +36,8 @@
             "condition": "any_of",
             "terms": [
                 {
-                    "condition": "minecraft:location_check",
-                    "predicate": {
-                        "position": {
-                            "x": {
-                                "min": -110,
-                                "max": -106
-                            },
-                            "y": {
-                                "min": 71,
-                                "max": 79
-                            },
-                            "z": {
-                                "min": 90,
-                                "max": 92
-                            }
-                        },
-                        "dimension": "minecraft:overworld"
-                    }
-                },
-                {
-                    "condition": "minecraft:location_check",
-                    "predicate": {
-                        "position": {
-                            "x": {
-                                "min": -108,
-                                "max": -106
-                            },
-                            "y": {
-                                "min": 71,
-                                "max": 79
-                            },
-                            "z": {
-                                "min": 88,
-                                "max": 92
-                            }
-                        },
-                        "dimension": "minecraft:overworld"
-                    }
-                },
-                {
-                    "condition": "minecraft:location_check",
-                    "predicate": {
-                        "position": {
-                            "x": {
-                                "min": -111,
-                                "max": -110
-                            },
-                            "y": {
-                                "min": 78,
-                                "max": 79
-                            },
-                            "z": {
-                                "min": 90,
-                                "max": 91
-                            }
-                        },
-                        "dimension": "minecraft:overworld"
-                    }
-                },
-                {
-                    "condition": "minecraft:location_check",
-                    "predicate": {
-                        "position": {
-                            "x": {
-                                "min": -110,
-                                "max": -108
-                            },
-                            "y": {
-                                "min": 78,
-                                "max": 79
-                            },
-                            "z": {
-                                "min": 89,
-                                "max": 90
-                            }
-                        },
-                        "dimension": "minecraft:overworld"
-                    }
-                },
-                {
-                    "condition": "minecraft:location_check",
-                    "predicate": {
-                        "position": {
-                            "x": {
-                                "min": -109,
-                                "max": -108
-                            },
-                            "y": {
-                                "min": 78,
-                                "max": 79
-                            },
-                            "z": {
-                                "min": 88,
-                                "max": 89
-                            }
-                        },
-                        "dimension": "minecraft:overworld"
-                    }
-                },
-                {
-                    "condition": "minecraft:location_check",
-                    "predicate": {
-                        "position": {
-                            "x": {
-                                "min": -108,
-                                "max": -107
-                            },
-                            "y": {
-                                "min": 78,
-                                "max": 79
-                            },
-                            "z": {
-                                "min": 87,
-                                "max": 88
-                            }
-                        },
-                        "dimension": "minecraft:overworld"
-                    }
+                    "condition": "minecraft:reference",
+                    "name": "dark_dungeons:positioning/locations/dawnshore/town_hall/outside_area"
                 }
             ]
         }
