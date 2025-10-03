@@ -1,0 +1,9 @@
+function dark_dungeons:locations/dawnshore_area/greenshadow_isle/entities/creature_summon_table
+function dark_dungeons:locations/dawnshore_area/greenshadow_isle/entities/creature_summon_table
+function dark_dungeons:locations/dawnshore_area/greenshadow_isle/entities/creature_summon_table
+function dark_dungeons:locations/dawnshore_area/greenshadow_isle/entities/creature_summon_table
+function dark_dungeons:locations/dawnshore_area/greenshadow_isle/entities/creature_summon_table
+
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore_area/greenshadow_isle/summon_zone,tag=creature] run function dark_dungeons:locations/dawnshore_area/greenshadow_isle/entities/spread_creature
+
+tag @s remove scheduled_summon

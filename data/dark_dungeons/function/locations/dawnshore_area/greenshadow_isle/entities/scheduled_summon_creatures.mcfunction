@@ -1,0 +1,1 @@
+execute positioned 76 63 191 as @n[predicate=dark_dungeons:positioning/locations/dawnshore_area/greenshadow_isle/summon_zone,tag=greenshadow_isle_entity_manager,tag=scheduled_summon] run function dark_dungeons:locations/dawnshore_area/greenshadow_isle/entities/summon_creatures

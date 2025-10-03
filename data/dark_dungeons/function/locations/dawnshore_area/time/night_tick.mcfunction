@@ -1,1 +1,1 @@
-function dark_dungeons:locations/dawnshore_area/greenshadow_isle/foraging/mushroom_bed/grow
+function dark_dungeons:locations/dawnshore_area/greenshadow_isle/time/night
