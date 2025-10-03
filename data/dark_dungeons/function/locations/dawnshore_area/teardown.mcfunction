@@ -1,0 +1,2 @@
+function dark_dungeons:locations/dawnshore_area/goldmere_meadow/teardown
+function dark_dungeons:locations/dawnshore_area/greenshadow_isle/teardown

@@ -1,0 +1,1 @@
+function dark_dungeons:locations/dawnshore_area/greenshadow_isle/time/night
