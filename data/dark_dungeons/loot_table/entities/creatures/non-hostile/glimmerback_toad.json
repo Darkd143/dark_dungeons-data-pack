@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dark_dungeons:items/mob_drops/glimmerback_toad/glimmerback_toad_wart",
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player",
+              "inverse": true
+            },
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
