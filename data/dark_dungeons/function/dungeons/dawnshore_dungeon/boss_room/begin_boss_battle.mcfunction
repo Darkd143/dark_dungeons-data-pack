@@ -2,7 +2,7 @@ tag @s remove boss_battle_pending
 tag @s add boss_battle_in_progress
 
 # Closed Door
-place template dark_dungeons:dawnshore_closed_boss_room_door -67 56 131
+place template dark_dungeons:dawnshore_dungeon/dawnshore_closed_boss_room_door -67 56 131
 
 # Play Closed Door Sound
 playsound minecraft:block.nether_bricks.hit master @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/boss_room_or_boss_entryway] -66 57 131 1000 0.5
