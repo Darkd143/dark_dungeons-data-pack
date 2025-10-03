@@ -1,0 +1,32 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "position": {
+                "x": {
+                    "min": -110,
+                    "max": -105
+                },
+                "y": {
+                    "min": 77,
+                    "max": 81
+                },
+                "z": {
+                    "min": 88,
+                    "max": 93
+                }
+                },
+                "dimension": "minecraft:overworld"
+            }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:reference",
+                "name": "dark_dungeons:positioning/locations/dawnshore/town_hall/balcony"
+            }
+        }
+    ]
+}

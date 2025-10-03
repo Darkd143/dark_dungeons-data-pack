@@ -35,6 +35,10 @@ execute as @a[tag=dawnshore_bank_staff_door_interact] run function dark_dungeons
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/bank/staff_doorway,predicate=dark_dungeons:inventory/has_items/form] run function dark_dungeons:players/items/clear_forms
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/bank/entrance_area,predicate=dark_dungeons:inventory/has_items/form] run function dark_dungeons:players/items/clear_forms
 
+# Town Hall
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall/outside_area,predicate=dark_dungeons:inventory/has_items/form] run function dark_dungeons:players/items/clear_forms
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall/outside_balcony,predicate=dark_dungeons:inventory/has_items/form] run function dark_dungeons:players/items/clear_forms
+
 
 # Clear Dawnshore Board Tags
 execute as @a[predicate=!dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_1_tagged] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
