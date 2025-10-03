@@ -88,7 +88,7 @@ execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore
 execute as @e[type=minecraft:interaction,tag=dawnshore_bank_manager_safe_interaction] store success entity @s interaction.player[] int 0 on target run tellraw @s ["Bank Manager: Hey! Don't touch that."]
 
 # Bank Manager Doorway
-execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/bank/manager_room_doorway,predicate=dark_dungeons:inventory/has_items/form] run function dark_dungeons:players/clear_user_forms
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/bank/manager_room_doorway,predicate=dark_dungeons:inventory/has_items/form] run function dark_dungeons:players/items/clear_forms
 
 # Robbing Bank
 execute as @a[predicate=dark_dungeons:inventory/has_items/user_stealing,predicate=dark_dungeons:positioning/locations/dawnshore/bank/staff_room] run function dark_dungeons:locations/dawnshore/bank/robbing_bank

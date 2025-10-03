@@ -11,12 +11,13 @@
             {
               "function": "minecraft:set_custom_data",
               "tag": {
-                "valid": true
+                "valid": true,
+                "form": true
               }
             },
             {
               "function": "minecraft:set_name",
-              "name": "§7🖹 Platinum Coin Withdraw Voucher 🖹"
+              "name": "§7🖹 Copper Coin Withdraw Voucher 🖹"
             }
           ]
         }
