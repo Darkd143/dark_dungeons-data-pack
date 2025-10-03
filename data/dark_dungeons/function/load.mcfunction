@@ -39,3 +39,6 @@ scoreboard objectives add civil_servant_write_ups dummy
 # Legal System
 scoreboard objectives add charge_count dummy
 scoreboard objectives add charge_money dummy
+
+# Plants
+scoreboard objectives add growth dummy
