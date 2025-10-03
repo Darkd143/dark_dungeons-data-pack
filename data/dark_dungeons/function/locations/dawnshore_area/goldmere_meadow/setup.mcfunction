@@ -21,3 +21,6 @@ execute positioned -118 80 268 run function dark_dungeons:locations/dawnshore_ar
 execute positioned -144 85 253 run function dark_dungeons:locations/dawnshore_area/goldmere_meadow/foraging/berry_bush/place
 execute positioned -178 83 267 run function dark_dungeons:locations/dawnshore_area/goldmere_meadow/foraging/berry_bush/place
 execute positioned -223 87 241 run function dark_dungeons:locations/dawnshore_area/goldmere_meadow/foraging/berry_bush/place
+
+# Entity Manager
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore_area/goldmere_meadow/summon_zone,tag=goldmere_meadow_entity_manager] run summon armor_stand -134 90 197 {Tags:["goldmere_meadow_entity_manager"],Invisible:true,Invulnerable:true,Marker:true}

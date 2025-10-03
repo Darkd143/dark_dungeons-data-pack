@@ -33,3 +33,6 @@ execute positioned 60 79 168 run function dark_dungeons:locations/dawnshore_area
 execute positioned 64 72 151 run function dark_dungeons:locations/dawnshore_area/greenshadow_isle/foraging/mushroom_bed/place
 execute positioned 29 83 159 run function dark_dungeons:locations/dawnshore_area/greenshadow_isle/foraging/mushroom_bed/place
 execute positioned 100 67 157 run function dark_dungeons:locations/dawnshore_area/greenshadow_isle/foraging/mushroom_bed/place
+
+# Entity Manager
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore_area/greenshadow_isle/summon_zone,tag=greenshadow_isle_entity_manager] run summon armor_stand 76 63 191 {Tags:["greenshadow_isle_entity_manager"],Invisible:true,Invulnerable:true,Marker:true}
