@@ -67,39 +67,39 @@ data modify block -98 75 67 LootTable set value "dark_dungeons:chests/locations/
 data modify block -98 75 68 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops"
 
 # Fish & Treasure Storage
-data modify block -86 75 69 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/fish_treasure_storage"
-data modify block -85 75 69 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/fish_treasure_storage"
-data modify block -84 75 69 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/fish_treasure_storage"
-data modify block -83 75 69 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/fish_treasure_storage"
+data modify block -86 74 69 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/fish_treasure_storage"
+data modify block -85 74 69 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/fish_treasure_storage"
+data modify block -84 74 69 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/fish_treasure_storage"
+data modify block -83 74 69 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/fish_treasure_storage"
 
-data modify block -83 75 67 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/fish_treasure_storage"
+data modify block -83 74 67 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/fish_treasure_storage"
 
-data modify block -86 75 65 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/fish_treasure_storage"
-data modify block -85 75 65 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/fish_treasure_storage"
-data modify block -84 75 65 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/fish_treasure_storage"
-data modify block -83 75 65 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/fish_treasure_storage"
+data modify block -86 74 65 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/fish_treasure_storage"
+data modify block -85 74 65 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/fish_treasure_storage"
+data modify block -84 74 65 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/fish_treasure_storage"
+data modify block -83 74 65 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/fish_treasure_storage"
 
 # Berry & Herb Storage
-data modify block -95 75 60 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/berry_herb_storage"
-data modify block -95 75 59 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/berry_herb_storage"
-data modify block -95 75 58 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/berry_herb_storage"
-data modify block -95 75 57 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/berry_herb_storage"
+data modify block -95 74 60 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/berry_herb_storage"
+data modify block -95 74 59 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/berry_herb_storage"
+data modify block -95 74 58 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/berry_herb_storage"
+data modify block -95 74 57 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/berry_herb_storage"
 
-data modify block -98 75 60 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/berry_herb_storage"
-data modify block -98 75 59 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/berry_herb_storage"
-data modify block -98 75 58 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/berry_herb_storage"
-data modify block -98 75 57 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/berry_herb_storage"
+data modify block -98 74 60 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/berry_herb_storage"
+data modify block -98 74 59 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/berry_herb_storage"
+data modify block -98 74 58 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/berry_herb_storage"
+data modify block -98 74 57 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/berry_herb_storage"
 
 # Mob Drop & Misc Storage
-data modify block -100 75 60 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
-data modify block -100 75 59 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
-data modify block -100 75 58 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
-data modify block -100 75 57 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
+data modify block -100 73 60 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
+data modify block -100 73 59 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
+data modify block -100 73 58 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
+data modify block -100 73 57 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
 
-data modify block -103 75 60 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
-data modify block -103 75 59 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
-data modify block -103 75 58 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
-data modify block -103 75 57 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
+data modify block -103 73 60 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
+data modify block -103 73 59 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
+data modify block -103 73 58 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
+data modify block -103 73 57 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
 
 # Unlock Doors
 kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_front_door]
