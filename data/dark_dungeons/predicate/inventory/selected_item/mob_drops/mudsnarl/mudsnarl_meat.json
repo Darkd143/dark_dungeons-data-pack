@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{'SelectedItem':{'id':'minecraft:porkchop','components':{'minecraft:custom_name':'\u00A7d📦 Mudsnarl Meat 📦','minecraft:custom_data':{'valid':True}}}}"
+  }
+}
