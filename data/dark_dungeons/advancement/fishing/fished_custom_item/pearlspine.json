@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "caught_vortex_minnow": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:salmon",
+          "components": {
+            "minecraft:custom_data": {
+              "valid": true
+            },
+            "minecraft:custom_name": "\u00A73🐠 Pearlspine 🐠"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dark_dungeons:advancements/fishing/fishing_custom_item/pearlspine"
+  }
+}
