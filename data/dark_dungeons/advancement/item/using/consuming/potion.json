@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "consuming_potion": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dark_dungeons:advancements/item/using/consuming/potion"
+  }
+}

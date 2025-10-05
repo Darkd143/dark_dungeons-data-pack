@@ -1,0 +1,1 @@
+execute at @s as @a[distance=..2] if function dark_dungeons:advancements/helper/shot_bow_or_crossbow/projectile/is_arrow_owner run tellraw @s {"text": "[This weapon doesn't seem to shoot well around here.]", "color": "gray"}

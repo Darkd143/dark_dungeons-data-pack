@@ -1,0 +1,2 @@
+function dark_dungeons:advancements/helper/shot_bow_or_crossbow/projectile/management
+function dark_dungeons:advancements/helper/shot_bow_or_crossbow/projectile/message

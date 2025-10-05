@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "used_totem": {
+      "trigger": "minecraft:used_totem"
+    }
+  },
+  "rewards": {
+    "function": "dark_dungeons:advancements/item/using/used_totem"
+  }
+}
