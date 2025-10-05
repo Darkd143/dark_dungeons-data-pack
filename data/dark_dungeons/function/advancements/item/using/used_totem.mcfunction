@@ -12,10 +12,10 @@ execute if entity @s[advancements={dark_dungeons:item/using/used_valid_totem=tru
 tellraw @s {"text":"[This totem doesn't seem to work?!]","color":"gray"}
 
 # Player Not Holding Another Totem in Offhand
-execute if entity @s[predicate=!dark_dungeons:inventory/offhand/tool/totem/totem_of_undying] run return run function dark_dungeons:advancements/helpers/using_totem/not_holding_valid_totem
+execute if entity @s[predicate=!dark_dungeons:inventory/offhand/tool/totem/totem_of_undying] run return run function dark_dungeons:advancements/helper/using_totem/not_holding_valid_totem
 
 # Player Holding Another Invalid Totem in Offhand
-execute if entity @s[predicate=dark_dungeons:inventory/offhand/tool/totem/invalid_totem] run return run function dark_dungeons:advancements/helpers/using_totem/holding_another_invalid_totem
+execute if entity @s[predicate=dark_dungeons:inventory/offhand/tool/totem/invalid_totem] run return run function dark_dungeons:advancements/helper/using_totem/holding_another_invalid_totem
 
 # Player Holding Valid Totem in Offhand
 item replace entity @s weapon.offhand with air

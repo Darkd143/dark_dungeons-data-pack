@@ -2,7 +2,7 @@ scoreboard players reset @s used_bow
 
 execute if entity @s[gamemode=!adventure,gamemode=!survival] run return 0
 
-execute at @s as @e[predicate=dark_dungeons:entity_state/projectiles/bow_projectile,distance=..1.55,tag=!tested_projectile,predicate=dark_dungeons:entity_state/projectiles/shot_from/bow] if function dark_dungeons:advancements/helpers/shot_bow_or_crossbow/projectile/from_player run function dark_dungeons:advancements/helpers/shot_bow_or_crossbow/shot_projectile
+execute at @s as @e[predicate=dark_dungeons:entity_state/projectiles/bow_projectile,distance=..1.55,tag=!tested_projectile,predicate=dark_dungeons:entity_state/projectiles/shot_from/bow] if function dark_dungeons:advancements/helper/shot_bow_or_crossbow/projectile/from_player run function dark_dungeons:advancements/helper/shot_bow_or_crossbow/shot_projectile
 
 # Damage Bow
 execute if entity @s[gamemode=!adventure] run return 0
