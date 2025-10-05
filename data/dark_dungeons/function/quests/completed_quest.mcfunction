@@ -1,5 +1,5 @@
 # Quest Board Updates & Get Completed Quest Data
-execute if entity @s[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore] run function dark_dungeons:quests/set_get_quest_for_completion/dawnshore_quests
+execute if entity @s[scores={quest_id=1..25}] run function dark_dungeons:quests/set_get_quest_for_completion/dawnshore_quests
 
 execute if entity @s store result score @s temp_storage run data get storage dark_dungeons:dawnshore_quest_completion_temp quest_id
 
