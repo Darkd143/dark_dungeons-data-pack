@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "consuming_honey_bottle": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honey_bottle"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dark_dungeons:advancements/item/using/consuming/honey_bottle"
+  }
+}

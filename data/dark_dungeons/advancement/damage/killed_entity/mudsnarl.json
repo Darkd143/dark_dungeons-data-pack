@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "killed_guard": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:pig",
+          "nbt": "{'Tags':['mudsnarl']}"
+        },
+        "killing_blow": {
+          "is_direct": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dark_dungeons:advancements/damage/killed_entity/mudsnarl"
+  }
+}

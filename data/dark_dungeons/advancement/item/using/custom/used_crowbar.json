@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "used_crowbar": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "dark_dungeons:advancements/item/using/custom/used_crowbar"
+  }
+}
