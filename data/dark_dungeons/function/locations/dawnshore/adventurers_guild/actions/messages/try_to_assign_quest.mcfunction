@@ -10,3 +10,5 @@ execute if entity @s[scores={temp_storage=1..8}] run function dark_dungeons:loca
 execute if score @s quest_id matches 3 run function dark_dungeons:locations/shared/littering/place_litter/dawnshore/reset_litter
 
 execute if score @s quest_id matches 3 run return run tellraw @s ["Guild Receptionist Nessa: Please pickup all the litter items scattered on the ground around dawnshore and put them in the garbage dump."]
+
+execute if score @s quest_id matches 9 run return run tellraw @s ["Guild Receptionist Nessa: Please kill at least 10 slimes in the Goldmere Meadow."]
