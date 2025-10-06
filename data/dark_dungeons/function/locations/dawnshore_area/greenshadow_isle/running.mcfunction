@@ -15,6 +15,22 @@ execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore_area/green
 execute as @n[predicate=dark_dungeons:positioning/locations/dawnshore_area/greenshadow_isle/summon_zone,tag=greenshadow_isle_entity_manager,tag=!scheduled_summon] unless entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=default-time-manager,predicate=dark_dungeons:time/during_night] run function dark_dungeons:locations/dawnshore_area/greenshadow_isle/entities/check_for_entity_summoning
 
 # Quest Updates
-execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore_area/greenshadow_isle/main,scores={quest_id=11,task_progress=0}] if function dark_dungeons:quests/active_task/dawnshore_active_quest run function dark_dungeons:locations/dawnshore_area/greenshadow_isle/quest_updates/entered_area_for_mudsnarl_hunting
+# 8 - Berry Picking
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore_area/greenshadow_isle/main,scores={quest_id=8,task_progress=0}] if function dark_dungeons:quests/active_task/dawnshore_active_quest run function dark_dungeons:locations/dawnshore_area/greenshadow_isle/quest_updates/entered_area
+
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore_area/greenshadow_isle/main,scores={quest_id=8,task_progress=50}] at @s as @e[type=item,distance=..5,nbt={Item:{'components':{'minecraft:custom_name':'\u00A7e🍓 Everbloom Berries 🍓','minecraft:custom_data':{'valid':True}}}}] run function dark_dungeons:entities/item/simulate_thrown
+
+# 10 - Herb Gathering
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore_area/greenshadow_isle/main,scores={quest_id=10,task_progress=0}] if function dark_dungeons:quests/active_task/dawnshore_active_quest run function dark_dungeons:locations/dawnshore_area/greenshadow_isle/quest_updates/entered_area
+
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore_area/greenshadow_isle/main,scores={quest_id=10,task_progress=50}] at @s as @e[type=item,distance=..5,nbt={Item:{'components':{'minecraft:custom_name':'\u00A72🌿 Sunwort 🌿','minecraft:custom_data':{'valid':True}}}}] run function dark_dungeons:entities/item/simulate_thrown
+
+# 11 - Hogsnarl Meat
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore_area/greenshadow_isle/main,scores={quest_id=11,task_progress=0}] if function dark_dungeons:quests/active_task/dawnshore_active_quest run function dark_dungeons:locations/dawnshore_area/greenshadow_isle/quest_updates/entered_area
 
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore_area/greenshadow_isle/main,scores={quest_id=11,task_progress=50}] at @s as @e[type=item,distance=..5,nbt={Item:{'components':{'minecraft:custom_name':'\u00A7d📦 Mudsnarl Meat 📦','minecraft:custom_data':{'valid':True}}}}] run function dark_dungeons:entities/item/simulate_thrown
+
+# 13 - Mushroom Gathering
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore_area/greenshadow_isle/main,scores={quest_id=13,task_progress=0}] if function dark_dungeons:quests/active_task/dawnshore_active_quest run function dark_dungeons:locations/dawnshore_area/greenshadow_isle/quest_updates/entered_area
+
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore_area/greenshadow_isle/main,scores={quest_id=10,task_progress=50}] at @s as @e[type=item,distance=..5,nbt={Item:{'components':{'minecraft:custom_name':'\u00A72🍄 Whiteveil Mushroom 🍄','minecraft:custom_data':{'valid':True}}}}] run function dark_dungeons:entities/item/simulate_thrown

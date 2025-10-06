@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{'SelectedItem':{'id':'minecraft:dandelion','components':{'minecraft:custom_name':'\u00A72🌿 Sunwort 🌿','minecraft:custom_data':{'valid':True}}}}"
+  }
+}

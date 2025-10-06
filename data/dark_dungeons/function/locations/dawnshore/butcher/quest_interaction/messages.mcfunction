@@ -4,8 +4,6 @@ execute if entity @s[scores={quest_id=11,task_progress=75},predicate=!dark_dunge
 
 execute store result score @s temp_storage run function dark_dungeons:players/items/get_selected_item_count
 
-tellraw @s {"score":{name:"@s",objective:"temp_storage"}}
-
 execute if entity @s[scores={quest_id=11,task_progress=75,temp_storage=3..}] run return run function dark_dungeons:locations/dawnshore/butcher/quest_interaction/deliver_mudsnarl_meat
 
 scoreboard players reset @s temp_storage

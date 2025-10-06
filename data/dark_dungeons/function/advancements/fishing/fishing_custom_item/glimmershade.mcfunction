@@ -1,3 +1,3 @@
 advancement revoke @s only dark_dungeons:fishing/fished_custom_item/glimmershade
 
-execute if entity @s[scores={quest_id=6,task_progress=0}] if function dark_dungeons:quests/active_task/dawnshore_active_quest run function dark_dungeons:advancements/helper/quest_update/dawnshore_glimmershade
+execute if entity @s[scores={quest_id=6,task_progress=0}] if function dark_dungeons:quests/active_task/dawnshore_active_quest run function dark_dungeons:advancements/helper/quest_update/dawnshore/glimmershade
