@@ -1,3 +1,6 @@
+# Lower Day Count on all quests
+execute as @e[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_adventurer_quest] run scoreboard players remove @s quest_day_limit 1
+
 # Reset All Quests
 execute as @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_adventurer_quest_1] run function dark_dungeons:locations/dawnshore/adventurers_guild/board/assign/quest_precheck
 
