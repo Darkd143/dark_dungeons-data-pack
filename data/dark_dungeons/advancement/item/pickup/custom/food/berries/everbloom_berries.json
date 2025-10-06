@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "picked_up_mudsnarl_meat": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "minecraft:sweet_berries",
+          "components": {
+            "minecraft:custom_name": "\u00A7e🍓 Everbloom Berries 🍓",
+            "minecraft:custom_data": {
+              "valid": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dark_dungeons:advancements/item/pickup/custom/food/berries/everbloom_berries"
+  }
+}
