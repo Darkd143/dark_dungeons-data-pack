@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{'SelectedItem':{'id':'minecraft:sweet_berries','components':{'minecraft:custom_name':'\u00A7e🍓 Everbloom Berries 🍓','minecraft:custom_data':{'valid':True}}}}"
+  }
+}
