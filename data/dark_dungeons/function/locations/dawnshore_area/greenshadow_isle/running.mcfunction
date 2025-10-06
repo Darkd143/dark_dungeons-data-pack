@@ -33,4 +33,4 @@ execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore_area/green
 # 13 - Mushroom Gathering
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore_area/greenshadow_isle/main,scores={quest_id=13,task_progress=0}] if function dark_dungeons:quests/active_task/dawnshore_active_quest run function dark_dungeons:locations/dawnshore_area/greenshadow_isle/quest_updates/entered_area
 
-execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore_area/greenshadow_isle/main,scores={quest_id=10,task_progress=50}] at @s as @e[type=item,distance=..5,nbt={Item:{'components':{'minecraft:custom_name':'\u00A72🍄 Whiteveil Mushroom 🍄','minecraft:custom_data':{'valid':True}}}}] run function dark_dungeons:entities/item/simulate_thrown
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore_area/greenshadow_isle/main,scores={quest_id=13,task_progress=50}] at @s as @e[type=item,distance=..5,nbt={Item:{'components':{'minecraft:custom_name':'\u00A72🍄 Whiteveil Mushroom 🍄','minecraft:custom_data':{'valid':True}}}}] run function dark_dungeons:entities/item/simulate_thrown

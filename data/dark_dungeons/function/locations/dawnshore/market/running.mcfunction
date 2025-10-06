@@ -26,3 +26,14 @@ execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore
 execute unless entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,scores={quest_id=8}] if entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_berry_merchant_quest_interaction] run function dark_dungeons:locations/dawnshore/market/quest_interactions/berry_merchant/teardown
 
 execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,type=minecraft:interaction,tag=dawnshore_berry_merchant_quest_interaction] store success entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/market/quest_interactions/berry_merchant/messages
+
+# Quest Interactions 10 & 13 (Fish Merchant Glimmershade & Pearlspine Fishing)
+execute if entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_apothecary] unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_apothecary_quest_interaction] as @a[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,scores={quest_id=10}] if function dark_dungeons:quests/active_task/dawnshore_active_quest run function dark_dungeons:locations/dawnshore/market/quest_interactions/apothecary/setup
+
+execute if entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_apothecary] unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_apothecary_quest_interaction] as @a[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,scores={quest_id=13}] if function dark_dungeons:quests/active_task/dawnshore_active_quest run function dark_dungeons:locations/dawnshore/market/quest_interactions/apothecary/setup
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_apothecary] if entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_apothecary_quest_interaction] run function dark_dungeons:locations/dawnshore/market/quest_interactions/apothecary/teardown
+
+execute unless entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,scores={quest_id=10}] unless entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,scores={quest_id=13}] if entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_apothecary_quest_interaction] run function dark_dungeons:locations/dawnshore/market/quest_interactions/apothecary/teardown
+
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,type=minecraft:interaction,tag=dawnshore_apothecary_quest_interaction] store success entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/market/quest_interactions/apothecary/messages

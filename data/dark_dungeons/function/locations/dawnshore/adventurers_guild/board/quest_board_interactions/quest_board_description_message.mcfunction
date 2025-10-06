@@ -15,17 +15,17 @@ execute if score @s quest_id matches 6 run tellraw @a[predicate=dark_dungeons:po
 
 execute if score @s quest_id matches 7 run tellraw @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_description] {"text":"Description: Farmer Garrett needs help farming and replanting his crops."}
 
-execute if score @s quest_id matches 8 run tellraw @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_description] {"text":"Description: Berry Merchant Finn needs 15 Everbloom berries."}
+execute if score @s quest_id matches 8 run tellraw @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_description] {"text":"Description: Berry Merchant Finn needs 20 Everbloom berries."}
 
 execute if score @s quest_id matches 9 run tellraw @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_description] {"text":"Description: The slime population in the Goldmere Plains needs to be reduced."}
 
-execute if score @s quest_id matches 10 run tellraw @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_description] {"text":"Description: Apothecary Seraphina needs 15 Sunwarts harvested from the nearby areas."}
+execute if score @s quest_id matches 10 run tellraw @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_description] {"text":"Description: Apothecary Seraphina needs 10 Sunwarts harvested from the nearby areas."}
 
-execute if score @s quest_id matches 11 run tellraw @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_description] {"text":"Description: Butcher Garrick needs 5 fresh Mudsnarl meat chops."}
+execute if score @s quest_id matches 11 run tellraw @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_description] {"text":"Description: Butcher Garrick needs 3 fresh Mudsnarl meat chops."}
 
 execute if score @s quest_id matches 12 run tellraw @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_description] {"text":"Description: Fish Trader Eamon needs a rare Pearlspine fish for a special order."}
 
-execute if score @s quest_id matches 13 run tellraw @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_description] {"text":"Description: Apothecary Seraphina needs 8 Whiteveil Mushrooms harvested from the nearby areas."}
+execute if score @s quest_id matches 13 run tellraw @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_description] {"text":"Description: Apothecary Seraphina needs 10 Whiteveil Mushrooms harvested from the nearby areas."}
 
 execute if score @s quest_id matches 14 run tellraw @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_description] {"text":"Description: Raiders camping in the surrounding area need to be hunted and defeated."}
 
