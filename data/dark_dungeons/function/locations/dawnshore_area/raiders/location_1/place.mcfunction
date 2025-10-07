@@ -1,4 +1,4 @@
-place template dark_dungeons:simple_raider_camp 74 70 264
+place template dark_dungeons:shared/simple_raider_camp 74 70 264
 
 # Summon Raiders
 execute positioned 74 71 264 run function dark_dungeons:locations/dawnshore_area/raiders/summon_raiders
