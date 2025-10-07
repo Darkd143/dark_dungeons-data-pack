@@ -23,3 +23,6 @@ execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore
 
 # Sign 8: -76 74 101
 execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_quest_sign_8_interaction] run summon interaction -76 74.27 100.65 {width:1,height:0.52,Tags:['dawnshore_adventurer_guild_quest_sign_8_interaction', 'dawnshore_adventurer_guild_quest_sign_interaction']}
+
+# Guild Master Office Door
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_guildmaster_door] run summon interaction -82 76 104 {width:1.1,height:2.1,Tags:['dawnshore_adventurer_guild_guildmaster_door']}

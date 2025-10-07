@@ -1,0 +1,1 @@
+scoreboard players reset @n[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_guildmaster] player_id

@@ -1,0 +1,3 @@
+execute unless entity @p[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild/guildmasters_office] run return run function dark_dungeons:locations/dawnshore/adventurers_guild/actions/messages/guildmaster/end_meeting
+execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild/guildmasters_office] if score @s player_id = @n[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_guildmaster] player_id run tellraw @s [{"text":"Guildmaster Dorian: Thank you for your time and dedication. It's been a pleasure speaking with you. You are dismissed."}]
+function dark_dungeons:locations/dawnshore/adventurers_guild/actions/messages/guildmaster/end_meeting

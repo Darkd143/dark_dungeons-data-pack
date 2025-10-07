@@ -5,7 +5,6 @@ execute if score @s adventurer_rank matches 0 if entity @s[scores={adventurer_xp
 # Tin Rank
 execute if score @s adventurer_rank matches 1 if entity @s[scores={adventurer_xp=..99}] unless score @s quest_day_limit matches 0 run tellraw @s ["Guild Receptionist Elara: Hello, ",{"selector":"@s"},"! You are a §8§lTin Rank§r Adventurer. (XP: ",{"score":{"name":"@s","objective":"adventurer_xp"}},"/100)"]
 execute if score @s adventurer_rank matches 1 if entity @s[scores={adventurer_xp=100..}] unless score @s quest_day_limit matches 0 unless entity @s[tag=talked_with_dawnshore_adventurers_guild_master] run function dark_dungeons:locations/dawnshore/adventurers_guild/actions/ranks/meet_with_guild_master_before_copper
-execute if score @s adventurer_rank matches 1 if entity @s[scores={adventurer_xp=100..}] unless score @s quest_day_limit matches 0 if entity @s[tag=talked_with_dawnshore_adventurers_guild_master] run return run function dark_dungeons:locations/dawnshore/adventurers_guild/actions/ranks/copper_rank_up
 
 # Ranked past Tin
 execute if score @s adventurer_rank matches 7 unless score @s quest_day_limit matches 0 run tellraw @s ["Guild Receptionist Elara: Wow, ",{"selector":"@s"},"! You are an §5§lOrichalcum Rank§r Adventurer. (XP: ",{"score":{"name":"@s","objective":"adventurer_xp"}},")"]
