@@ -30,3 +30,9 @@ execute as @a[tag=dawnshore_adventurer_guild_quest_sign_8_action] run function d
 
 # Thievery
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild/stealing_check_zone,predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:locations/dawnshore/crime/committed_theft
+
+# Guild Master's Office Door
+execute as @e[type=minecraft:interaction,tag=dawnshore_adventurer_guild_guildmaster_door,predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild/inside] store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/adventurers_guild/doors/guild_masters_door/interact
+
+# Guild Master's Office Kick Out
+execute if entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild/guildmasters_office,tag=dawnshore_adventurer_guild_guildmaster,scores={player_id=1..}] as @a[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild/guildmasters_office,gamemode=adventure] unless score @s player_id = @n[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild/guildmasters_office,tag=dawnshore_adventurer_guild_guildmaster] player_id run function dark_dungeons:locations/dawnshore/adventurers_guild/actions/messages/guildmaster/kick_out

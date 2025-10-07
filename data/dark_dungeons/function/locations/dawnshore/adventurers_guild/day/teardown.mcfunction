@@ -26,3 +26,8 @@ function dark_dungeons:locations/dawnshore/adventurers_guild/doors/front_doors_b
 
 # Kick out Players
 execute as @a[gamemode=adventure,predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild/inside] run function dark_dungeons:locations/dawnshore/adventurers_guild/kick_out
+
+# Guildmaster
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_guildmaster_seat]
+
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_guildmaster] run function dark_dungeons:entities/management/tp_to_world_kill_zone

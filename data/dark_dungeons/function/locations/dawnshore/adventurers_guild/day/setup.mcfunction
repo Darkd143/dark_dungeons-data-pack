@@ -27,6 +27,9 @@ data modify block -85 78 110 LootTable set value "dark_dungeons:chests/locations
 # Guild Master's Office Loot
 data modify block -83 76 101 LootTable set value "dark_dungeons:chests/locations/dawnshore/adventurers_guild/guild_masters_room"
 
+# Guild Master's Office
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_guildmaster_seat] run summon armor_stand -86 74.55 101 {NoGravity:true,Invulnerable:true,Invisible:true,DisabledSlots:4144959,Tags:['dawnshore_adventurer_guild_guildmaster_seat'],Passengers:[{id:vindicator,Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,Tags:['dawnshore_adventurer_guild_guildmaster','npc'],CustomName:"Guildmaster Dorian"}]}
+
 # Unlock Doors
 kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurers_guild_front_door_a]
 kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurers_guild_front_door_b]
