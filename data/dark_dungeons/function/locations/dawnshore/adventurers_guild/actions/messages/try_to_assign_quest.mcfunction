@@ -12,3 +12,5 @@ execute if score @s quest_id matches 3 run function dark_dungeons:locations/shar
 execute if score @s quest_id matches 3 run return run tellraw @s ["Guild Receptionist Nessa: Please pickup all the litter items scattered on the ground around dawnshore and put them in the garbage dump."]
 
 execute if score @s quest_id matches 9 run return run tellraw @s ["Guild Receptionist Nessa: Please kill at least 10 slimes in the Goldmere Meadow."]
+
+execute if score @s quest_id matches 15 run return run tellraw @s ["Guild Receptionist Nessa: Please kill at least 10 zombies in the Goldmere Meadow caves."]
