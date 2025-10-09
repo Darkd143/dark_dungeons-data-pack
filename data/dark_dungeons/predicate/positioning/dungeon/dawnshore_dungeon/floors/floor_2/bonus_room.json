@@ -7,12 +7,12 @@
         "max": -56
       },
       "y": {
-        "min": 66,
-        "max": 63
+        "min": 63,
+        "max": 67
       },
       "z": {
-        "min": 150,
-        "max": 162
+        "min": 151,
+        "max": 161
       }
     },
     "dimension": "minecraft:overworld"
