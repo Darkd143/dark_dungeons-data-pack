@@ -11,6 +11,9 @@ execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_d
 execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_2/top_middle_room,gamemode=adventure] run function dark_dungeons:dungeons/dawnshore_dungeon/resetting/floor_2/top_middle_room
 execute unless entity @a[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/floors/floor_2/top_right_room,gamemode=adventure] run function dark_dungeons:dungeons/dawnshore_dungeon/resetting/floor_2/top_right_room
 
+# Bonus Room Display Zombie
+execute positioned -55 62 153 run function dark_dungeons:entities/summoning/monsters/zombies/default/level_1
+
 scoreboard players reset @s temp_storage
 
 schedule function dark_dungeons:dungeons/dawnshore_dungeon/resetting/repeating_floor_2 1000 replace
