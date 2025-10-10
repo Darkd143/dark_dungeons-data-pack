@@ -14,3 +14,7 @@ execute if score @s quest_id matches 3 run return run tellraw @s ["Guild Recepti
 execute if score @s quest_id matches 9 run return run tellraw @s ["Guild Receptionist Nessa: Please kill at least 10 slimes in the Goldmere Meadow."]
 
 execute if score @s quest_id matches 15 run return run tellraw @s ["Guild Receptionist Nessa: Please kill at least 10 zombies in the Goldmere Meadow caves."]
+
+execute if score @s quest_id matches 16 run function dark_dungeons:locations/dawnshore/other/tina_black/setup
+
+execute if score @s quest_id matches 16 run return run tellraw @s ["Guild Receptionist Nessa: Tina should be waiting at the town gate."]
