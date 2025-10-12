@@ -1,0 +1,8 @@
+execute if entity @s[tag=dawnshore_adventurer_guild_quest_sign_1_tagged] run return run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
+execute if entity @s[tag=dawnshore_adventurer_guild_quest_sign_2_tagged] run return run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
+execute if entity @s[tag=dawnshore_adventurer_guild_quest_sign_3_tagged] run return run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
+execute if entity @s[tag=dawnshore_adventurer_guild_quest_sign_4_tagged] run return run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
+execute if entity @s[tag=dawnshore_adventurer_guild_quest_sign_5_tagged] run return run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
+execute if entity @s[tag=dawnshore_adventurer_guild_quest_sign_6_tagged] run return run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
+execute if entity @s[tag=dawnshore_adventurer_guild_quest_sign_7_tagged] run return run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
+execute if entity @s[tag=dawnshore_adventurer_guild_quest_sign_8_tagged] run return run function dark_dungeons:locations/dawnshore/adventurers_guild/board/quest_board_interactions/clear_all_sign_tags
