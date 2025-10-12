@@ -42,6 +42,3 @@ scoreboard objectives add charge_money dummy
 
 # Plants
 scoreboard objectives add growth dummy
-
-# Temp/Testing
-scoreboard players set @a temp_storage 0
