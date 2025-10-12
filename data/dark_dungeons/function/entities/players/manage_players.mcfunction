@@ -13,3 +13,8 @@ execute as @a[predicate=dark_dungeons:entity_state/player/invalid_elytra_flying,
 
 execute as @a[predicate=!dark_dungeons:entity_state/player/invalid_elytra_flying,tag=flying_with_invalid_elytra] run function dark_dungeons:entities/players/using_elytra/remove_invalid_elytra_flyer
 
+# THIEVERY
+execute as @a[predicate=dark_dungeons:inventory/has_items/user_stealing] run function dark_dungeons:entities/players/thievery/location
+
+# CLEAR FORMS
+execute as @a[predicate=dark_dungeons:inventory/has_items/form] run function dark_dungeons:entities/players/forms/locations

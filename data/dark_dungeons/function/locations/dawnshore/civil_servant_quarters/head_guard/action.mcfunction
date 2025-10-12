@@ -16,3 +16,5 @@ execute unless entity @s[scores={civil_servant_task_id=1..}] run function dark_d
 
 # Current Task
 function dark_dungeons:locations/dawnshore/civil_servant_quarters/head_guard/display_current_task
+
+return 1
