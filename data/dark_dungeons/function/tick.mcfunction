@@ -4,6 +4,9 @@ execute as @e[tag=default-time-manager,predicate=dark_dungeons:time/noon_tick] r
 execute as @e[tag=default-time-manager,predicate=dark_dungeons:time/night_tick] run function dark_dungeons:time/night_tick
 execute as @e[tag=default-time-manager,predicate=dark_dungeons:time/midnight_tick] run function dark_dungeons:time/midnight_tick
 
+# Spawn
+function dark_dungeons:data_storage/spawn_chunk/load
+
 # Entity Management
 function dark_dungeons:entities/management/management
 function dark_dungeons:entities/management/world_kill_zone

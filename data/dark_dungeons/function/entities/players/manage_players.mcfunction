@@ -1,5 +1,5 @@
 # Left Game Management
-execute as @a[scores={left_game=1..}] run function dark_dungeons:players/logged_out/logged_out_check
+execute as @a[scores={left_game=1..}] if function dark_dungeons:data_storage/spawn_chunk/is_queried run function dark_dungeons:players/logged_out/logged_out_check
 
 # Gamemode Positioning
 execute as @a[predicate=dark_dungeons:positioning/area/in_valid_area,gamemode=survival] run function dark_dungeons:entities/players/positioning_gamemode/entered_valid_area
