@@ -6,6 +6,9 @@ execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_
 
 function dark_dungeons:locations/dawnshore/craftsman/quest_interactions/axe_craftsman/teardown
 
+# Work Room Door
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_craftsman_work_room_door]
+
 # Lock Doors
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_craftsman_door_1] run summon interaction -118 72 99 {width:1.1,height:2.0,Tags:['dawnshore_craftsman_door_1','dawnshore_craftsman_door']}
 

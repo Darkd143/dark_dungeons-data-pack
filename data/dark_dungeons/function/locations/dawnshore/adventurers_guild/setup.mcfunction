@@ -26,3 +26,6 @@ execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore
 
 # Guild Master Office Door
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_guildmaster_door] run summon interaction -82 76 104 {width:1.1,height:2.1,Tags:['dawnshore_adventurer_guild_guildmaster_door']}
+
+# Storage Room Door
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_storage_room_door] run summon interaction -82 76 111 {width:1.1,height:2.1,Tags:['dawnshore_adventurer_guild_storage_room_door']}

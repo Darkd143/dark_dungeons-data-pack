@@ -2,6 +2,9 @@ execute as @e[type=minecraft:interaction,tag=dawnshore_craftsman_salvage_box] st
 
 execute as @a[tag=dawnshore_craftsman_salvage_box_action] run function dark_dungeons:locations/dawnshore/craftsman/salvage_box/action
 
+# Work Room Door
+execute as @e[type=minecraft:interaction,tag=dawnshore_craftsman_work_room_door,predicate=dark_dungeons:positioning/locations/dawnshore/craftsman/inside] store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/craftsman/doors/work_room/interact
+
 # QUESTS
 # Quest Functionality for Quest id 1 (Package to Axe Craftsman)
 execute if entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman/shop_room,tag=dawnshore_axe_craftsman] unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_axe_craftsman_quest_interaction] as @a[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman/shop_room,scores={quest_id=1}] if function dark_dungeons:quests/active_task/dawnshore_active_quest run function dark_dungeons:locations/dawnshore/craftsman/quest_interactions/axe_craftsman/setup
