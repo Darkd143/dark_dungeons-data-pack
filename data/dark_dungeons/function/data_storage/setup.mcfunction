@@ -1,5 +1,4 @@
 # General
-function dark_dungeons:data_storage/general/default_time_manager/setup
 function dark_dungeons:data_storage/general/player_id_manager/setup
 
 # Dawnshore
