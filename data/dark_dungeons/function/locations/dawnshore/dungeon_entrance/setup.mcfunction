@@ -1,5 +1,8 @@
 # Dungeon Gatekeeper
-execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_dungeon_gatekeeper] run summon minecraft:pillager -68 74 116 {Invulnerable:1b,Silent:1b,NoAI:1b,CustomName:"Dungeon Gatekeeper",PersistenceRequired:1b,equipment:{mainhand:{id:wooden_sword}},Rotation:[225,0],Tags:["dawnshore_dungeon_gatekeeper","guard","lookout_guard","guard_summon_north"]}
+execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_dungeon_gatekeeper] run summon mannequin -68 74 116 {Invulnerable:1b,Silent:1b,CustomName:"Dungeon Gatekeeper",equipment:{mainhand:{id:wooden_sword}},Rotation:[225,0],Tags:["dawnshore_dungeon_gatekeeper","guard","lookout_guard","guard_summon_north"]}
+
+execute positioned -68 74 116 as @n[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_dungeon_gatekeeper] run function dark_dungeons:entities/mannequins/apply_skins/kingdom_npc/lookout_guard_1
+
 execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_dungeon_gatekeeper_interaction] run summon minecraft:interaction -68 74 116 {width:0.8,height:2.0,CustomName:"Dungeon Gatekeeper",Tags:['dawnshore_dungeon_gatekeeper_interaction']}
 
 execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_dungeon_pass_clerk] run summon villager -60 74 113 {Offers:{Recipes:[{buy:{id:copper_nugget,count:5,components:{custom_name:"\u00A76🪙 Copper Coin 🪙",custom_data:{valid:True}}},sell:{id:name_tag,count:1,components:{custom_name:"\u00A7a🏷 Dawnshore Dungeon Pass 🏷",custom_data:{valid:True}}},maxUses:9999999,rewardExp:0b}]},CustomName:"Dungeon Pass Clerk",VillagerData:{type:plains,profession:cartographer,level:99},Silent:1b,Invulnerable:1b,NoAI:1b,Rotation:[180,0],Tags:["dawnshore_dungeon_pass_clerk"]}
