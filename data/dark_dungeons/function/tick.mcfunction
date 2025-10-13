@@ -16,3 +16,6 @@ function dark_dungeons:locations/running
 
 # Run Dungeon Functions
 function dark_dungeons:dungeons/running
+
+# Temporary Testing
+# execute as @a run function dark_dungeons:dev_utils/location_check/tick
