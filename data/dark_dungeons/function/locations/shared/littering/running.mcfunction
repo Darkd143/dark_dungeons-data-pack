@@ -1,5 +1,5 @@
 # Dropped Litter Becomes Item Displays with Interactions
-execute as @e[predicate=dark_dungeons:positioning/locations/civic_area,predicate=dark_dungeons:entity_state/items/litter] unless block ~ ~-0.5 ~ air run function dark_dungeons:locations/shared/littering/running/item_litter
+execute as @e[predicate=dark_dungeons:positioning/locations/civic_area,predicate=dark_dungeons:entity_state/items/litter] at @s unless block ~ ~-0.5 ~ air run function dark_dungeons:locations/shared/littering/running/item_litter
 
 # Litter Item Displays Can Be Picked Up
 execute as @e[type=interaction,predicate=dark_dungeons:positioning/locations/civic_area,tag=dirty_food_bowl_litter_interaction] store success entity @s interaction.player[] int 0 at @s on target run function dark_dungeons:locations/shared/littering/trash_display/pickup/dirty_food_bowl
