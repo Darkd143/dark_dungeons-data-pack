@@ -1,3 +1,7 @@
+# SPAWN CHUNKS
+function dark_dungeons:data_storage/spawn_chunk/load
+
+# SCORES
 # Players
 scoreboard objectives add player_id dummy "Player ID"
 scoreboard objectives add reputation dummy "Reputation"
