@@ -1,0 +1,6 @@
+summon interaction ~0.406 ~-0.005 ~0.406 {width:0.195,height:2.01,Tags:['blocking_interaction']}
+summon interaction ~0.211 ~-0.005 ~0.406 {width:0.195,height:2.01,Tags:['blocking_interaction']}
+summon interaction ~0.016 ~-0.005 ~0.406 {width:0.195,height:2.01,Tags:['blocking_interaction']}
+summon interaction ~-0.016 ~-0.005 ~0.406 {width:0.195,height:2.01,Tags:['blocking_interaction']}
+summon interaction ~-0.211 ~-0.005 ~0.406 {width:0.195,height:2.01,Tags:['blocking_interaction']}
+summon interaction ~-0.406 ~-0.005 ~0.406 {width:0.195,height:2.01,Tags:['blocking_interaction']}
