@@ -46,3 +46,6 @@ scoreboard objectives add charge_money dummy
 
 # Plants
 scoreboard objectives add growth dummy
+
+# Dev Testing
+# function dark_dungeons:dev_utils/tick_helper/load
