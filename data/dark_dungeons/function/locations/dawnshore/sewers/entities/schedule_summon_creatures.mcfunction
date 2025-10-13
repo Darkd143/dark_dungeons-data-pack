@@ -1,1 +1,2 @@
 execute if entity @p[predicate=dark_dungeons:positioning/locations/dawnshore/sewer/zone,gamemode=adventure] as @n[predicate=dark_dungeons:positioning/locations/dawnshore/sewer/entity_manager_zone,tag=dawnshore_sewer_entity_manager,tag=scheduled_summon] run function dark_dungeons:locations/dawnshore/sewers/entities/summon_creatures
+schedule clear dark_dungeons:locations/dawnshore/sewers/entities/clear_tag
