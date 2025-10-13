@@ -21,3 +21,6 @@ function dark_dungeons:locations/dawnshore/market/doors/front_doors/close
 
 # Kick out Players
 execute as @a[gamemode=adventure,predicate=dark_dungeons:positioning/locations/dawnshore/market/inside] run function dark_dungeons:locations/dawnshore/market/kick_out
+
+# Unlock Storage Room Doors
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_storage_room_door]

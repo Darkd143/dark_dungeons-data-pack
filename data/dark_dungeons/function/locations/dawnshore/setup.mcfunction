@@ -15,3 +15,4 @@ function dark_dungeons:locations/dawnshore/inn/setup
 function dark_dungeons:locations/dawnshore/jailhouse/setup
 function dark_dungeons:locations/dawnshore/ownable_housing/setup
 function dark_dungeons:locations/dawnshore/well/setup
+function dark_dungeons:locations/dawnshore/town_hall/setup

@@ -16,3 +16,4 @@ function dark_dungeons:locations/dawnshore/adventurers_guild/teardown
 function dark_dungeons:locations/dawnshore/jailhouse/teardown
 function dark_dungeons:locations/dawnshore/inn/teardown
 function dark_dungeons:locations/dawnshore/well/teardown
+function dark_dungeons:locations/dawnshore/town_hall/teardown
