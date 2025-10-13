@@ -10,7 +10,7 @@ execute if entity @s[predicate=dark_dungeons:positioning/locations/dawnshore/hou
 execute if entity @s[predicate=dark_dungeons:positioning/locations/dawnshore/housing/suite_2] unless score @s player_id = @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=dawnshore_ownable_suite_2] player_id run return run function dark_dungeons:locations/dawnshore/ownable_housing/kick_out_suite_2
 
 # NIGHT TIME Kick Out
-execute if entity @n[predicate=dark_dungeons:positioning/locations/spawn_chunk_room,tag=default-time-manager,predicate=!dark_dungeons:time/during_night] run return 0
+execute unless predicate dark_dungeons:time/during_night run return 0
 
 # Tavern
 execute if entity @s[predicate=dark_dungeons:positioning/locations/dawnshore/tavern/inside] run return run function dark_dungeons:locations/dawnshore/tavern/kick_out
