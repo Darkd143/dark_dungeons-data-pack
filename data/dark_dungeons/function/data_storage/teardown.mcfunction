@@ -1,5 +1,4 @@
 # General
-function dark_dungeons:data_storage/general/default_time_manager/teardown
 function dark_dungeons:data_storage/general/player_id_manager/teardown
 
 # Dawnshore

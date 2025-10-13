@@ -1,6 +1,3 @@
-# SPAWN CHUNKS
-function dark_dungeons:data_storage/spawn_chunk/load
-
 # SCORES
 # Players
 scoreboard objectives add player_id dummy "Player ID"
@@ -46,6 +43,18 @@ scoreboard objectives add charge_money dummy
 
 # Plants
 scoreboard objectives add growth dummy
+
+# Time
+scoreboard objectives add tick_time dummy
+scoreboard objectives add hour dummy
+scoreboard objectives add minute dummy
+scoreboard objectives add pm dummy
+
+# SPAWN CHUNKS
+function dark_dungeons:data_storage/spawn_chunk/load
+
+# VARIABLES
+function dark_dungeons:data_storage/variables/numbers
 
 # Dev Testing
 # function dark_dungeons:dev_utils/tick_helper/load
