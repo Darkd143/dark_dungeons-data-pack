@@ -1,4 +1,4 @@
-execute unless score @s task_progress matches 75 run return run tellraw @s {"text":"Seraphina Mirethorn: Hello, you must be the one who is supposed to collect berries for me. Please head to Greenshadow Isle and bring me back 10 whiteveil mushrooms."}
+execute unless score @s task_progress matches 75 run return run tellraw @s {"text":"Seraphina Mirethorn: Hello, you must be the one who is supposed to collect mushrooms for me. Please head to Greenshadow Isle and bring me back 10 whiteveil mushrooms."}
 
 execute if entity @s[scores={task_progress=75},predicate=!dark_dungeons:inventory/selected_item/plants/mushrooms/whiteveil_mushroom] run return run tellraw @s {"text":"Seraphina Mirethorn: Please give me the whiteveil mushrooms whenever you get them."}
 
