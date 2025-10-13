@@ -1,3 +1,10 @@
+# Storage Room Doors
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,type=minecraft:interaction,tag=dawnshore_market_storage_room_door_1] store success entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/market/doors/storage_1/interact
+
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,type=minecraft:interaction,tag=dawnshore_market_storage_room_door_2] store success entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/market/doors/storage_2/interact
+
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,type=minecraft:interaction,tag=dawnshore_market_storage_room_door_3] store success entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/market/doors/storage_3/interact
+
 # Quest Interactions 2 (Drop Dealer Package Delivery)
 execute if entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_mob_drop_trader] unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_drop_dealer_quest_interaction] as @a[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,scores={quest_id=2}] if function dark_dungeons:quests/active_task/dawnshore_active_quest run function dark_dungeons:locations/dawnshore/market/quest_interactions/drop_dealer/setup
 

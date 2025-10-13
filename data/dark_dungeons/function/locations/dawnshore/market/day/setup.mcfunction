@@ -101,5 +101,12 @@ data modify block -103 73 59 LootTable set value "dark_dungeons:chests/locations
 data modify block -103 73 58 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
 data modify block -103 73 57 LootTable set value "dark_dungeons:chests/locations/dawnshore/market/mob_drops_misc_storage"
 
+# Lock Storage Room Doors
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_storage_room_door_1] run summon interaction -101 72 61 {width:1.1,height:2.0,Tags:['dawnshore_market_storage_room_door','dawnshore_market_storage_room_door_1']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_storage_room_door_2] run summon interaction -96 72 61 {width:1.1,height:2.0,Tags:['dawnshore_market_storage_room_door','dawnshore_market_storage_room_door_2']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_storage_room_door_3] run summon interaction -87 72 67 {width:1.1,height:2.0,Tags:['dawnshore_market_storage_room_door','dawnshore_market_storage_room_door_3']}
+
 # Unlock Doors
 kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_front_door]
