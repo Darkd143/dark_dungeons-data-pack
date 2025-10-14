@@ -1,5 +1,9 @@
-# Butcher (Remove Day)
+# Butcher
 execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/butcher_zone,tag=dawnshore_butcher] run function dark_dungeons:entities/management/tp_to_world_kill_zone
+
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/butcher_zone,tag=dawnshore_butcher_trades] run function dark_dungeons:entities/management/tp_to_world_kill_zone
+
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/butcher_zone,tag=dawnshore_butcher_text_display]
 
 # Lock Front Door
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/butcher/inside,tag=dawnshore_butcher_front_door] run summon interaction -108 72 68 {width:1.1,height:2.0,Tags:['dawnshore_butcher_front_door']}
