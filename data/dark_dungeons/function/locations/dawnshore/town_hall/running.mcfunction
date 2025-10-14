@@ -11,3 +11,6 @@ execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/town_hall/
 
 # Judge's Office Door
 execute as @e[type=minecraft:interaction,tag=dawnshore_town_hall_judge_office_door,predicate=dark_dungeons:positioning/locations/dawnshore/town_hall/inside] store result entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/town_hall/doors/judges_office/interact
+
+# Start Court Session
+

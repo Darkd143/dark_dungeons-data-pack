@@ -1,0 +1,4 @@
+{
+    "condition": "minecraft:reference",
+    "name": "dark_dungeons:time/tick/night"
+}

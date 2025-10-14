@@ -1,0 +1,25 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:time/tick/hour/8am"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:time/tick/hour/10am"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:time/tick/hour/12pm"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:time/tick/hour/2pm"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:time/tick/hour/4pm"
+        }
+    ]
+}
