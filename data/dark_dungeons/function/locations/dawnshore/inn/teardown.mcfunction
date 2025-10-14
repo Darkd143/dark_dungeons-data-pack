@@ -7,9 +7,6 @@ execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,t
 kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=inn_seat]
 kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_npc_interaction]
 
-# Desk Gate
-kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_desk_gate_interaction]
-
 # Room 1 Door
 kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_room_1_interaction]
 
@@ -39,6 +36,3 @@ kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=daw
 
 # Room 10 Door
 kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_room_10_interaction]
-
-# Door Trapdoors
-kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_inn_door_trapdoor_interaction]
