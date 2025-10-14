@@ -50,8 +50,10 @@ execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore
 execute positioned -82 78 82 as @n[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_loan_repayment_clerk] run function dark_dungeons:entities/mannequins/apply_skins/receptionist/fancy_2
 
 # Bank Manager
-execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_manager] run summon minecraft:villager -86 78 89 {VillagerData:{type:jungle,profession:cartographer,level:99},Invulnerable:1b,PersistenceRequired:1b,Silent:1b,NoAI:1b,Rotation:[270,0],Tags:['dawnshore_bank_manager']}
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_manager] run summon mannequin -86 78 89 {Invulnerable:1b,Silent:1b,Rotation:[270,0],Tags:['dawnshore_bank_manager']}
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_manager_interaction] run summon minecraft:interaction -86 78 89 {width:0.8,height:2.0,CustomName:"Bank Manager",Tags:['dawnshore_bank_manager_interaction']}
+
+execute positioned -86 78 89 as @n[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_manager] run function dark_dungeons:entities/mannequins/apply_skins/important/bank_manager
 
 # Bank NPC 1
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_npc_1] run summon minecraft:villager -83 73 84 {Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,Rotation:[270,0],Tags:['dawnshore_bank_npc','dawnshore_bank_npc_1']}
