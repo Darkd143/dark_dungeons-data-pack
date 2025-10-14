@@ -1,1 +1,1 @@
-function dark_dungeons:players/features/triggers/help/remove_use
+function dark_dungeons:players/features/triggers/help/reset

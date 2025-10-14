@@ -1,1 +1,1 @@
-scoreboard players set @s help 0
+scoreboard players enable @s help
