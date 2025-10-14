@@ -18,4 +18,4 @@ function dark_dungeons:locations/running
 function dark_dungeons:dungeons/running
 
 # Temporary Testing
-# execute as @a run function dark_dungeons:dev_utils/time_check/tick
+# execute as @a run function dark_dungeons:dev_utils/tick_helper/tick

@@ -20,5 +20,4 @@ execute as @a[predicate=dark_dungeons:inventory/has_items/user_stealing] run fun
 execute as @a[predicate=dark_dungeons:inventory/has_items/form] run function dark_dungeons:entities/players/forms/locations
 
 # Player Features
-execute if entity @p run function dark_dungeons:players/features/misc/clock/get_time
-execute as @a run function dark_dungeons:players/features/run_features
+function dark_dungeons:players/features/run_features

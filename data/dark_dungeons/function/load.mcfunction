@@ -7,8 +7,6 @@ scoreboard objectives add left_game minecraft.custom:minecraft.leave_game
 scoreboard objectives add used_bow minecraft.used:minecraft.bow
 
 # RPG
-scoreboard objectives add explorer_level dummy "Explorer Level"
-scoreboard objectives add explorer_xp dummy "Explorer XP"
 scoreboard objectives add adventurer_rank dummy "Adventurer Rank"
 scoreboard objectives add adventurer_xp dummy "Adventurer XP"
 
@@ -49,6 +47,9 @@ scoreboard objectives add tick_time dummy
 scoreboard objectives add hour dummy
 scoreboard objectives add minute dummy
 scoreboard objectives add pm dummy
+
+# Triggers
+function dark_dungeons:players/features/triggers/setup_trigger_objectives
 
 # SPAWN CHUNKS
 function dark_dungeons:data_storage/spawn_chunk/load
