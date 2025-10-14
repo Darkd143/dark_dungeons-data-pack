@@ -40,7 +40,7 @@ data modify block -83 76 101 LootTable set value "dark_dungeons:chests/locations
 # Guild Master
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_guildmaster_seat] run summon armor_stand -86 74.55 101 {NoGravity:true,Invulnerable:true,Invisible:true,DisabledSlots:4144959,Tags:['dawnshore_adventurer_guild_guildmaster_seat'],Passengers:[{id:mannequin,Invulnerable:1b,Silent:1b,Tags:['dawnshore_adventurer_guild_guildmaster','npc'],CustomName:"Guildmaster Dorian",hide_description:true}]}
 
-execute positioned -86 74.55 101 as @n[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_guildmaster] run function dark_dungeons:entities/mannequins/apply_skins/important/guild_master
+execute positioned -86 74.55 101 as @n[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_guildmaster] run function dark_dungeons:entities/mannequins/apply_skins/important/guild_master/guild_master_1
 
 # Unlock Doors
 kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurers_guild_front_door_a]

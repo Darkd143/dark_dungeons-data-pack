@@ -2,7 +2,7 @@
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_innkeeper] run summon mannequin -60 72 84 {Invulnerable:1b,Silent:1b,Tags:['dawnshore_inn_innkeeper'],Rotation:[300,0]}
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_innkeeper_interaction] run summon minecraft:interaction -60 72 84 {CustomName:"Innkeeper",Tags:['dawnshore_inn_innkeeper_interaction'],width:0.8,height:2.0}
 
-execute positioned -60 72 84 as @n[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_innkeeper] run function dark_dungeons:entities/mannequins/apply_skins/important/inn_keeper
+execute positioned -60 72 84 as @n[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_innkeeper] run function dark_dungeons:entities/mannequins/apply_skins/important/innkeeper/inn_keeper_1
 
 # NPC 1
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_npc_1] run summon minecraft:armor_stand -60.0 73.55 85.3 {Silent:1b,Passengers:[{id:vindicator,Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,Rotation:[180,0],Tags:['dawnshore_inn_npc','dawnshore_inn_npc_1','npc']}],Tags:['inn_seat'],Invisible:1b,NoGravity:1b,Rotation:[180,0]}

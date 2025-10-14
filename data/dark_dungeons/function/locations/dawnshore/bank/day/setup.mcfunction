@@ -53,7 +53,7 @@ execute positioned -82 78 82 as @n[predicate=dark_dungeons:positioning/locations
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_manager] run summon mannequin -86 78 89 {Invulnerable:1b,Silent:1b,Rotation:[270,0],Tags:['dawnshore_bank_manager']}
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_manager_interaction] run summon minecraft:interaction -86 78 89 {width:0.8,height:2.0,CustomName:"Bank Manager",Tags:['dawnshore_bank_manager_interaction']}
 
-execute positioned -86 78 89 as @n[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_manager] run function dark_dungeons:entities/mannequins/apply_skins/important/bank_manager
+execute positioned -86 78 89 as @n[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_manager] run function dark_dungeons:entities/mannequins/apply_skins/important/bank_manager/bank_manager_1
 
 # Bank NPC 1
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/bank_zone,tag=dawnshore_bank_npc_1] run summon minecraft:villager -83 73 84 {Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,Rotation:[270,0],Tags:['dawnshore_bank_npc','dawnshore_bank_npc_1']}
