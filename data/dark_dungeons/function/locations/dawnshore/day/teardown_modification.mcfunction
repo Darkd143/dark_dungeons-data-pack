@@ -10,6 +10,7 @@ function dark_dungeons:locations/dawnshore/adventurers_guild/day/teardown
 function dark_dungeons:locations/dawnshore/town_hall/day/teardown
 function dark_dungeons:locations/dawnshore/civil_servant_quarters/day/teardown
 function dark_dungeons:locations/dawnshore/farm/day/teardown
+function dark_dungeons:locations/dawnshore/garbage_dump/day/teardown
 
 function dark_dungeons:locations/dawnshore/other/tina_black/teardown
 
