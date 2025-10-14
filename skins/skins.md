@@ -1,6 +1,6 @@
 # Dark Dungeon Skins
 
-__Note: These skins were taken offline and are not created by, or the property of anyone working on the Dark Dungeons Data Pack__**
+__Note: These skins were taken offline and are not created by, or the property of anyone working on the Dark Dungeons Data Pack__.
 
 This is a record of skin files, just in case a website loses the skin file, or the link breaks.
 
