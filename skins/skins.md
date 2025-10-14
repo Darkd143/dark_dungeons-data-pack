@@ -16,6 +16,7 @@ This is a record of skin files, just in case a website loses the skin file, or t
 | Crew Mate 2 | Generic | Sailor | [url](https://mineskin.org/skins/df9bd33917a045a98f02e80f117b5d8f) | ![Sailor 2 Skin](sailor_2.png) |
 | Bank Manager 1 | Important | Bank Manager | [url](https://mineskin.org/skins/b1430503567d4fadb9c3a3a6ecaca73f) | ![Bank Manager 1 Skin](bank_manager_1.png) |
 | Guild Master 1 | Important | Guild Master | [url](https://mineskin.org/skins/33f3b4797f6442debb2cc1239036e923) | ![Guild Master 1 Skin](guild_master_1.png) |
+| Head Guard 1 | Important | Head Civil Servant Guard | [url](https://mineskin.org/skins/0ed559e48f744b45956458167cd7b4ca) | ![Head Civil Servant Guard 1 Skin](head_guard_1.png) |
 | Innkeeper 1 | Important | Innkeeper | [url](https://mineskin.org/skins/a34e80037c8f4f7aa5f92aeef54a24f7) | ![Innkeeper 1 Skin](innkeeper_1.png) |
 | Lookout Guard 1 | Kingdom | Lookout Guard | [url](https://mineskin.org/skins/0b25d461e92749c480d6352879ebd420) | ![Lookout Guard 1 Skin](lookout_guard_1.png) |
 | Ritual Summoner 1 | Kingdom | Ritual Summoner | [url](https://mineskin.org/skins/88a4ee5c4a8b4e01a0755f2b414b0556) | ![Ritual Summoner 1 Skin](ritual_summoner_1.png) |
