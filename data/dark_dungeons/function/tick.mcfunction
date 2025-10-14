@@ -1,8 +1,5 @@
 # Run Time Functions
-execute if predicate dark_dungeons:time/day_tick run function dark_dungeons:time/day_tick
-execute if predicate dark_dungeons:time/noon_tick run function dark_dungeons:time/noon_tick
-execute if predicate dark_dungeons:time/night_tick run function dark_dungeons:time/night_tick
-execute if predicate dark_dungeons:time/midnight_tick run function dark_dungeons:time/midnight_tick
+function dark_dungeons:time/running
 
 # Spawn
 function dark_dungeons:data_storage/spawn_chunk/load
