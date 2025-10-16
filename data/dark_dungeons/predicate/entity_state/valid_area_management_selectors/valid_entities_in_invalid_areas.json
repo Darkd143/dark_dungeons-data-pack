@@ -1,0 +1,45 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:positioning/area/in_valid_area"
+        }
+    },
+    {
+        "condition": "minecraft:any_of",
+        "terms": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{'Tags':['monster']}"
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{'Tags':['creature']}"
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{'Tags':['guard']}"
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{'Tags':['npc']}"
+                }
+            }
+        ]
+    }
+  ]
+}

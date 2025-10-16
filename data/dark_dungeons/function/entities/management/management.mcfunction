@@ -18,3 +18,6 @@ execute as @e[predicate=dark_dungeons:entity_state/valid_area_management_selecto
 
 # Size 0 Slimes
 execute as @e[type=slime,nbt={Size:0},predicate=dark_dungeons:positioning/area/in_valid_area,predicate=!dark_dungeons:positioning/world_kill_zone] run function dark_dungeons:entities/management/tp_to_world_kill_zone
+
+# Entities leaving the valid world zones
+execute as @e[type=!player,predicate=dark_dungeons:entity_state/valid_area_management_selectors/valid_entities_in_invalid_areas] run function dark_dungeons:entities/management/tp_to_world_kill_zone

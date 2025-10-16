@@ -49,7 +49,13 @@ scoreboard objectives add minute dummy
 scoreboard objectives add pm dummy
 
 # Triggers
-function dark_dungeons:players/features/triggers/setup_trigger_objectives
+scoreboard objectives add help trigger
+scoreboard objectives add reset trigger
+scoreboard objectives add softlock trigger
+scoreboard objectives add info_book trigger
+
+# Subtriggers
+scoreboard objectives add info_book_give trigger
 
 # SPAWN CHUNKS
 function dark_dungeons:data_storage/spawn_chunk/load
