@@ -1,0 +1,2 @@
+function dark_dungeons:players/items/clear_valid_items
+function dark_dungeons:players/teleport_to_summoning_altar

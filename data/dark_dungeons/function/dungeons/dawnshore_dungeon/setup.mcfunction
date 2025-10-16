@@ -1,5 +1,5 @@
 # Dungeon Core
-execute unless entity @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/core_room,type=item_display,tag=dawnshore_dungeon_core] run summon item_display -65.5 66 128.5 {item:{id:"minecraft:heart_of_the_sea"},Tags:['dawnshore_dungeon_core']}
+execute unless entity @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/core_room,type=item_display,tag=dawnshore_dungeon_core] run summon item_display -65.5 66 128.5 {item:{id:"minecraft:heart_of_the_sea"},Tags:['dawnshore_dungeon_core','dungeon_core']}
 
 # Entrance Display Zombie
 execute unless entity @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_dungeon/main_area,tag=dawnshore_dungeon_entrance_display_zombie] run summon zombie -66 71 143 {IsBaby:false,Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,Silent:1b,Tags:["dawnshore_dungeon_entrance_display_zombie","decoration"],attributes:[{id:scale,base:1.5f}],Rotation:[180,0]}

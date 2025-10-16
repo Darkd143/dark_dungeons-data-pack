@@ -1,3 +1,5 @@
+execute unless entity @s[scores={player_id=1..}] run function dark_dungeons:players/respawning/altar_respawn_tp
+
 execute if function dark_dungeons:locations/dawnshore/ownable_housing/respawn_tp run return 0
 
 execute if function dark_dungeons:locations/dawnshore/inn/respawn_tp run return 0
