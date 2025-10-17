@@ -46,6 +46,3 @@ data modify block -120 76 111 LootTable set value "dark_dungeons:chests/location
 
 # Work Room Door
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_craftsman_work_room_door] run summon interaction -116 72 107 {width:1.1,height:2.1,Tags:['dawnshore_craftsman_work_room_door']}
-
-# Unlock Doors
-kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_craftsman_door]

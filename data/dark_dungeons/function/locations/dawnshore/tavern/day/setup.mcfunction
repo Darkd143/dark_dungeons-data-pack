@@ -16,6 +16,3 @@ execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/tavern_zone,tag=dawnshore_taver_waiter_2_text_display] run summon text_display -98 74 111 {transformation:{left_rotation:[0f,0f,0f,1f], right_rotation:[0f,0f,0f,1f], translation:[0f,0f,0f],scale:[0.8f,0.8f,0.8f]},Rotation:[90,0],text:{text:"Tavern Waitress Sophie"},Tags:['dawnshore_taver_waiter_2_text_display']}
 
 execute positioned -98 72 111 as @n[predicate=dark_dungeons:positioning/locations/dawnshore/tavern_zone,tag=dawnshore_taver_waiter_2] run function dark_dungeons:entities/mannequins/apply_skins/tavern_waiters/waiter_2
-
-# Unlock Doors
-kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/tavern_zone,tag=dawnshore_tavern_door]

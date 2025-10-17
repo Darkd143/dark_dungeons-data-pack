@@ -21,5 +21,3 @@ function dark_dungeons:locations/dawnshore/guards/town_hall_guard/setup
 
 # Inn Cycle
 function dark_dungeons:locations/dawnshore/inn/cycle/cycle
-
-schedule function dark_dungeons:locations/dawnshore/day/chunk_loading/unload 120

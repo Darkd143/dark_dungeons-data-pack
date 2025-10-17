@@ -1,18 +1,7 @@
-function dark_dungeons:locations/dawnshore/bank/setup
-function dark_dungeons:locations/dawnshore/summoning_altar/setup
-function dark_dungeons:locations/dawnshore/dungeon_entrance/setup
-function dark_dungeons:locations/dawnshore/registration_hut/setup
-function dark_dungeons:locations/dawnshore/farm/setup
-function dark_dungeons:locations/dawnshore/market/setup
-function dark_dungeons:locations/dawnshore/bakery/setup
-function dark_dungeons:locations/dawnshore/butcher/setup
-function dark_dungeons:locations/dawnshore/craftsman/setup
-function dark_dungeons:locations/dawnshore/wall/setup
-function dark_dungeons:locations/dawnshore/pier/setup
-function dark_dungeons:locations/dawnshore/garbage_dump/setup
-function dark_dungeons:locations/dawnshore/adventurers_guild/setup
-function dark_dungeons:locations/dawnshore/inn/setup
-function dark_dungeons:locations/dawnshore/jailhouse/setup
-function dark_dungeons:locations/dawnshore/ownable_housing/setup
-function dark_dungeons:locations/dawnshore/well/setup
-function dark_dungeons:locations/dawnshore/town_hall/setup
+# Dawnshore Manager
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/manager_zone,tag=dawnshore_town_manager] run summon armor_stand -90 63 101 {Tags:['dawnshore_town_manager'],Invisible:true,Invulnerable:true,Marker:true}
+
+execute if entity @p[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore] run return run function dark_dungeons:locations/dawnshore/manage/setup
+
+function dark_dungeons:locations/dawnshore/manage/chunks/load_chunks
+schedule function dark_dungeons:locations/dawnshore/manage/setup 20 append
