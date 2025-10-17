@@ -1,8 +1,5 @@
 tag @s remove registered_player
 
-# To Be Deprecated
-tag @s remove received_basic_fishing_rod
-
 # Criminal Tags
 function dark_dungeons:players/crime/court/clear_criminal_tags
 

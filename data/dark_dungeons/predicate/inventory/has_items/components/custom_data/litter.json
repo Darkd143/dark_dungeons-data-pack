@@ -5,12 +5,12 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-                "nbt": "{'Inventory':[{'id':'minecraft:glass_bottle'}]}"
+                "nbt": "{'Inventory':[{'components':{'minecraft:custom_data':{'litter':True}}}]}"
             }
         },
         {
             "condition": "minecraft:reference",
-            "name": "dark_dungeons:inventory/offhand/replacement_item/glass_bottle"
+            "name": "dark_dungeons:inventory/offhand/components/custom_data/litter"
         }
     ]
 }
