@@ -1,0 +1,16 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "nbt": "{'Inventory':[{'id':'minecraft:fishing_rod','components':{'minecraft:custom_data':{'valid':True}}}]}"
+        }
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "dark_dungeons:inventory/offhand/tool/fishing/valid_fishing_rod"
+    }
+  ]
+}
