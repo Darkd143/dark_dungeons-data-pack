@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:player_state/criminal/is_criminal"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:positioning/shared/in_custody"
+        }
+    ]
+}

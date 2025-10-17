@@ -5,12 +5,12 @@
       "condition": "minecraft:inverted",
       "term": {
         "condition": "minecraft:reference",
-        "name": "dark_dungeons:positioning/in_jail"
+        "name": "dark_dungeons:positioning/shared/in_jail"
       }
     },
     {
       "condition": "minecraft:reference",
-      "name": "dark_dungeons:player_state/is_criminal"
+      "name": "dark_dungeons:player_state/criminal/is_criminal"
     }
   ]
 }

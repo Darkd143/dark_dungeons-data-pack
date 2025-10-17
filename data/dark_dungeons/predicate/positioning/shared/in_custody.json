@@ -1,0 +1,13 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:positioning/shared/in_jail"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_dungeons:positioning/locations/dawnshore/town_hall/courtroom_cell"
+        }
+    ]
+}
