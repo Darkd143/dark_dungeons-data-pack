@@ -10,7 +10,7 @@
     },
     {
       "condition": "minecraft:reference",
-      "name": "dark_dungeons:player_state/is_area_criminal"
+      "name": "dark_dungeons:player_state/criminal/is_area_criminal"
     }
   ]
 }
