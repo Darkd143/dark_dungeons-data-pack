@@ -1,19 +1,7 @@
-function dark_dungeons:locations/dawnshore/day/teardown
+# Dawnshore Manager
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/manager_zone,tag=dawnshore_town_manager]
 
-function dark_dungeons:locations/dawnshore/bank/teardown
-function dark_dungeons:locations/dawnshore/summoning_altar/teardown
-function dark_dungeons:locations/dawnshore/dungeon_entrance/teardown
-function dark_dungeons:locations/dawnshore/registration_hut/teardown
-function dark_dungeons:locations/dawnshore/farm/teardown
-function dark_dungeons:locations/dawnshore/bakery/teardown
-function dark_dungeons:locations/dawnshore/market/teardown
-function dark_dungeons:locations/dawnshore/butcher/teardown
-function dark_dungeons:locations/dawnshore/craftsman/teardown
-function dark_dungeons:locations/dawnshore/wall/teardown
-function dark_dungeons:locations/dawnshore/pier/teardown
-function dark_dungeons:locations/dawnshore/garbage_dump/teardown
-function dark_dungeons:locations/dawnshore/adventurers_guild/teardown
-function dark_dungeons:locations/dawnshore/jailhouse/teardown
-function dark_dungeons:locations/dawnshore/inn/teardown
-function dark_dungeons:locations/dawnshore/well/teardown
-function dark_dungeons:locations/dawnshore/town_hall/teardown
+execute if entity @p[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore] run return run function dark_dungeons:locations/dawnshore/manage/teardown
+
+function dark_dungeons:locations/dawnshore/manage/chunks/load_chunks
+schedule function dark_dungeons:locations/dawnshore/manage/teardown 20 append

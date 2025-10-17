@@ -143,6 +143,3 @@ execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_storage_room_door_2] run summon interaction -96 72 61 {width:1.1,height:2.0,Tags:['dawnshore_market_storage_room_door','dawnshore_market_storage_room_door_2']}
 
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_storage_room_door_3] run summon interaction -87 72 67 {width:1.1,height:2.0,Tags:['dawnshore_market_storage_room_door','dawnshore_market_storage_room_door_3']}
-
-# Unlock Doors
-kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_front_door]

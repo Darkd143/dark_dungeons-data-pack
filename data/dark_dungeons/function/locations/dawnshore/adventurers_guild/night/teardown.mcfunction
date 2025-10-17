@@ -1,0 +1,3 @@
+# Unlock Doors
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurers_guild_front_door_a]
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurers_guild_front_door_b]

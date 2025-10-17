@@ -16,9 +16,3 @@ data modify block -111 76 62 LootTable set value "dark_dungeons:chests/locations
 
 # Lock Back Room Door
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/butcher/inside,tag=dawnshore_butcher_back_room_door] run summon interaction -108 72 62 {width:1.1,height:2.0,Tags:['dawnshore_butcher_back_room_door']}
-
-# Unlock Front Door
-kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/butcher/inside,tag=dawnshore_butcher_front_door]
-
-# Unlock Housing Door
-kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/butcher/inside,tag=dawnshore_butcher_housing_door]

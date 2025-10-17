@@ -11,6 +11,3 @@ execute positioned -97 72 88 as @n[predicate=dark_dungeons:positioning/locations
 data modify block -98 76 88 LootTable set value "dark_dungeons:chests/locations/dawnshore/bakery/default"
 data modify block -98 76 87 LootTable set value "dark_dungeons:chests/locations/dawnshore/bakery/default"
 data modify block -98 76 86 LootTable set value "dark_dungeons:chests/locations/dawnshore/bakery/default"
-
-# Unlock Door
-kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/bakery/inside,tag=dawnshore_bakery_door]
