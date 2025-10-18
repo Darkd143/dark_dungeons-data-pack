@@ -26,3 +26,6 @@ execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman/
 
 # Cauldron Interaction
 execute as @e[type=interaction,tag=dawnshore_craftsman_workroom_cauldron,predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone] store success entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/craftsman/cauldron/main
+
+# Shop Container Blocking Interactions
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_craftsman_container_blocking_interaction] store result entity @s interaction.player[] int 0 on target run tellraw @s {"text":"Leatherworker Maela Ryn: Hey! Hands off our gear. If you want something, you can pay for it."}

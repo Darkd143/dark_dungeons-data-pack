@@ -44,3 +44,16 @@ execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore
 execute unless entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,scores={quest_id=10}] unless entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,scores={quest_id=13}] if entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_apothecary_quest_interaction] run function dark_dungeons:locations/dawnshore/market/quest_interactions/apothecary/teardown
 
 execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,type=minecraft:interaction,tag=dawnshore_apothecary_quest_interaction] store success entity @s interaction.player[] int 0 on target run function dark_dungeons:locations/dawnshore/market/quest_interactions/apothecary/messages
+
+# Shop Container Blocking Interactions
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_fish_container_blocking_interaction] store result entity @s interaction.player[] int 0 on target run tellraw @s {"text":"Eamon Fishwick: Please keep out of my wares."}
+
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_treasure_container_blocking_interaction] store result entity @s interaction.player[] int 0 on target run tellraw @s {"text":"Merchant Marek: Stop! The only items you are allowed to touch are the ones you buy."}
+
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_berry_container_blocking_interaction] store result entity @s interaction.player[] int 0 on target run tellraw @s {"text":"Berry Merchant Jennifer: I'm sorry, but I can't allow you to go through my stock."}
+
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_herb_container_blocking_interaction] store result entity @s interaction.player[] int 0 on target run tellraw @s {"text":"Apothecary Seraphina: What are you doing?! I can't let just anyone touch my herbs and supplies."}
+
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_misc_container_blocking_interaction] store result entity @s interaction.player[] int 0 on target run tellraw @s {"text":"Trader Leonard: Stop that! I cannot let you rummage through my collection."}
+
+execute as @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_mob_drop_container_blocking_interaction] store result entity @s interaction.player[] int 0 on target run tellraw @s {"text":"Drop Dealer Vira: Hands off the merchandise or I'll report you to the guards."}

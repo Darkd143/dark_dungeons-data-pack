@@ -11,3 +11,13 @@ execute positioned -97 72 88 as @n[predicate=dark_dungeons:positioning/locations
 data modify block -98 76 88 LootTable set value "dark_dungeons:chests/locations/dawnshore/bakery/default"
 data modify block -98 76 87 LootTable set value "dark_dungeons:chests/locations/dawnshore/bakery/default"
 data modify block -98 76 86 LootTable set value "dark_dungeons:chests/locations/dawnshore/bakery/default"
+
+# Shop Container Blocking Interactions
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/bakery_zone,tag=dawnshore_bakery_container_blocking_interaction_1]
+summon interaction -98 75.995 86 {width:1.01,height:1.01,Tags:['dawnshore_bakery_container_blocking_interaction_1','dawnshore_bakery_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/bakery_zone,tag=dawnshore_bakery_container_blocking_interaction_2]
+summon interaction -98 75.995 87 {width:1.01,height:1.01,Tags:['dawnshore_bakery_container_blocking_interaction_2','dawnshore_bakery_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/bakery_zone,tag=dawnshore_bakery_container_blocking_interaction_3]
+summon interaction -98 75.995 88 {width:1.01,height:1.01,Tags:['dawnshore_bakery_container_blocking_interaction_3','dawnshore_bakery_container_blocking_interaction']}

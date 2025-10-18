@@ -21,3 +21,6 @@ kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,t
 
 # Work Room Door
 kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_craftsman_work_room_door]
+
+# Shop Container Blocking Interactions
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_craftsman_container_blocking_interaction]
