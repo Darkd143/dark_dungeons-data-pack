@@ -33,6 +33,8 @@ scoreboard players reset @s quest_day_limit
 scoreboard players reset @s civil_servant_task_id
 scoreboard players reset @s civil_servant_task_day
 scoreboard players reset @s civil_servant_write_ups
+scoreboard players reset @s civil_servant_new_writeup
+scoreboard players reset @s civil_servant_task_progress
 
 # Legal System
 scoreboard players reset @s charge_count

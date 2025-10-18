@@ -34,6 +34,8 @@ scoreboard objectives add quest_day_limit dummy
 scoreboard objectives add civil_servant_task_id dummy
 scoreboard objectives add civil_servant_task_day dummy
 scoreboard objectives add civil_servant_write_ups dummy
+scoreboard objectives add civil_servant_new_writeup dummy
+scoreboard objectives add civil_servant_task_progress dummy
 
 # Legal System
 scoreboard objectives add charge_count dummy
