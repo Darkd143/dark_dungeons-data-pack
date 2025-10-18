@@ -1,1 +1,1 @@
-summon silverfish ~ ~ ~ {Tags:['creature','shadowmire_rat'],CustomName:[{"text":"Shadowmire Rat"}],DeathLootTable:"dark_dungeons:entities/creatures/hostile/shadowmire_rat",Health:3,attributes:[{id:attack_damage,base:1f},{id:max_health,base:3f}]}
+summon silverfish ~ ~ ~ {Tags:['creature','shadowmire_rat'],CustomName:[{"text":"🦊 Shadowmire Rat 🦊","color":"gold"}],DeathLootTable:"dark_dungeons:entities/creatures/hostile/shadowmire_rat",Health:3,attributes:[{id:attack_damage,base:1f},{id:max_health,base:3f}]}
