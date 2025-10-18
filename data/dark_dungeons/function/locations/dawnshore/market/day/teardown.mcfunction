@@ -43,3 +43,6 @@ kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=
 
 # Unlock Storage Room Doors
 kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_storage_room_door]
+
+# Shop Container Blocking Interactions
+kill @e[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction]

@@ -46,3 +46,19 @@ data modify block -120 76 111 LootTable set value "dark_dungeons:chests/location
 
 # Work Room Door
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_craftsman_work_room_door] run summon interaction -116 72 107 {width:1.1,height:2.1,Tags:['dawnshore_craftsman_work_room_door']}
+
+# Shop Container Blocking Interactions
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_craftsman_container_blocking_interaction_1]
+summon interaction -120 74.995 106 {width:1.01,height:1.01,Tags:['dawnshore_craftsman_container_blocking_interaction_1','dawnshore_craftsman_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_craftsman_container_blocking_interaction_2]
+summon interaction -119 74.995 106 {width:1.01,height:1.01,Tags:['dawnshore_craftsman_container_blocking_interaction_2','dawnshore_craftsman_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_craftsman_container_blocking_interaction_3]
+summon interaction -118 74.995 106 {width:1.01,height:1.01,Tags:['dawnshore_craftsman_container_blocking_interaction_3','dawnshore_craftsman_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_craftsman_container_blocking_interaction_4]
+summon interaction -117 74.995 106 {width:1.01,height:1.01,Tags:['dawnshore_craftsman_container_blocking_interaction_4','dawnshore_craftsman_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/craftsman_zone,tag=dawnshore_craftsman_container_blocking_interaction_5]
+summon interaction -115 74.995 106 {width:1.01,height:1.01,Tags:['dawnshore_craftsman_container_blocking_interaction_5','dawnshore_craftsman_container_blocking_interaction']}

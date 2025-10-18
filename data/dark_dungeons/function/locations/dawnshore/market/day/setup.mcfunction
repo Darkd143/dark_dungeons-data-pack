@@ -143,3 +143,106 @@ execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_storage_room_door_2] run summon interaction -96 72 61 {width:1.1,height:2.0,Tags:['dawnshore_market_storage_room_door','dawnshore_market_storage_room_door_2']}
 
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_storage_room_door_3] run summon interaction -87 72 67 {width:1.1,height:2.0,Tags:['dawnshore_market_storage_room_door','dawnshore_market_storage_room_door_3']}
+
+# Shop Container Blocking Interactions
+# Fish
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_1]
+summon interaction -94 73.995 73 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_1','dawnshore_market_container_blocking_interaction','dawnshore_market_fish_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_2]
+summon interaction -93 73.995 73 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_2','dawnshore_market_container_blocking_interaction','dawnshore_market_fish_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_3]
+summon interaction -92 73.995 73 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_3','dawnshore_market_container_blocking_interaction','dawnshore_market_fish_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_4]
+summon interaction -97 74.995 68 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_4','dawnshore_market_container_blocking_interaction','dawnshore_market_fish_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_5]
+summon interaction -96 74.995 68 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_5','dawnshore_market_container_blocking_interaction','dawnshore_market_fish_container_blocking_interaction']}
+
+# Treasure
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_6]
+summon interaction -91 73.995 73 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_6','dawnshore_market_container_blocking_interaction','dawnshore_market_treasure_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_7]
+summon interaction -90 73.995 73 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_7','dawnshore_market_container_blocking_interaction','dawnshore_market_treasure_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_8]
+summon interaction -89 73.995 73 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_8','dawnshore_market_container_blocking_interaction','dawnshore_market_treasure_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_9]
+summon interaction -95 74.995 68 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_9','dawnshore_market_container_blocking_interaction','dawnshore_market_treasure_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_10]
+summon interaction -94 74.995 68 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_10','dawnshore_market_container_blocking_interaction','dawnshore_market_treasure_container_blocking_interaction']}
+
+# Berry
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_11]
+summon interaction -89 71.995 62 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_11','dawnshore_market_container_blocking_interaction','dawnshore_market_berry_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_12]
+summon interaction -90 71.995 62 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_12','dawnshore_market_container_blocking_interaction','dawnshore_market_berry_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_13]
+summon interaction -93 74.995 68 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_13','dawnshore_market_container_blocking_interaction','dawnshore_market_berry_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_14]
+summon interaction -93 74.995 67 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_14','dawnshore_market_container_blocking_interaction','dawnshore_market_berry_container_blocking_interaction']}
+
+# Herb
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_15]
+summon interaction -91 71.995 62 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_15','dawnshore_market_container_blocking_interaction','dawnshore_market_herb_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_16]
+summon interaction -92 71.995 62 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_16','dawnshore_market_container_blocking_interaction','dawnshore_market_herb_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_17]
+summon interaction -93 71.995 62 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_17','dawnshore_market_container_blocking_interaction','dawnshore_market_herb_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_18]
+summon interaction -94 74.995 67 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_18','dawnshore_market_container_blocking_interaction','dawnshore_market_herb_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_19]
+summon interaction -95 74.995 67 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_19','dawnshore_market_container_blocking_interaction','dawnshore_market_herb_container_blocking_interaction']}
+
+# Misc
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_20]
+summon interaction -99 71.995 62 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_20','dawnshore_market_container_blocking_interaction','dawnshore_market_misc_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_21]
+summon interaction -99 72.995 62 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_21','dawnshore_market_container_blocking_interaction','dawnshore_market_misc_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_22]
+summon interaction -99 73.995 62 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_22','dawnshore_market_container_blocking_interaction','dawnshore_market_misc_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_23]
+summon interaction -96 74.995 67 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_23','dawnshore_market_container_blocking_interaction','dawnshore_market_misc_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_24]
+summon interaction -97 74.995 67 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_24','dawnshore_market_container_blocking_interaction','dawnshore_market_misc_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_25]
+summon interaction -103 71.995 62 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_25','dawnshore_market_container_blocking_interaction','dawnshore_market_misc_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_26]
+summon interaction -103 71.995 63 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_26','dawnshore_market_container_blocking_interaction','dawnshore_market_misc_container_blocking_interaction']}
+
+# Mob Drop
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_27]
+summon interaction -103 71.995 64 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_27','dawnshore_market_container_blocking_interaction','dawnshore_market_mob_drop_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_28]
+summon interaction -103 71.995 65 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_28','dawnshore_market_container_blocking_interaction','dawnshore_market_mob_drop_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_29]
+summon interaction -103 71.995 66 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_29','dawnshore_market_container_blocking_interaction','dawnshore_market_mob_drop_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_30]
+summon interaction -103 71.995 67 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_30','dawnshore_market_container_blocking_interaction','dawnshore_market_mob_drop_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_31]
+summon interaction -98 74.995 67 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_31','dawnshore_market_container_blocking_interaction','dawnshore_market_mob_drop_container_blocking_interaction']}
+
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/market_zone,tag=dawnshore_market_container_blocking_interaction_32]
+summon interaction -98 74.995 68 {width:1.01,height:1.01,Tags:['dawnshore_market_container_blocking_interaction_32','dawnshore_market_container_blocking_interaction','dawnshore_market_mob_drop_container_blocking_interaction']}
