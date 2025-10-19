@@ -10,6 +10,7 @@ function dark_dungeons:locations/dawnshore/pier/running
 function dark_dungeons:locations/dawnshore/garbage_dump/running
 function dark_dungeons:locations/dawnshore/guards/running
 function dark_dungeons:locations/dawnshore/sewers/running
+function dark_dungeons:locations/dawnshore/wall/running
 function dark_dungeons:locations/dawnshore/well/running
 function dark_dungeons:locations/dawnshore/farm/running
 

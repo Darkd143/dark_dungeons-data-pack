@@ -1,0 +1,1 @@
+execute if entity @a[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,scores={civil_servant_task_id=1..2}] run function dark_dungeons:locations/dawnshore/wall/civil_servant_task/running
