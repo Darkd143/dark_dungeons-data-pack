@@ -10,15 +10,20 @@ This is a record of skin files, just in case a website loses the skin file, or t
 | --------------------- | ------------- | ------------------------ | ------------------------------------------------------------------ | -------------------------------------------------------- |
 | Fishing 1             | Fishing       | N/A                      | [url](https://mineskin.org/skins/b5d42cca93614c699a3f0269f1b140c4) | ![Fishing 1 Skin](fishing_1.png)                         |
 | Fishing 2             | Fishing       | N/A                      | [url](https://mineskin.org/skins/9204d6aa0e544ae48e8bcb2e0cb1ea0b) | ![Fishing 2 Skin](fishing_2.png)                         |
-| Commoner 1           | Generic       | Commoner                | [url](https://mineskin.org/skins/64777f355a5e4e84a67e8470e9cfc94c) | ![Commoner 1 Skin](commoner_1.png)                       |
-| Commoner 2           | Generic       | Commoner                | [url](https://mineskin.org/skins/0c87694ad1b84ffab732bde11768f1f5) | ![Commoner 2 Skin](commoner_2.png)                       |
-| Commoner 3           | Generic       | Commoner                | [url](https://mineskin.org/skins/36cbc32b9ad3443296214a440f0b8e74) | ![Commoner 3 Skin](commoner_3.png)                       |
-| Commoner 4           | Generic       | Commoner                | [url](https://mineskin.org/skins/ece78b738e174a8dbea9a53e63f069f5) | ![Commoner 4 Skin](commoner_4.png)                       |
-| Commoner 5           | Generic       | Commoner                | [url](https://mineskin.org/skins/9441ab5960274c92a8387964e2642cbe) | ![Commoner 5 Skin](commoner_5.png)                       |
-| Commoner 6           | Generic       | Commoner                | [url](https://mineskin.org/skins/0dcc58a0839f4a74953306781ae02348) | ![Commoner 6 Skin](commoner_6.png)                       |
-| Commoner 7           | Generic       | Commoner                | [url](https://mineskin.org/skins/d39d94c23c8a45c5bfd19a1c594ecebc) | ![Commoner 7 Skin](commoner_7.png)                       |
-| Commoner 8           | Generic       | Commoner                | [url](https://mineskin.org/skins/affdc369def24596acdae0a3714eafd2) | ![Commoner 8 Skin](commoner_8.png)                       |
-| Commoner 9           | Generic       | Commoner                | [url](https://mineskin.org/skins/328b5fc3322d4a35bbb3099bbda82247) | ![Commoner 9 Skin](commoner_9.png)                       |
+| Boy 1                 | Generic       | Children                | [url](https://mineskin.org/skins/83295b7dcdba4dfb985ddece30d8c4a2) | ![Boy 1 Skin](boy_1.png)                       |
+| Boy 2                 | Generic       | Children                | [url](https://mineskin.org/skins/83ec718ab5d14729ab955a852e087fe3) | ![Boy 2 Skin](boy_2.png)                       |
+| Boy 3                 | Generic       | Children                | [url](https://mineskin.org/skins/da801cf2ca394ab6b6cc3bd5bb5c7695) | ![Boy 3 Skin](boy_3.png)                       |
+| Girl 1                | Generic       | Children                | [url](https://mineskin.org/skins/5b3655e914f04ee8a7ae80f23af061d9) | ![Girl 1 Skin](girl_1.png)                       |
+| Girl 2                | Generic       | Children                | [url](https://mineskin.org/skins/786bb6690be0442b8c7aa6d1b3d6ed4d) | ![Girl 2 Skin](girl_2.png)                       |
+| Commoner 1            | Generic       | Commoner                | [url](https://mineskin.org/skins/64777f355a5e4e84a67e8470e9cfc94c) | ![Commoner 1 Skin](commoner_1.png)                       |
+| Commoner 2            | Generic       | Commoner                | [url](https://mineskin.org/skins/0c87694ad1b84ffab732bde11768f1f5) | ![Commoner 2 Skin](commoner_2.png)                       |
+| Commoner 3            | Generic       | Commoner                | [url](https://mineskin.org/skins/36cbc32b9ad3443296214a440f0b8e74) | ![Commoner 3 Skin](commoner_3.png)                       |
+| Commoner 4            | Generic       | Commoner                | [url](https://mineskin.org/skins/ece78b738e174a8dbea9a53e63f069f5) | ![Commoner 4 Skin](commoner_4.png)                       |
+| Commoner 5            | Generic       | Commoner                | [url](https://mineskin.org/skins/9441ab5960274c92a8387964e2642cbe) | ![Commoner 5 Skin](commoner_5.png)                       |
+| Commoner 6            | Generic       | Commoner                | [url](https://mineskin.org/skins/0dcc58a0839f4a74953306781ae02348) | ![Commoner 6 Skin](commoner_6.png)                       |
+| Commoner 7            | Generic       | Commoner                | [url](https://mineskin.org/skins/d39d94c23c8a45c5bfd19a1c594ecebc) | ![Commoner 7 Skin](commoner_7.png)                       |
+| Commoner 8            | Generic       | Commoner                | [url](https://mineskin.org/skins/affdc369def24596acdae0a3714eafd2) | ![Commoner 8 Skin](commoner_8.png)                       |
+| Commoner 9            | Generic       | Commoner                | [url](https://mineskin.org/skins/328b5fc3322d4a35bbb3099bbda82247) | ![Commoner 9 Skin](commoner_9.png)                       |
 | Commoner 10           | Generic       | Commoner                | [url](https://mineskin.org/skins/eee8a4e89f354e32838dc1d9e85fdc2c) | ![Commoner 10 Skin](commoner_10.png)                       |
 | Commoner 11           | Generic       | Commoner                | [url](https://mineskin.org/skins/d75a258ce87d42f3b8a174162ad23280) | ![Commoner 11 Skin](commoner_11.png)                       |
 | Commoner 12           | Generic       | Commoner                | [url](https://mineskin.org/skins/b4f012c8329345d686d0d86bbcb242ea) | ![Commoner 12 Skin](commoner_12.png)                       |
@@ -54,6 +59,10 @@ This is a record of skin files, just in case a website loses the skin file, or t
 | Mercenary 22           | Generic       | Mercenary                | [url](https://mineskin.org/skins/dc458a0f900d4e70a8b29f6d0f062be9) | ![Mercenary 22 Skin](mercenary_22.png)                       |
 | Mercenary 23           | Generic       | Mercenary                | [url](https://mineskin.org/skins/8678766683774b78add45566d77d5133) | ![Mercenary 23 Skin](mercenary_23.png)                       |
 | Mercenary 24           | Generic       | Mercenary                | [url](https://mineskin.org/skins/8462b1f2f70843bc8e83de65bcd7dd63) | ![Mercenary 24 Skin](mercenary_24.png)                       |
+| Ruffian 1              | Generic       | Ruffian                  | [url](https://mineskin.org/skins/5ca338cdab09406698a0eb561e9c372f) | ![Ruffian 1 Skin](ruffian_1.png)                       |
+| Ruffian 2              | Generic       | Ruffian                  | [url](https://mineskin.org/skins/f58d30d368d64eaeb18119e070208965) | ![Ruffian 2 Skin](ruffian_2.png)                       |
+| Ruffian 3              | Generic       | Ruffian                  | [url](https://mineskin.org/skins/4a62825084704ec599311215d2f96ef6) | ![Ruffian 3 Skin](ruffian_3.png)                       |
+| Ruffian 4              | Generic       | Ruffian                  | [url](https://mineskin.org/skins/7329860b560c4339ae541ddd02795e4d) | ![Ruffian 4 Skin](ruffian_4.png)                       |
 | Crew Mate 1           | Generic       | Sailor                   | [url](https://mineskin.org/skins/279124a6fd1145baa63d45363d1c781c) | ![Sailor 1 Skin](sailor_1.png)                           |
 | Crew Mate 2           | Generic       | Sailor                   | [url](https://mineskin.org/skins/df9bd33917a045a98f02e80f117b5d8f) | ![Sailor 2 Skin](sailor_2.png)                           |
 | Bank Manager 1        | Important     | Bank Manager             | [url](https://mineskin.org/skins/b1430503567d4fadb9c3a3a6ecaca73f) | ![Bank Manager 1 Skin](bank_manager_1.png)               |
