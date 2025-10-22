@@ -23,6 +23,6 @@ execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore
 # Altar Guard
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_altar_guard] run summon mannequin -45 73 100 {Invulnerable:1b,Silent:1b,CustomName:"Altar Guard",equipment:{mainhand:{id:wooden_sword}},Rotation:[135,0],Tags:["dawnshore_altar_guard","guard","lookout_guard","guard_summon_west"]}
 
-execute positioned -45 73 100 as @n[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_altar_guard] run function dark_dungeons:entities/mannequins/apply_skins/kingdom_npc/lookout_guard_1
+execute positioned -45 73 100 as @n[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_altar_guard] run function dark_dungeons:entities/mannequins/apply_skins/kingdom_npc/guard/guard_1
 
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_altar_guard_interaction] run summon minecraft:interaction -45 73 100 {width:0.8,height:2.0,CustomName:"Altar Guard",Tags:['dawnshore_altar_guard_interaction']}
