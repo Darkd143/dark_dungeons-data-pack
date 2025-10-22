@@ -12,6 +12,30 @@ This is a record of skin files, just in case a website loses the skin file, or t
 | Fishing 2             | Fishing       | N/A                      | [url](https://mineskin.org/skins/9204d6aa0e544ae48e8bcb2e0cb1ea0b) | ![Fishing 2 Skin](fishing_2.png)                         |
 | Farmer 1              | Generic       | Farmer                   | [url](https://mineskin.org/skins/717b1f35fe084f9790044b32b31fd127) | ![Farmer 1 Skin](farmer_1.png)                           |
 | Homeless 1            | Generic       | Homeless                 | [url](https://mineskin.org/skins/2b89bd3e66b8481592cb2fdc8f4dc394) | ![Homeless 1 Skin](homeless_1.png)                       |
+| Mercenary 1           | Generic       | Mercenary                | [url](https://mineskin.org/skins/f6dfcbe071774a7cb3c5bc8f4c4d9be4) | ![Mercenary 1 Skin](mercenary_1.png)                       |
+| Mercenary 2           | Generic       | Mercenary                | [url](https://mineskin.org/skins/8a336e17831f4acebccb49e0c8862bc2) | ![Mercenary 2 Skin](mercenary_2.png)                       |
+| Mercenary 3           | Generic       | Mercenary                | [url](https://mineskin.org/skins/67d03d7a8fc84416812eb4184535cd6b) | ![Mercenary 3 Skin](mercenary_3.png)                       |
+| Mercenary 4           | Generic       | Mercenary                | [url](https://mineskin.org/skins/270be5d48c79452486ca6e03aaf4b914) | ![Mercenary 4 Skin](mercenary_4.png)                       |
+| Mercenary 5           | Generic       | Mercenary                | [url](https://mineskin.org/skins/f60618cb293149b692fd61d21a596a2b) | ![Mercenary 5 Skin](mercenary_5.png)                       |
+| Mercenary 6           | Generic       | Mercenary                | [url](https://mineskin.org/skins/8c1201c0ebd74ca2ac59deb01eeb4b30) | ![Mercenary 6 Skin](mercenary_6.png)                       |
+| Mercenary 7           | Generic       | Mercenary                | [url](https://mineskin.org/skins/e25130810c0b4d7aba3edc35270568e2) | ![Mercenary 7 Skin](mercenary_7.png)                       |
+| Mercenary 8           | Generic       | Mercenary                | [url](https://mineskin.org/skins/a7356297b38a41479732f95dae2c426c) | ![Mercenary 8 Skin](mercenary_8.png)                       |
+| Mercenary 9           | Generic       | Mercenary                | [url](https://mineskin.org/skins/f7b1d864e61045d28d1bb9d4fc804f94) | ![Mercenary 9 Skin](mercenary_9.png)                       |
+| Mercenary 10           | Generic       | Mercenary                | [url](https://mineskin.org/skins/dae89794ae604e87a887f49a1036c456) | ![Mercenary 10 Skin](mercenary_10.png)                       |
+| Mercenary 11           | Generic       | Mercenary                | [url](https://mineskin.org/skins/c89a9c4938714a1a97a9086dadc39765) | ![Mercenary 11 Skin](mercenary_11.png)                       |
+| Mercenary 12           | Generic       | Mercenary                | [url](https://mineskin.org/skins/97c2c83d08f1487791979cb18d0f2cda) | ![Mercenary 12 Skin](mercenary_12.png)                       |
+| Mercenary 13           | Generic       | Mercenary                | [url](http://mineskin.org/skins/1f68894a1e6f4b749a00fff486520df8) | ![Mercenary 13 Skin](mercenary_13.png)                       |
+| Mercenary 14           | Generic       | Mercenary                | [url](https://mineskin.org/skins/56570b78190c489f917f170110194f8e) | ![Mercenary 14 Skin](mercenary_14.png)                       |
+| Mercenary 15           | Generic       | Mercenary                | [url](https://mineskin.org/skins/1cd093b6179a4c248debaca43b18262a) | ![Mercenary 15 Skin](mercenary_15.png)                       |
+| Mercenary 16           | Generic       | Mercenary                | [url](https://mineskin.org/skins/2e9537e45d03415ab8c3e8c9d5865496) | ![Mercenary 16 Skin](mercenary_16.png)                       |
+| Mercenary 17           | Generic       | Mercenary                | [url](https://mineskin.org/skins/a7eea9a43cce47439275d7ad8aad814a) | ![Mercenary 17 Skin](mercenary_17.png)                       |
+| Mercenary 18           | Generic       | Mercenary                | [url](https://mineskin.org/skins/ce2c0b5c6dd945c994de5f85bda9fe0d) | ![Mercenary 18 Skin](mercenary_18.png)                       |
+| Mercenary 19           | Generic       | Mercenary                | [url](https://mineskin.org/skins/fe6bf3d257874eb3b8a3a9f32102ebf5) | ![Mercenary 19 Skin](mercenary_19.png)                       |
+| Mercenary 20           | Generic       | Mercenary                | [url](https://mineskin.org/skins/02d281f819ff4635a2176e37c8aa3a9c) | ![Mercenary 20 Skin](mercenary_20.png)                       |
+| Mercenary 21           | Generic       | Mercenary                | [url](https://mineskin.org/skins/44e77717231a49ee8259f92619481e27) | ![Mercenary 21 Skin](mercenary_21.png)                       |
+| Mercenary 22           | Generic       | Mercenary                | [url](https://mineskin.org/skins/dc458a0f900d4e70a8b29f6d0f062be9) | ![Mercenary 22 Skin](mercenary_22.png)                       |
+| Mercenary 23           | Generic       | Mercenary                | [url](https://mineskin.org/skins/8678766683774b78add45566d77d5133) | ![Mercenary 23 Skin](mercenary_23.png)                       |
+| Mercenary 24           | Generic       | Mercenary                | [url](https://mineskin.org/skins/8462b1f2f70843bc8e83de65bcd7dd63) | ![Mercenary 24 Skin](mercenary_24.png)                       |
 | Crew Mate 1           | Generic       | Sailor                   | [url](https://mineskin.org/skins/279124a6fd1145baa63d45363d1c781c) | ![Sailor 1 Skin](sailor_1.png)                           |
 | Crew Mate 2           | Generic       | Sailor                   | [url](https://mineskin.org/skins/df9bd33917a045a98f02e80f117b5d8f) | ![Sailor 2 Skin](sailor_2.png)                           |
 | Bank Manager 1        | Important     | Bank Manager             | [url](https://mineskin.org/skins/b1430503567d4fadb9c3a3a6ecaca73f) | ![Bank Manager 1 Skin](bank_manager_1.png)               |
