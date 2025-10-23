@@ -1,3 +1,4 @@
+function dark_dungeons:locations/dawnshore/adventurers_guild/night/teardown
 function dark_dungeons:locations/dawnshore/bakery/night/teardown
 function dark_dungeons:locations/dawnshore/bank/night/teardown
 function dark_dungeons:locations/dawnshore/butcher/night/teardown
