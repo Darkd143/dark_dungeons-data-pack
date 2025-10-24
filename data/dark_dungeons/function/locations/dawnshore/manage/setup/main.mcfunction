@@ -17,6 +17,8 @@ function dark_dungeons:locations/dawnshore/ownable_housing/setup
 function dark_dungeons:locations/dawnshore/well/setup
 function dark_dungeons:locations/dawnshore/town_hall/setup
 
+function dark_dungeons:locations/dawnshore/manage/setup/blocking_interactions
+
 execute if predicate dark_dungeons:time/during_day unless predicate dark_dungeons:time/dusk run function dark_dungeons:locations/dawnshore/manage/setup/day
 
 execute if predicate dark_dungeons:time/during_night unless predicate dark_dungeons:time/dawn run function dark_dungeons:locations/dawnshore/manage/setup/night

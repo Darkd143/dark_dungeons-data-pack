@@ -1,3 +1,4 @@
+function dark_dungeons:locations/dawnshore/adventurers_guild/night/setup
 function dark_dungeons:locations/dawnshore/bakery/night/setup
 function dark_dungeons:locations/dawnshore/bank/night/setup
 function dark_dungeons:locations/dawnshore/butcher/night/setup

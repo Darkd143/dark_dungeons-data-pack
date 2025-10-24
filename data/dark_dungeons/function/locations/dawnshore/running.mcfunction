@@ -48,4 +48,4 @@ execute as @n[type=minecraft:interaction,tag=dawnshore_civil_servant_head_guard_
 execute as @a[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,scores={quest_id=3}] run function dark_dungeons:locations/dawnshore/other/clean_up_dawnshore_quest/progress_check
 
 # LOCKED DOORS AT NIGHT
-execute if predicate dark_dungeons:time/during_night as @e[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,type=interaction] run function dark_dungeons:locations/dawnshore/running/locked_doors_at_night
+execute if predicate dark_dungeons:time/during_night run function dark_dungeons:locations/dawnshore/running/locked_doors_at_night

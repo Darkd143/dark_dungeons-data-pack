@@ -17,5 +17,7 @@ function dark_dungeons:locations/dawnshore/ownable_housing/teardown
 function dark_dungeons:locations/dawnshore/well/teardown
 function dark_dungeons:locations/dawnshore/town_hall/teardown
 
+function dark_dungeons:locations/dawnshore/manage/teardown/blocking_interactions
+
 schedule function dark_dungeons:locations/dawnshore/manage/teardown/day 30 append
 schedule function dark_dungeons:locations/dawnshore/manage/teardown/night 30 append

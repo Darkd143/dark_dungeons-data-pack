@@ -1,0 +1,3 @@
+function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+
+execute as @n[tag=blocking_interaction] run function dark_dungeons:entities/interactions/auto_blocking/extend_interaction/continuous_up
