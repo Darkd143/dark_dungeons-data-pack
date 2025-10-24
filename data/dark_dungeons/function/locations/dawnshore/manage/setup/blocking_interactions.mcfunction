@@ -1,40 +1,53 @@
-# # Dungeon Entrance
+# Dungeon Entrance
 execute positioned -61 75 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 
-# # Inn
+# Inn
 
 
-# # Pier
+# Pier
 
 
-# # Bank
+# Bank
 
 
-# # Adventurers Guild
+# Adventurers Guild
+execute positioned -75 76 114 run function dark_dungeons:entities/interactions/auto_blocking/wall_decor_interactions
+execute positioned -76 76 114 run function dark_dungeons:entities/interactions/auto_blocking/wall_decor_interactions
+execute positioned -77 76 114 run function dark_dungeons:entities/interactions/auto_blocking/wall_decor_interactions
+execute positioned -78 76 114 run function dark_dungeons:entities/interactions/auto_blocking/wall_decor_interactions
+
+execute positioned -75 77 114 run function dark_dungeons:entities/interactions/auto_blocking/wall_decor_interactions
+execute positioned -76 77 114 run function dark_dungeons:entities/interactions/auto_blocking/wall_decor_interactions
+execute positioned -77 77 114 run function dark_dungeons:entities/interactions/auto_blocking/wall_decor_interactions
+execute positioned -78 77 114 run function dark_dungeons:entities/interactions/auto_blocking/wall_decor_interactions
+
+execute positioned -75 78 114 run function dark_dungeons:entities/interactions/auto_blocking/wall_decor_interactions
+execute positioned -76 78 114 run function dark_dungeons:entities/interactions/auto_blocking/wall_decor_interactions
+execute positioned -77 78 114 run function dark_dungeons:entities/interactions/auto_blocking/wall_decor_interactions
+execute positioned -78 78 114 run function dark_dungeons:entities/interactions/auto_blocking/wall_decor_interactions
+
+# Tavern
 
 
-# # Tavern
+# Craftsman
 
 
-# # Craftsman
+# bakery
 
 
-# # bakery
+# Ownable Housing
 
 
-# # Ownable Housing
+# Market
 
 
-# # Market
+# Butcher
 
 
-# # Butcher
+# Town Hall
 
 
-# # Town Hall
-
-
-# # Civil Servant Quarters
+# Civil Servant Quarters
 
 
 # Wall
@@ -180,8 +193,8 @@ execute positioned -43 72 129 run function dark_dungeons:entities/interactions/a
 execute positioned -41 71 129 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
 execute positioned -39 70 129 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
 
-# # Well
+# Well
 
 
-# # Farmhouse
+# Farmhouse
 
