@@ -92,6 +92,3 @@ execute positioned -80 72 139 run function dark_dungeons:entities/interactions/a
 
 execute positioned -48 63 145 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 execute positioned -48 63 143 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-
-# ITEM DISPLAYS
-
