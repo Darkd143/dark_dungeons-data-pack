@@ -1,3 +1,5 @@
+function dark_dungeons:time/tick_identifier/get_tick
+
 # Day/Night
 execute if predicate dark_dungeons:time/tick/day run function dark_dungeons:time/tick/day
 execute if predicate dark_dungeons:time/tick/night run function dark_dungeons:time/tick/night

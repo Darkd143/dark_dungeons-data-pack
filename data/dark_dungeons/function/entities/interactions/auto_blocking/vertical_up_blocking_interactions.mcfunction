@@ -1,3 +1,3 @@
 function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 
-execute positioned ~ ~1 ~ if block ~ ~ ~ #dark_dungeons:interaction_blockable run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+execute as @n[tag=blocking_interaction] run function dark_dungeons:entities/interactions/auto_blocking/extend_interaction/continuous_up
