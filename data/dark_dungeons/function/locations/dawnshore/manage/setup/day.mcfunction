@@ -13,6 +13,10 @@ function dark_dungeons:locations/dawnshore/civil_servant_quarters/day/setup
 function dark_dungeons:locations/dawnshore/farm/day/setup
 function dark_dungeons:locations/dawnshore/garbage_dump/day/setup
 
+# Reset Dawnshore entrance trading villager
+function dark_dungeons:locations/dawnshore/dungeon_entrance/teardown
+function dark_dungeons:locations/dawnshore/dungeon_entrance/setup
+
 # Town Guards
 function dark_dungeons:locations/dawnshore/guards/gate_guard_inside/setup
 function dark_dungeons:locations/dawnshore/guards/outside_bank_guard_1/setup
