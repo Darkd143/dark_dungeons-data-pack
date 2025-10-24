@@ -84,5 +84,11 @@ execute unless entity @e[predicate=dark_dungeons:positioning/dungeon/dawnshore_d
 # Boss
 function dark_dungeons:dungeons/dawnshore_dungeon/resetting/reset_boss
 
-# ITEM DISPLAYS
+# Blocking interactions
+execute positioned -81 71 139 run function dark_dungeons:entities/interactions/auto_blocking/wall_decor_interactions
+execute positioned -81 72 139 run function dark_dungeons:entities/interactions/auto_blocking/wall_decor_interactions
+execute positioned -80 71 139 run function dark_dungeons:entities/interactions/auto_blocking/wall_decor_interactions
+execute positioned -80 72 139 run function dark_dungeons:entities/interactions/auto_blocking/wall_decor_interactions
 
+execute positioned -48 63 145 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+execute positioned -48 63 143 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
