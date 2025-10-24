@@ -1,798 +1,798 @@
-# Dungeon Entrance
-execute positioned -62 74 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 75 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -58 74 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -58 75 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -57 74 108 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -57 75 108 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -57 74 115 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -57 75 115 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -58 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 74 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 75 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -61 74 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -61 75 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -60 78 112 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -60 78 111 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -59 74 109 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -60 75 108 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -61 76 108 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -59 77 108 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -58 77 109 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -58 76 109 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -58 75 110 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -58 77 111 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -58 76 112 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -58 76 113 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -58 77 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# # Dungeon Entrance
+# execute positioned -62 74 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 75 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -58 74 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -58 75 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -57 74 108 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -57 75 108 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -57 74 115 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -57 75 115 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -58 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 74 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 75 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -61 74 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -61 75 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -60 78 112 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -60 78 111 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -59 74 109 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -60 75 108 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -61 76 108 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -59 77 108 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -58 77 109 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -58 76 109 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -58 75 110 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -58 77 111 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -58 76 112 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -58 76 113 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -58 77 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 
-# Inn
-execute positioned -60 74 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -60 75 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -61 74 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -61 75 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 72 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -63 72 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -60 72 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -59 72 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -60 72 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -63 72 84 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -64 72 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -64 72 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -64 72 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -64 72 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -64 72 78 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -64 72 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -63 72 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -61 73 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -61 73 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -60 73 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -59 73 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -58 73 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -58 72 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -57 72 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -56 72 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -55 72 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -55 72 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -57 74 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -56 74 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -55 71 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -54 71 74 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -54 72 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -54 72 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -54 74 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -54 75 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -54 75 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -54 75 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -54 74 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -54 77 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -54 77 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -54 77 78 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -54 77 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -54 76 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -54 76 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -54 78 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -53 78 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -52 78 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -51 78 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -50 78 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -52 80 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -53 74 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -52 75 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -50 75 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -49 74 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -52 72 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -50 72 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -48 71 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -47 71 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -53 80 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -54 81 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -56 81 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -57 80 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -55 78 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -56 78 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -53 76 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -54 77 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -56 77 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -57 76 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -54 74 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -56 74 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# # Inn
+# execute positioned -60 74 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -60 75 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -61 74 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -61 75 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 72 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -63 72 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -60 72 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -59 72 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -60 72 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -63 72 84 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -64 72 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -64 72 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -64 72 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -64 72 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -64 72 78 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -64 72 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -63 72 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -61 73 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -61 73 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -60 73 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -59 73 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -58 73 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -58 72 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -57 72 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -56 72 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -55 72 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -55 72 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -57 74 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -56 74 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -55 71 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -54 71 74 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -54 72 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -54 72 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -54 74 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -54 75 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -54 75 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -54 75 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -54 74 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -54 77 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -54 77 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -54 77 78 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -54 77 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -54 76 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -54 76 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -54 78 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -53 78 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -52 78 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -51 78 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -50 78 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -52 80 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -53 74 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -52 75 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -50 75 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -49 74 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -52 72 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -50 72 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -48 71 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -47 71 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -53 80 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -54 81 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -56 81 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -57 80 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -55 78 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -56 78 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -53 76 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -54 77 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -56 77 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -57 76 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -54 74 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -56 74 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 
-# Pier
-execute positioned -62 66 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 66 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 66 68 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 66 67 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 66 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 66 65 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 66 64 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 66 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 66 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 66 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 66 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 66 59 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 66 58 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 66 57 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 66 56 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 66 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -62 66 54 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -63 66 53 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -64 66 53 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -65 66 53 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -66 66 53 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -67 66 53 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -68 66 53 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -69 66 53 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 66 54 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 66 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 66 56 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 66 57 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 66 58 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 66 59 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 66 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 66 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 66 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 66 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 66 64 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 66 65 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 66 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 66 67 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 66 68 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 66 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 66 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# # Pier
+# execute positioned -62 66 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 66 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 66 68 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 66 67 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 66 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 66 65 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 66 64 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 66 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 66 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 66 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 66 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 66 59 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 66 58 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 66 57 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 66 56 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 66 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -62 66 54 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -63 66 53 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -64 66 53 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -65 66 53 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -66 66 53 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -67 66 53 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -68 66 53 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -69 66 53 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 66 54 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 66 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 66 56 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 66 57 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 66 58 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 66 59 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 66 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 66 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 66 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 66 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 66 64 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 66 65 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 66 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 66 67 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 66 68 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 66 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 66 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 
-execute positioned -57 70 62 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
-execute positioned -55 70 62 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
-execute positioned -56 70 62 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
-execute positioned -56 69 62 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
-execute positioned -57 66 52 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
-execute positioned -57 66 51 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
-execute positioned -56 66 51 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
-execute positioned -55 66 51 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
-execute positioned -55 66 52 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
-execute positioned -54 67 62 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
+# execute positioned -57 70 62 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
+# execute positioned -55 70 62 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
+# execute positioned -56 70 62 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
+# execute positioned -56 69 62 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
+# execute positioned -57 66 52 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
+# execute positioned -57 66 51 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
+# execute positioned -56 66 51 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
+# execute positioned -55 66 51 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
+# execute positioned -55 66 52 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
+# execute positioned -54 67 62 run function dark_dungeons:entities/interactions/auto_blocking/conditional_add_blocking_interaction
 
-# Bank
-execute positioned -77 75 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -76 75 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -75 75 86 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -74 75 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -73 78 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -72 78 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 78 84 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 78 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 78 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 78 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 78 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 78 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 78 78 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 78 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 78 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 78 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 78 74 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 78 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -72 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -73 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -74 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -75 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -76 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -77 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -78 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -79 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -80 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -81 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -82 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -83 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -84 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -85 78 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -85 78 74 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -85 78 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -85 78 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -86 78 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -87 78 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 78 78 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 78 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 78 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 78 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 78 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 78 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 78 84 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 78 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 78 86 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 78 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 78 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 78 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 78 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 78 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -87 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -86 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -85 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -84 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -83 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -82 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -81 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -80 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -79 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -78 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -77 78 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -77 78 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -77 78 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -83 78 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 81 84 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 81 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 81 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 81 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 81 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 81 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 81 78 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 81 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 81 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 81 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 81 74 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 81 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -72 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -73 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -74 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -75 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -76 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -77 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -78 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -79 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -80 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -81 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -82 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -83 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -84 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -85 81 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -85 81 74 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -85 81 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -85 81 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -86 81 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -87 81 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 81 78 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 81 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 81 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 81 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 81 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 81 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 81 84 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 81 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 81 86 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 81 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 81 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 81 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 81 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 81 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -87 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -86 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -85 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -84 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -83 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -82 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -81 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -80 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -79 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -78 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -77 81 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -77 81 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -77 81 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -76 81 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -74 81 86 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -73 81 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -72 81 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 72 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 72 84 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 72 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 72 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 72 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 72 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 72 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 72 78 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 72 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# # Bank
+# execute positioned -77 75 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -76 75 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -75 75 86 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -74 75 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -73 78 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -72 78 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 78 84 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 78 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 78 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 78 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 78 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 78 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 78 78 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 78 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 78 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 78 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 78 74 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 78 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -72 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -73 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -74 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -75 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -76 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -77 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -78 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -79 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -80 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -81 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -82 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -83 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -84 78 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -85 78 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -85 78 74 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -85 78 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -85 78 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -86 78 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -87 78 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 78 78 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 78 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 78 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 78 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 78 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 78 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 78 84 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 78 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 78 86 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 78 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 78 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 78 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 78 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 78 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -87 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -86 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -85 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -84 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -83 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -82 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -81 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -80 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -79 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -78 78 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -77 78 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -77 78 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -77 78 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -83 78 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 81 84 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 81 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 81 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 81 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 81 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 81 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 81 78 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 81 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 81 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 81 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 81 74 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 81 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -72 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -73 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -74 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -75 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -76 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -77 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -78 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -79 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -80 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -81 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -82 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -83 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -84 81 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -85 81 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -85 81 74 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -85 81 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -85 81 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -86 81 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -87 81 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 81 78 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 81 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 81 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 81 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 81 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 81 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 81 84 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 81 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 81 86 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 81 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 81 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 81 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 81 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 81 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -87 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -86 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -85 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -84 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -83 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -82 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -81 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -80 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -79 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -78 81 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -77 81 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -77 81 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -77 81 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -76 81 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -74 81 86 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -73 81 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -72 81 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 72 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 72 84 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 72 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 72 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 72 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 72 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 72 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 72 78 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 72 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 
-# Adventurers Guild
-execute positioned -71 72 103 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -72 72 102 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -73 74 102 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -74 74 101 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -74 72 100 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -75 72 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -77 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -78 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -80 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -81 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -82 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -87 72 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -89 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# # Adventurers Guild
+# execute positioned -71 72 103 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -72 72 102 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -73 74 102 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -74 74 101 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -74 72 100 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -75 72 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -77 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -78 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -80 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -81 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -82 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -87 72 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -89 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 
-execute positioned -75 75 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -76 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -77 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -78 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -79 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -80 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -81 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -82 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -83 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -84 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -85 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -86 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -87 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -89 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -90 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 100 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 101 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 102 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 103 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 104 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 105 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 106 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 108 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 109 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 110 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 111 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 112 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 113 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 115 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -90 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -89 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -87 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -86 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -85 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -84 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -83 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -82 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -81 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -80 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -79 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -78 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -77 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -76 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -75 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -74 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -73 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -72 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 75 115 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 75 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 75 113 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 75 112 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 75 111 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 75 110 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 75 109 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 75 108 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 75 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 75 106 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 75 105 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 75 103 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -75 75 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -76 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -77 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -78 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -79 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -80 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -81 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -82 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -83 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -84 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -85 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -86 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -87 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -89 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -90 75 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 100 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 101 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 102 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 103 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 104 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 105 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 106 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 108 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 109 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 110 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 111 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 112 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 113 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 115 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -90 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -89 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -87 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -86 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -85 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -84 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -83 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -82 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -81 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -80 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -79 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -78 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -77 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -76 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -75 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -74 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -73 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -72 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 75 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 75 115 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 75 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 75 113 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 75 112 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 75 111 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 75 110 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 75 109 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 75 108 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 75 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 75 106 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 75 105 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 75 103 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 
-execute positioned -75 79 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -76 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -77 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -78 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -79 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -80 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -81 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -82 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -83 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -84 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -85 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -86 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -87 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -89 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -90 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 79 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 79 100 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 79 101 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 79 102 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 79 103 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 79 104 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 79 105 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 79 106 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 79 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 79 108 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 79 109 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 79 110 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 79 111 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 79 112 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 79 113 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 79 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 79 115 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -90 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -89 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -87 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -86 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -85 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -84 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -83 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -82 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -81 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -80 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -79 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -78 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -77 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -76 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -75 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -74 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -73 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -72 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 79 115 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 79 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 79 113 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 79 112 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 79 111 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 79 110 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 79 109 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 79 108 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 79 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 79 106 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 79 105 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -70 79 104 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -71 79 103 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -75 79 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -76 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -77 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -78 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -79 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -80 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -81 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -82 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -83 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -84 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -85 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -86 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -87 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -89 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -90 79 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 79 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 79 100 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 79 101 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 79 102 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 79 103 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 79 104 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 79 105 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 79 106 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 79 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 79 108 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 79 109 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 79 110 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 79 111 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 79 112 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 79 113 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 79 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 79 115 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -90 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -89 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -87 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -86 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -85 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -84 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -83 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -82 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -81 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -80 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -79 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -78 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -77 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -76 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -75 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -74 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -73 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -72 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 79 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 79 115 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 79 114 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 79 113 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 79 112 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 79 111 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 79 110 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 79 109 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 79 108 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 79 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 79 106 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 79 105 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -70 79 104 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -71 79 103 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 
-execute positioned -83 72 113 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -83 72 113 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 
-# Tavern
-execute positioned -100 72 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -101 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -103 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -104 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -105 72 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -108 72 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -109 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -110 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# # Tavern
+# execute positioned -100 72 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -101 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -103 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -104 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -105 72 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -108 72 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -109 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -110 72 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 
-# Craftsman
-execute positioned -114 76 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 76 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 76 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 76 115 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -114 76 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -121 76 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 76 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 76 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 76 115 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -121 76 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# # Craftsman
+# execute positioned -114 76 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 76 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 76 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 76 115 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -114 76 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -121 76 98 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 76 99 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 76 107 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 76 115 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -121 76 116 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 
-# bakery
-execute positioned -90 75 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -92 75 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -93 75 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -94 75 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -95 75 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -99 76 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -100 76 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -100 76 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -100 76 86 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -100 76 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -100 72 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -100 72 86 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -100 72 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -99 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -98 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -97 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -96 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -95 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -94 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -93 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -92 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -90 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -89 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 75 84 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 75 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 75 86 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 75 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 75 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 75 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 75 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 75 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 79 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 79 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 79 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -93 72 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -95 72 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -96 72 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -97 72 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -98 72 86 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -98 72 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -98 72 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# # bakery
+# execute positioned -90 75 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -92 75 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -93 75 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -94 75 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -95 75 92 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -99 76 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -100 76 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -100 76 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -100 76 86 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -100 76 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -100 72 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -100 72 86 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -100 72 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -99 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -98 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -97 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -96 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -95 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -94 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -93 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -92 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -90 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -89 75 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 75 84 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 75 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 75 86 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 75 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 75 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 75 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 75 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 75 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 79 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 79 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 79 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -93 72 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -95 72 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -96 72 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -97 72 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -98 72 86 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -98 72 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -98 72 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 
-# Ownable Housing
-execute positioned -100 75 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -100 75 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -100 75 78 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -100 75 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -100 75 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -100 75 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -100 75 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 77 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 77 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 77 78 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 77 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 77 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 77 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# # Ownable Housing
+# execute positioned -100 75 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -100 75 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -100 75 78 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -100 75 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -100 75 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -100 75 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -100 75 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 77 76 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 77 77 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 77 78 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 77 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 77 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 77 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 
-# Market
-execute positioned -102 72 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -100 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -99 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -98 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -97 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -96 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -95 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -94 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -93 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -92 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -90 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -89 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -87 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -86 72 74 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -86 72 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -86 72 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -85 72 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -83 72 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -82 72 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -81 72 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -81 72 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -81 72 68 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -81 72 67 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -81 72 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -81 72 65 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -81 72 64 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -82 72 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -83 72 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -84 72 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -85 72 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -86 72 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -86 72 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -87 72 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 72 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -89 72 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -90 72 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -91 72 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -92 72 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -93 72 59 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -93 72 58 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -93 72 57 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -93 72 56 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -94 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -95 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -96 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -97 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -98 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -99 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -100 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -101 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -102 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -103 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -104 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -105 72 56 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -105 72 57 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -105 72 58 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -105 72 59 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -105 72 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -105 72 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -105 72 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -105 72 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -105 72 64 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -105 72 65 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -105 72 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -105 72 67 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -105 72 68 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -105 72 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -105 72 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -103 72 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -102 74 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -101 74 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -100 72 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -100 73 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -100 74 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -98 72 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -98 73 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -98 74 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -95 72 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -95 73 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -95 74 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 73 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -88 74 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -96 72 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -96 73 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# # Market
+# execute positioned -102 72 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -100 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -99 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -98 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -97 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -96 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -95 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -94 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -93 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -92 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -90 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -89 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -87 72 75 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -86 72 74 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -86 72 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -86 72 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -85 72 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -83 72 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -82 72 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -81 72 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -81 72 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -81 72 68 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -81 72 67 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -81 72 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -81 72 65 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -81 72 64 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -82 72 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -83 72 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -84 72 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -85 72 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -86 72 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -86 72 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -87 72 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 72 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -89 72 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -90 72 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -91 72 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -92 72 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -93 72 59 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -93 72 58 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -93 72 57 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -93 72 56 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -94 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -95 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -96 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -97 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -98 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -99 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -100 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -101 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -102 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -103 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -104 72 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -105 72 56 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -105 72 57 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -105 72 58 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -105 72 59 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -105 72 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -105 72 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -105 72 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -105 72 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -105 72 64 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -105 72 65 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -105 72 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -105 72 67 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -105 72 68 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -105 72 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -105 72 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -103 72 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -102 74 71 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -101 74 72 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -100 72 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -100 73 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -100 74 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -98 72 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -98 73 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -98 74 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -95 72 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -95 73 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -95 74 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 73 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -88 74 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -96 72 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -96 73 73 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 
-# Butcher
-execute positioned -111 76 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -110 76 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -109 76 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -108 76 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -107 76 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -111 70 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -110 70 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -109 70 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -108 70 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -107 70 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -111 73 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -110 73 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -109 73 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -108 73 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -107 73 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -111 76 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -110 76 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -109 76 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -108 76 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -107 76 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -111 72 67 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -111 72 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -111 73 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -111 72 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -111 73 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -111 76 59 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -111 76 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -107 76 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -107 77 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# # Butcher
+# execute positioned -111 76 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -110 76 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -109 76 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -108 76 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -107 76 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -111 70 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -110 70 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -109 70 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -108 70 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -107 70 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -111 73 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -110 73 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -109 73 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -108 73 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -107 73 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -111 76 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -110 76 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -109 76 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -108 76 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -107 76 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -111 72 67 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -111 72 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -111 73 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -111 72 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -111 73 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -111 76 59 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -111 76 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -107 76 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -107 77 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 
-# Town Hall
-execute positioned -108 75 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -109 75 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -110 77 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -109 77 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -108 76 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -107 77 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -107 77 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -110 77 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -109 77 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -108 77 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -108 77 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -114 77 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 78 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -110 79 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -107 79 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -108 79 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -108 80 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -107 80 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -111 77 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -112 77 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 77 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -114 77 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -112 74 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -117 73 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -117 73 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -117 74 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -108 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -108 77 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -108 77 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -108 77 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -108 77 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -108 77 84 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -108 77 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -120 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -120 77 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -120 77 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -120 77 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -120 77 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -120 77 84 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -120 77 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -110 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -111 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -112 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -114 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -115 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -116 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -117 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -110 77 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -111 77 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -112 77 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -114 77 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -115 77 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -116 77 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -117 77 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -118 74 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -109 77 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -109 77 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# # Town Hall
+# execute positioned -108 75 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -109 75 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -110 77 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -109 77 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -108 76 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -107 77 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -107 77 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -110 77 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -109 77 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -108 77 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -108 77 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -114 77 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 78 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -110 79 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -107 79 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -108 79 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -108 80 91 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -107 80 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -111 77 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -112 77 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 77 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -114 77 88 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -112 74 87 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -117 73 89 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -117 73 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -117 74 90 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -108 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -108 77 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -108 77 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -108 77 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -108 77 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -108 77 84 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -108 77 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -120 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -120 77 80 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -120 77 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -120 77 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -120 77 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -120 77 84 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -120 77 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -110 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -111 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -112 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -114 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -115 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -116 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -117 77 79 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -110 77 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -111 77 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -112 77 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -114 77 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -115 77 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -116 77 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -117 77 85 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -118 74 82 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -109 77 81 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -109 77 83 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 
-# Civil Servant Quarters
-execute positioned -122 75 59 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 75 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 75 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 75 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 75 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 75 64 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 75 65 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 75 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 75 67 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 75 68 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 75 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 78 59 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 78 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 78 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 78 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 78 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 78 64 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 78 65 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 78 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 78 67 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 78 68 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -122 78 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -121 78 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -120 78 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -119 78 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -118 78 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -117 78 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -116 78 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -115 78 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -114 78 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 74 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 74 68 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 74 67 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 74 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 74 65 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 74 64 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 74 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 74 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 74 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 74 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 74 59 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 74 58 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 74 57 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 74 56 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 78 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 78 68 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 78 67 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 78 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 78 65 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 78 64 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 78 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 78 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 78 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 78 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 78 59 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 78 58 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 78 57 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -113 78 56 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -114 74 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -115 74 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -116 74 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -117 74 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -118 74 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -119 74 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -120 74 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -121 74 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -115 69 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -116 69 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -117 69 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -118 69 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -119 69 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -120 69 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -121 69 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -114 78 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -115 78 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -116 78 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -117 78 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -118 78 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -119 78 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -120 78 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -121 78 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -116 82 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -117 82 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -118 82 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -119 82 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -116 82 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -117 82 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -118 82 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
-execute positioned -119 82 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# # Civil Servant Quarters
+# execute positioned -122 75 59 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 75 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 75 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 75 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 75 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 75 64 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 75 65 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 75 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 75 67 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 75 68 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 75 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 78 59 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 78 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 78 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 78 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 78 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 78 64 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 78 65 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 78 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 78 67 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 78 68 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -122 78 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -121 78 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -120 78 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -119 78 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -118 78 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -117 78 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -116 78 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -115 78 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -114 78 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 74 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 74 68 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 74 67 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 74 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 74 65 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 74 64 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 74 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 74 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 74 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 74 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 74 59 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 74 58 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 74 57 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 74 56 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 78 69 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 78 68 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 78 67 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 78 66 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 78 65 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 78 64 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 78 63 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 78 62 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 78 61 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 78 60 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 78 59 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 78 58 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 78 57 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -113 78 56 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -114 74 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -115 74 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -116 74 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -117 74 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -118 74 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -119 74 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -120 74 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -121 74 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -115 69 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -116 69 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -117 69 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -118 69 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -119 69 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -120 69 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -121 69 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -114 78 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -115 78 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -116 78 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -117 78 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -118 78 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -119 78 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -120 78 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -121 78 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -116 82 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -117 82 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -118 82 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -119 82 55 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -116 82 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -117 82 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -118 82 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
+# execute positioned -119 82 70 run function dark_dungeons:entities/interactions/auto_blocking/add_blocking_interaction
 
 # Wall
 execute positioned -124 72 62 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
@@ -937,26 +937,26 @@ execute positioned -43 72 129 run function dark_dungeons:entities/interactions/a
 execute positioned -41 71 129 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
 execute positioned -39 70 129 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
 
-# Well
-execute positioned -133 76 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
-execute positioned -134 76 85 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
-execute positioned -136 76 85 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
-execute positioned -138 76 85 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
-execute positioned -140 76 85 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
-execute positioned -134 75 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
-execute positioned -136 75 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
-execute positioned -138 75 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
-execute positioned -140 75 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
-execute positioned -134 76 87 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
-execute positioned -136 76 87 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
-execute positioned -138 76 87 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
-execute positioned -140 76 87 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
-execute positioned -134 77 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
-execute positioned -136 77 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
-execute positioned -138 77 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
-execute positioned -140 77 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
-execute positioned -137 76 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# # Well
+# execute positioned -133 76 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# execute positioned -134 76 85 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# execute positioned -136 76 85 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# execute positioned -138 76 85 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# execute positioned -140 76 85 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# execute positioned -134 75 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# execute positioned -136 75 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# execute positioned -138 75 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# execute positioned -140 75 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# execute positioned -134 76 87 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# execute positioned -136 76 87 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# execute positioned -138 76 87 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# execute positioned -140 76 87 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# execute positioned -134 77 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# execute positioned -136 77 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# execute positioned -138 77 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# execute positioned -140 77 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# execute positioned -137 76 86 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
 
-# Farmhouse
-execute positioned -141 73 72 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
-execute positioned -141 74 72 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# # Farmhouse
+# execute positioned -141 73 72 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
+# execute positioned -141 74 72 run function dark_dungeons:entities/interactions/auto_blocking/vertical_up_blocking_interactions
