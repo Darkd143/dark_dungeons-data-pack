@@ -1,5 +1,5 @@
 # Homeless Guy
-execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_garbage_dump_npc] run summon mannequin -53 75 110 {Tags:['dawnshore_garbage_dump_npc'],Invulnerable:1b,Silent:1b,Rotation:[325,0]}
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_garbage_dump_npc] run summon mannequin -53 75 110 {Tags:['dawnshore_garbage_dump_npc'],Invulnerable:1b,immovable:1b,Silent:1b,Rotation:[325,0]}
 
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_garbage_dump_npc_interaction] run summon interaction -53 75 110 {Tags:['dawnshore_garbage_dump_npc_interaction'],width:0.8,height:2.0,CustomName:"Brin Ragwick"}
 
