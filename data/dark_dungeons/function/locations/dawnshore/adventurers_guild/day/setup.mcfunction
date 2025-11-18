@@ -3,21 +3,21 @@ execute as @n[tag=dawnshore_ritual_summoner] run function dark_dungeons:location
 
 # Receptionists
 # Receptionist 1
-execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_receptionist_1] run summon mannequin -77 72 112 {Invulnerable:1b,Silent:1b,Tags:[dawnshore_adventurer_guild_receptionist_1],Rotation:[180,0]}
+execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_receptionist_1] run summon mannequin -77 72 112 {Invulnerable:1b,immovable:1b,Silent:1b,Tags:[dawnshore_adventurer_guild_receptionist_1],Rotation:[180,0]}
 
 execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_receptionist_1_interaction] run summon interaction -77 72 112 {width:0.8,height:2.0,CustomName:"Guild Receptionist Elara",Tags:[dawnshore_adventurer_guild_receptionist_1_interaction]}
 
 execute positioned -77 72 112 as @n[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_receptionist_1] run function dark_dungeons:entities/mannequins/apply_skins/receptionist/common_1
 
-# Receptionist 2
-execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_receptionist_2] run summon mannequin -79 72 112 {Invulnerable:1b,Silent:1b,Tags:[dawnshore_adventurer_guild_receptionist_2],Rotation:[180,0]}
+# Receptionist 2s
+execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_receptionist_2] run summon mannequin -79 72 112 {Invulnerable:1b,immovable:1b,Silent:1b,Tags:[dawnshore_adventurer_guild_receptionist_2],Rotation:[180,0]}
 
 execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_receptionist_2_interaction] run summon interaction -79 72 112 {width:0.8,height:2.0,CustomName:"Guild Receptionist Nessa",Tags:[dawnshore_adventurer_guild_receptionist_2_interaction]}
 
 execute positioned -79 72 112 as @n[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_receptionist_2] run function dark_dungeons:entities/mannequins/apply_skins/receptionist/common_2
 
 # Receptionist 3
-execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_receptionist_3] run summon mannequin -81 72 112 {Invulnerable:1b,Silent:1b,Tags:[dawnshore_adventurer_guild_receptionist_3],Rotation:[180,0]}
+execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_receptionist_3] run summon mannequin -81 72 112 {Invulnerable:1b,Silent:1b,immovable:1b,Tags:[dawnshore_adventurer_guild_receptionist_3],Rotation:[180,0]}
 
 execute unless entity @e[predicate=dark_dungeons:positioning/locations/dawnshore/adventurers_guild_zone,tag=dawnshore_adventurer_guild_receptionist_3_interaction] run summon interaction -81 72 112 {width:0.8,height:2.0,CustomName:"Guild Receptionist Kael",Tags:[dawnshore_adventurer_guild_receptionist_3_interaction]}
 

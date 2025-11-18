@@ -1,5 +1,5 @@
 # Outside Wall Guard
-execute unless entity @e[tag=dawnshore_gate_guard_2] run summon mannequin -130 72 93 {Invulnerable:1b,Silent:1b,CustomName:"Dawnshore Gate Guard",equipment:{mainhand:{id:wooden_sword}},Rotation:[35,0],Tags:["dawnshore_gate_guard_2","guard","lookout_guard","guard_summon_east"]}
+execute unless entity @e[tag=dawnshore_gate_guard_2] run summon mannequin -130 72 93 {Invulnerable:1b,immovable:1b,Silent:1b,CustomName:"Dawnshore Gate Guard",equipment:{mainhand:{id:wooden_sword}},Rotation:[35,0],Tags:["dawnshore_gate_guard_2","guard","lookout_guard","guard_summon_east"]}
 
 execute positioned -130 72 93 as @n[predicate=dark_dungeons:positioning/locations/dawnshore/dawnshore,tag=dawnshore_gate_guard_2] run function dark_dungeons:entities/mannequins/apply_skins/kingdom_npc/guard/guard_1
 

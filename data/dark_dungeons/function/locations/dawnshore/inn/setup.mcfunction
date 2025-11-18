@@ -1,5 +1,5 @@
 # Innkeeper
-execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_innkeeper] run summon mannequin -60 72 84 {Invulnerable:1b,Silent:1b,Tags:['dawnshore_inn_innkeeper'],Rotation:[300,0]}
+execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_innkeeper] run summon mannequin -60 72 84 {Invulnerable:1b,immovable:1b,Silent:1b,Tags:['dawnshore_inn_innkeeper'],Rotation:[300,0]}
 execute unless entity @n[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_innkeeper_interaction] run summon minecraft:interaction -60 72 84 {CustomName:"Innkeeper",Tags:['dawnshore_inn_innkeeper_interaction'],width:0.8,height:2.0}
 
 execute positioned -60 72 84 as @n[predicate=dark_dungeons:positioning/locations/dawnshore/inn_zone,tag=dawnshore_inn_innkeeper] run function dark_dungeons:entities/mannequins/apply_skins/important/innkeeper/inn_keeper_1
